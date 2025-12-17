@@ -142,7 +142,6 @@ def get_user_performance() -> str:
         if score_data['total_questions'] == 0:
             return "No hay respuestas registradas todavía. El usuario no ha respondido ninguna pregunta."
         
-        result = f"=== RENDIMIENTO DEL USUARIO ===\n\n"
         result += f"Total de preguntas respondidas: {score_data['total_questions']}\n"
         result += f"Respuestas correctas: {score_data['correct_count']}\n"
         result += f"Respuestas incorrectas: {score_data['incorrect_count']}\n"

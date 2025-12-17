@@ -117,7 +117,7 @@ def main():
             score_data = get_service().compute_user_score()
             if score_data['total_questions'] > 0:
                 print(
-                    f"\n{Fore.CYAN}📊 Score actual: {score_data['score_percentage']:.1f}% " +
+                    f"\n{Fore.CYAN}Puntaje actual: {score_data['score_percentage']:.1f}% " +
                     f"({score_data['correct_count']}/{score_data['total_questions']} correctas)"
                     f"{Style.RESET_ALL}\n"
                 )
