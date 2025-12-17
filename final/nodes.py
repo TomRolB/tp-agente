@@ -4,7 +4,8 @@ import json
 import re
 from typing import Literal
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
-from tools.tools import register_multiple_choice_question, get_user_performance, mcq_service
+from tools.tools import register_multiple_choice_question, get_user_performance
+from services.service_manager import get_service
 from final.models import AgentState, QuestionOutput, DifficultyReviewOutput
 from final.agents import (
     create_question_creator_agent,
@@ -120,7 +121,7 @@ def difficulty_reviewer_node(state: AgentState):
     """Executes Difficulty Reviewer agent."""
     log_difficulty_reviewer("Revisando dificultad de la pregunta propuesta...")
     agent = create_difficulty_reviewer_agent()
-    score_data = mcq_service.compute_user_score()
+    score_data = get_service().compute_user_score()
     recent_correct = sum(1 for p in score_data['recent_performance'] if p['is_correct'])
     recent_total = len(score_data['recent_performance'])
 
@@ -216,7 +217,7 @@ def feedback_agent_node(state: AgentState):
     """Executes Feedback Agent."""
     log_feedback_agent("Analizando patrones de aprendizaje del usuario...")
 
-    score_data = mcq_service.compute_user_score()
+    score_data = get_service().compute_user_score()
 
     if score_data['total_questions'] < 3:
         log_feedback_agent("Historial insuficiente, omitiendo análisis detallado")
@@ -254,7 +255,7 @@ def orchestrator_node(state: AgentState):
     last_message = state["messages"][-1]
     user_request = last_message.content.lower()
 
-    score_data = mcq_service.compute_user_score()
+    score_data = get_service().compute_user_score()
     log_orchestrator(
         f"Score actual: {score_data['score_percentage']:.1f}% "
         f"({score_data['correct_count']}/{score_data['total_questions']})"

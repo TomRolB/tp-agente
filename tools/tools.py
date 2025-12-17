@@ -1,10 +1,10 @@
-from services.service import FileService, MCQService
+from services.service import FileService
+from services.service_manager import get_service
 import os
 import json
 
 
 file_service = FileService()
-mcq_service = MCQService()
 
 
 def read_text_file(file_path: str) -> str:
@@ -35,6 +35,7 @@ def search_in_text_file(file_path: str, search_term: str,
 def check_multiple_choice_answer(question_id: str, user_answer: str) -> str:
     """Verifica si la respuesta del usuario es correcta y la almacena"""
     try:
+        mcq_service = get_service()
         question_data = mcq_service.get_question(question_id)
         if not question_data:
             return f"Error: No se encontró pregunta con ID {question_id}"
@@ -67,6 +68,7 @@ def check_multiple_choice_answer(question_id: str, user_answer: str) -> str:
 def check_last_multiple_choice_answer(user_answer: str) -> str:
     """Verifica la respuesta del usuario contra la última pregunta creada"""
     try:
+        mcq_service = get_service()
         last_id = mcq_service.get_last_question_id()
         if not last_id:
             return "Error: No hay preguntas registradas aún"
@@ -95,6 +97,7 @@ def register_multiple_choice_question(question: str, options: list, correct_inde
         # Calcular la nueva posición de la opción correcta tras mezclar
         original_correct_answer = options[correct_index]
         correct_answer = original_correct_answer
+        mcq_service = get_service()
         question_id = mcq_service.store_question(question, shuffled_options, correct_answer)
 
         result = f"Pregunta registrada con ID: {question_id}\n\n"
@@ -111,6 +114,7 @@ def register_multiple_choice_question(question: str, options: list, correct_inde
 def list_multiple_choice_questions(limit: int = 20) -> str:
     """Lista las últimas preguntas registradas (sin revelar la respuesta correcta)"""
     try:
+        mcq_service = get_service()
         all_questions = mcq_service.get_all_questions()
         items = list(all_questions.items())
         items.sort(key=lambda kv: kv[1].get("created_at"))
@@ -132,12 +136,12 @@ def list_multiple_choice_questions(limit: int = 20) -> str:
 def get_user_performance() -> str:
     """Obtiene el rendimiento y puntaje actual del usuario"""
     try:
+        mcq_service = get_service()
         score_data = mcq_service.compute_user_score()
         
         if score_data['total_questions'] == 0:
             return "No hay respuestas registradas todavía. El usuario no ha respondido ninguna pregunta."
         
-        result = f"=== RENDIMIENTO DEL USUARIO ===\n\n"
         result += f"Total de preguntas respondidas: {score_data['total_questions']}\n"
         result += f"Respuestas correctas: {score_data['correct_count']}\n"
         result += f"Respuestas incorrectas: {score_data['incorrect_count']}\n"
@@ -157,6 +161,7 @@ def get_user_performance() -> str:
 def get_answer_history_detailed() -> str:
     """Obtiene el historial detallado de respuestas del usuario"""
     try:
+        mcq_service = get_service()
         history = mcq_service.get_answer_history()
         
         if not history:

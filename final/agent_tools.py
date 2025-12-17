@@ -4,9 +4,9 @@ from tools.tools import (
     search_in_text_file,
     list_multiple_choice_questions,
     get_user_performance,
-    get_answer_history_detailed,
-    mcq_service
+    get_answer_history_detailed
 )
+from services.service_manager import get_service
 
 # Initialize RAG components
 _vector_store = None
@@ -91,6 +91,7 @@ def analyze_weak_areas_tool() -> str:
     """
     try:
         # Obtener preguntas incorrectas del usuario
+        mcq_service = get_service()
         score_data = mcq_service.compute_user_score()
         incorrect_questions = [
             p['question'] for p in score_data['recent_performance']

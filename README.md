@@ -2,7 +2,44 @@
 
 This project implements an intelligent multi-agent system designed to deliver adaptive educational content. It uses a graph-based agent architecture (LangGraph) to generate questions, evaluate student answers, and adapt the difficulty level based on performance, simulating a personalized tutoring experience.
 
-## Quick Start
+## Setup
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Configure API Keys
+Create a `.env` file in the root directory with one of the following:
+
+**Option A: OpenAI (Recommended)**
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+CONTENT_PATH=SD-Com.txt
+```
+
+**Option B: Groq**
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+CONTENT_PATH=SD-Com.txt
+```
+
+The system will use OpenAI if available, otherwise fall back to Groq. If neither key is set, the application will exit with an error.
+
+### 3. Run the Application
+
+**Web Interface (Recommended):**
+```bash
+chainlit run app.py -w
+```
+
+**CLI Mode:**
+```bash
+python final_agent.py
+```
+
+
+## RAG - Quick Start
 
 ```bash
 # 1. Index content into ChromaDB (required for RAG)
@@ -13,6 +50,8 @@ python final_agent.py
 ```
 
 To enable/disable RAG, set `USE_RAG=true/false` in `.env`
+
+
 
 ## Benchmarking
 
