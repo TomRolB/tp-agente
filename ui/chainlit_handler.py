@@ -39,10 +39,8 @@ class ChainlitHandler:
     @staticmethod
     async def process_action(action: cl.Action):
         """Handle button clicks."""
-        # Extract the value from the action payload
-        action_value = action.payload.get("value", action.payload)
-        await cl.Message(content=action_value, author="User").send()
-        await ChainlitHandler.process_message(cl.Message(content=action_value))
+        await cl.Message(content=action.value, author="User").send()
+        await ChainlitHandler.process_message(cl.Message(content=action.value))
 
     # --- Private Helpers ---
 
@@ -75,14 +73,14 @@ class ChainlitHandler:
         score_data = service.compute_user_score()
         if score_data['total_questions'] > 0:
             score_msg = (
-                f"📊 Score actual: {score_data['score_percentage']:.1f}% "
+                f"Tu puntaje actual: {score_data['score_percentage']:.1f}% "
                 f"({score_data['correct_count']}/{score_data['total_questions']} correctas)"
             )
             await cl.Message(content=score_msg).send()
         
         actions = [
-            cl.Action(name="new_question", payload={"value": "nueva pregunta"}, label="Nueva Pregunta"),
-            cl.Action(name="performance", payload={"value": "rendimiento"}, label="Ver Rendimiento")
+            cl.Action(name="new_question", value="nueva pregunta", label="Nueva Pregunta"),
+            cl.Action(name="performance", value="rendimiento", label="Ver Rendimiento")
         ]
         await cl.Message(content="¿Qué te gustaría hacer ahora?", actions=actions).send()
 
@@ -103,7 +101,7 @@ class ChainlitHandler:
         }
 
         msg = cl.Message(content="")
-        await msg.send() # Placeholder for potential streaming
+        await msg.send() # Placeholder for potential streaming in the future
 
         # Use ainvoke to get final state in one go
         result = await app.ainvoke(initial_state)
@@ -121,29 +119,14 @@ class ChainlitHandler:
     @staticmethod
     async def _render_question(result: dict):
         """Format and display a question with buttons."""
-        # Retrieve the REGISTERED question data from the service
-        # This ensures we display the exact shuffled order stored in the DB
-        service = get_service()
-        last_id = service.get_last_question_id()
-        
-        if not last_id:
-             # Fallback if something failed (shouldn't happen if approved)
-             q_text = result["current_question"]
-             options = result["question_options"]
-        else:
-             q_data = service.get_question(last_id)
-             q_text = q_data["question"]
-             options = q_data["options"] # These are already shuffled
+        q_text = result["current_question"]
+        options = result["question_options"]
         
         question_display = f"**{q_text}**\n\n"
         actions = []
         for i, opt in enumerate(options):
             letter = chr(65+i)
             question_display += f"{letter}) {opt}\n"
-            actions.append(cl.Action(
-                name="answer", 
-                payload={"value": letter}, 
-                label=f"{letter}"
-            ))
+            actions.append(cl.Action(name="answer", value=letter, label=f"{letter}"))
         
         await cl.Message(content=question_display, actions=actions).send()
