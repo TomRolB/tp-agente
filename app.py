@@ -1,5 +1,9 @@
 import chainlit as cl
 from interface.chainlit_handler import ChainlitHandler
+from final.agents import validate_api_keys
+
+validate_api_keys()
+print("✓ Environment validation passed")
 
 @cl.on_chat_start
 async def start():
