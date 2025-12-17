@@ -8,6 +8,22 @@ from tools.tools import (
     mcq_service
 )
 
+# Initialize RAG components
+_vector_store = None
+_retriever = None
+
+def get_rag_components():
+    global _vector_store, _retriever
+
+    if _vector_store is None:
+        from final.rag.vector_store import ChromaVectorStore
+        from final.rag.retriever import ContentRetriever
+
+        _vector_store = ChromaVectorStore()
+        _retriever = ContentRetriever(_vector_store)
+
+    return _vector_store, _retriever
+
 
 @tool
 def read_text_file_tool(file_path: str) -> str:
@@ -48,11 +64,7 @@ def retrieve_content_tool(query: str, n_results: int = 3) -> str:
     Returns: Formatted content with the most relevant fragments
     """
     try:
-        from final.rag.vector_store import ChromaVectorStore
-        from final.rag.retriever import ContentRetriever
-
-        vector_store = ChromaVectorStore()
-        retriever = ContentRetriever(vector_store)
+        _, retriever = get_rag_components()
         return retriever.retrieve_relevant_content(query, n_results)
     except Exception as e:
         return f"Error al recuperar contenido: {str(e)}"
@@ -65,11 +77,7 @@ def get_topic_content_tool(topic: str, n_results: int = 3) -> str:
     Returns: Formatted content suitable for creating a question
     """
     try:
-        from final.rag.vector_store import ChromaVectorStore
-        from final.rag.retriever import ContentRetriever
-
-        vector_store = ChromaVectorStore()
-        retriever = ContentRetriever(vector_store)
+        _, retriever = get_rag_components()
         return retriever.retrieve_for_question_creation(topic=topic, n_results=n_results)
     except Exception as e:
         return f"Error al obtener contenido del tema: {str(e)}"
@@ -82,9 +90,6 @@ def analyze_weak_areas_tool() -> str:
     Returns: Content related to the user's incorrect answers
     """
     try:
-        from final.rag.vector_store import ChromaVectorStore
-        from final.rag.retriever import ContentRetriever
-
         # Obtener preguntas incorrectas del usuario
         score_data = mcq_service.compute_user_score()
         incorrect_questions = [
@@ -95,8 +100,7 @@ def analyze_weak_areas_tool() -> str:
         if not incorrect_questions:
             return "El usuario no tiene respuestas incorrectas recientes. Está respondiendo todo correctamente."
 
-        vector_store = ChromaVectorStore()
-        retriever = ContentRetriever(vector_store)
+        _, retriever = get_rag_components()
         return retriever.retrieve_related_to_errors(incorrect_questions)
     except Exception as e:
         return f"Error al analizar áreas débiles: {str(e)}"
@@ -109,11 +113,7 @@ def search_concept_tool(concept: str, n_results: int = 2) -> str:
     Returns: Content explaining the concept
     """
     try:
-        from final.rag.vector_store import ChromaVectorStore
-        from final.rag.retriever import ContentRetriever
-
-        vector_store = ChromaVectorStore()
-        retriever = ContentRetriever(vector_store)
+        _, retriever = get_rag_components()
         return retriever.search_specific_concept(concept, n_results)
     except Exception as e:
         return f"Error al buscar concepto: {str(e)}"
