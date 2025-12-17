@@ -3,7 +3,8 @@ from dotenv import load_dotenv
 from colorama import Fore, Style, init as colorama_init
 from langchain_core.messages import HumanMessage
 
-from tools.tools import check_last_multiple_choice_answer, mcq_service
+from tools.tools import check_last_multiple_choice_answer
+from services.service_manager import get_service
 from final.models import AgentState
 from final.nodes import (
     orchestrator_node,
@@ -113,7 +114,7 @@ def main():
             log_user_output("\n" + result_msg + "\n")
             log_separator()
 
-            score_data = mcq_service.compute_user_score()
+            score_data = get_service().compute_user_score()
             if score_data['total_questions'] > 0:
                 print(
                     f"\n{Fore.CYAN}📊 Score actual: {score_data['score_percentage']:.1f}% " +
