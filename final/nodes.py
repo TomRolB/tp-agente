@@ -68,8 +68,7 @@ def question_creator_node(state: AgentState):
     if state.get("user_feedback"):
         context += f"\n\nFeedback sobre el usuario: {state['user_feedback']}"
 
-    content_path = os.environ.get("CONTENT_PATH", "SD-Com.txt")
-    message = f"Crea una nueva pregunta de opción múltiple basada en {content_path}.{context}"
+    message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso (usa RAG tools).{context}"
 
     try:
         result = agent.invoke({

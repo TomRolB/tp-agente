@@ -2,6 +2,18 @@
 
 This project implements an intelligent multi-agent system designed to deliver adaptive educational content. It uses a graph-based agent architecture (LangGraph) to generate questions, evaluate student answers, and adapt the difficulty level based on performance, simulating a personalized tutoring experience.
 
+## Quick Start
+
+```bash
+# 1. Index content into ChromaDB (required for RAG)
+python scripts/index_content.py --force
+
+# 2. Run the system
+python final_agent.py
+```
+
+To enable/disable RAG, set `USE_RAG=true/false` in `.env`
+
 ## Benchmarking
 
 The project includes a robust benchmarking suite designed to rigorously evaluate the system's pedagogical capabilities. The goal is to ensure the agent correctly adapts to different student levels and adequately covers the provided curriculum.

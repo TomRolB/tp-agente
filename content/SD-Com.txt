@@ -1,0 +1,367 @@
+﻿Comunicación                                                                                                   
+Importancia
+
+
+Método de interacción
+* La comunicación es la base para que los procesos distribuidos puedan cooperar
+* Sin un mecanismo de comunicación confiable, los procesos quedarían aislados y no podrían compartir datos ni coordinar acciones
+* Ej.: microservicios en la nube que deben intercambiar información constantemente para cumplir una funcionalidad completa
+
+
+Impacto arquitectónico
+* La elección del tipo de comunicación (sincrónica, asincrónica, persistente, transitoria, etc.) está directamente vinculada a los requerimientos funcionales (qué debe hacer el sistema) y no funcionales (rendimiento, escalabilidad, tolerancia a fallas, seguridad)
+* Decisiones como usar mensajería persistente o RPC directo dependen de la criticidad del sistema y su contexto
+* Ej.: un sistema financiero en tiempo real requerirá baja latencia y alta fiabilidad, lo que condiciona la arquitectura de comunicación
+
+
+Transparencia
+* Idealmente, los detalles de la comunicación (protocolos, puertos, topología de red) deberían estar ocultos al programador
+* El objetivo es que el desarrollador pueda trabajar como si todo fuera local, sin preocuparse por aspectos de red o configuración
+* Esto aumenta la portabilidad y reduce el acoplamiento
+* Ejemplo de no transparencia
+   * Si el backend cambia de puerto, el frontend debe actualizar manualmente la configuración para poder conectarse
+   * Este tipo de dependencia rígida muestra que el sistema no es transparente, ya que obliga a modificar partes ajenas a la lógica de negocio por un detalle de infraestructura
+
+
+Stub
+* Un stub es un objeto intermediario que actúa como “falso representante” de un procedimiento o recurso remoto
+* Permite al programador invocar funciones o servicios como si fueran locales, ocultando la complejidad de la comunicación en red
+* Responde con configuraciones predefinidas o maneja internamente los parámetros de conexión, serialización de datos, etc.
+* Ej.: en Java RMI, el cliente no llama directamente al servidor, sino a un stub que traduce la llamada a una comunicación remota
+
+
+Modelo OSI y TCP/IP
+
+
+Modelo OSI
+* Es un marco conceptual que divide la comunicación de redes en siete capas jerárquicas
+   * Física, Enlace de Datos, Red, Transporte, Sesión, Presentación y Aplicación
+* Cada capa se apoya en la anterior (recibe sus servicios) y ofrece servicios a la capa superior, generando una separación clara de responsabilidades
+   * Ej.: la capa de Red se encarga del direccionamiento y enrutamiento, mientras que la capa de Transporte gestiona la entrega confiable de datos
+* Ventaja → permite analizar y diseñar protocolos de manera modular, ya que cada capa se encarga de una función específica
+* Propósito
+   * El objetivo principal es estandarizar la comunicación entre sistemas heterogéneos, garantizando la interoperabilidad entre hardware, software y redes de distintos fabricantes
+   * Cada protocolo queda claramente definido en qué capa actúa
+      * Ej.: HTTP en la capa de Aplicación, TCP en la de Transporte
+   * Gracias a este modelo, se facilita el desarrollo, mantenimiento y evolución de sistemas distribuidos complejos
+
+
+Modelo TCP/IP
+* Es el modelo de referencia actualmente usado en Internet y en la mayoría de los sistemas distribuidos
+* Consta de 4 capas: Enlace, Internet, Transporte y Aplicación
+   * Ej. de correspondencia: HTTP (Aplicación), TCP/UDP (Transporte), IP (Internet), Ethernet/WiFi (Enlace)
+* Es más simple y pragmático que OSI, porque fue diseñado en paralelo a la implementación de Internet (no como marco teórico, sino como solución práctica)
+* A diferencia del OSI, no busca la perfección teórica sino la eficiencia y adopción masiva, por lo cual es la base de la comunicación en redes actuales
+
+
+
+
+Middleware
+* Su función principal en comunicación es simplificar la interacción entre procesos distribuidos, evitando que los desarrolladores lidien directamente con los detalles bajos de transporte o protocolos
+
+
+Ocultamiento de detalles técnicos
+* El middleware esconde información como direcciones IP, puertos, protocolos, formatos de serialización, etc
+* Gracias a esto, el programador percibe la comunicación como más transparente, similar a invocar métodos locales
+* Ej.: en lugar de configurar sockets TCP manualmente, el middleware provee una API de alto nivel para enviar/recibir mensajes
+
+
+Servicios generales de comunicación
+* Gestión de nombres → permite identificar procesos y recursos distribuidos sin necesidad de conocer su ubicación exacta
+* Gestión de mensajes → asegura que los datos enviados se transmitan en el orden correcto o con la confiabilidad requerida
+* Persistencia → puede retener mensajes cuando un receptor no está disponible (según el tipo de comunicación)
+* Seguridad → agrega autenticación, autorización y cifrado a la comunicación entre procesos
+
+
+Ejemplos especificos en Comunicación
+* DNS → middleware que traduce nombres de dominio legibles a direcciones IP, ocultando la complejidad del direccionamiento en red
+* Auth0 → servicio de autenticación que actúa como middleware en la comunicación cliente-servidor, gestionando credenciales y tokens sin que cada aplicación implemente su propio sistema de seguridad
+* Otros → message brokers (RabbitMQ, Kafka), que median la comunicación asincrónica entre productores y consumidores
+
+
+Rol en la arquitectura distribuida
+* Permite que aplicaciones distribuidas se construyan de manera más desacoplada y portable
+* Favorece la interoperabilidad entre sistemas heterogéneos (distintos lenguajes, sistemas operativos o protocolos)
+* Es fundamental para lograr transparencia en la comunicación, uno de los objetivos centrales de los sistemas distribuidos
+
+
+Tipos de comunicación
+
+
+Comunicación Sincrónica
+* El emisor queda bloqueado hasta recibir confirmación de que el receptor procesó el mensaje o la respuesta está disponible
+   * No se sigue ejecutando nada hasta obtener un resultado
+* Ventajas
+   * Simplicidad de programación
+   * Facilita razonar sobre el orden de eventos
+* Desventajas
+   * Puede afectar la latencia global del sistema, ya que el emisor pierde tiempo de cómputo esperando
+
+
+Comunicación Asincrónica
+* El emisor no espera la respuesta, sino que continúa su ejecución inmediatamente después de enviar el mensaje
+* El receptor procesa el mensaje cuando esté disponible y puede devolver respuesta más tarde (si la necesita)
+* Ventajas
+   * mayor paralelismo y eficiencia
+   * El emisor no queda bloqueado
+* Desventajas
+   * Más complejidad en el manejo de resultados (se requieren callbacks, colas, promesas, etc.)
+
+
+Comunicación Transitoria
+* La entrega del mensaje solo ocurre si el receptor y la red están disponibles en ese momento
+* Si el receptor está caído o hay una interrupción, el mensaje se pierde y no se reintenta
+* Útil en aplicaciones donde la actualidad de la información importa más que la confiabilidad
+* Ventajas
+   * Mayor simplicidad: la lógica del middleware es más liviana
+   * Velocidad: como no se guarda nada, el flujo es más rápido y directo
+   * Baja sobrecarga: no requiere almacenamiento adicional ni mecanismos de reintento
+* Desventajas
+   * Pérdida de mensajes: si el receptor está desconectado o falla la red
+   * Menor confiabilidad: no hay garantía de entrega
+   * No sirve para operaciones críticas: cuando perder mensajes es inaceptable
+
+
+Comunicación Persistente
+* El middleware almacena los mensajes y asegura su entrega incluso si el receptor está desconectado temporalmente
+* La comunicación queda desacoplada en el tiempo: el emisor puede seguir enviando, y el receptor los recibirá al volver a estar disponible
+* Ventajas
+   * Tolerancia a fallas
+   * Confiabilidad en la entrega
+* Desventajas
+   * Requiere más infraestructura (almacenamiento intermedio)
+   * Puede aumentar la latencia
+
+
+RPC - Remote Procedure Call
+* Permite invocar un procedimiento que se ejecuta en otra máquina como si fuera una llamada local
+* El objetivo es que el desarrollador no tenga que preocuparse por los detalles de comunicación en red, sino trabajar con la misma naturalidad que en una función dentro del mismo proceso
+* Transparencia
+   * Oculta la complejidad de la comunicación cliente-servidor: el programador escribe llamadas a funciones, sin ver sockets ni protocolos de transporte
+   * Desde el punto de vista del código, parece una llamada local; en realidad, se traduce en una secuencia de mensajes enviados y recibidos
+   * Facilita el desarrollo y reduce el acoplamiento a la infraestructura de red
+
+
+Problemas y Soluciones
+* Marshalling / Unmarshalling
+   * Marshalling → codificación de parámetros de la llamada a un formato neutral que pueda viajar por la red
+   * Unmarshalling → decodificación de los datos recibidos de vuelta a estructuras comprensibles por el programa
+   * Es un proceso obligatorio, ya que las máquinas pueden tener diferentes arquitecturas, representaciones de datos o lenguajes
+* Dificultades
+   * Punteros y referencias → enviar la dirección de memoria no sirve en otro sistema, hay que enviar el objeto completo
+   * Colecciones y objetos complejos → requieren serialización completa, lo que puede ser costoso en tiempo y ancho de banda
+   * El marshalling automático no siempre funciona con estructuras anidadas o personalizadas
+   * Por eficiencia, formatos como JSON no suelen usarse en RPC de bajo nivel, ya que priorizan rendimiento binario
+* Referencias globales
+   * Solución alternativa → en lugar de enviar el objeto entero, se envía una referencia global mantenida por un servidor de objetos remotos
+   * El receptor utiliza esa referencia para acceder al objeto
+   * Funciona bien con objetos grandes, pero pierde eficiencia con objetos pequeños (ej. enteros o booleanos)
+
+
+Soporte y mecanismos
+* Stubs cliente-servidor
+   * Los stubs son piezas de código que actúan como intermediarios
+   * El client stub se encarga de tomar la llamada local, hacer el marshalling y enviar el mensaje
+   * El server stub recibe el mensaje, hace el unmarshalling y ejecuta el procedimiento real
+   * Ambos deben acordar:
+      * El protocolo de comunicación
+      * El formato de los mensajes
+      * La forma de manejar estructuras complejas
+* IDL (Interface Definition Language)
+   * Lenguaje neutral que define la interfaz de los procedimientos remotos (nombre, parámetros, tipos de datos)
+   * Un IDL compiler genera automáticamente los stubs para cliente y servidor
+   * Garantiza que ambas partes usen la misma especificación, evitando errores de incompatibilidad
+* Ejemplo: Java RMI (Remote Method Invocation)
+   * Implementación de RPC en Java
+   * Permite invocar métodos de objetos distribuidos en diferentes JVMs como si fueran locales
+   * Usa stubs y skeletons generados automáticamente a partir de interfaces remotas
+
+
+Comunicación basada en mensajes
+
+
+Mensaje como unidad mínima
+* En este modelo, la unidad básica de comunicación es el mensaje
+* Un mensaje es finito, tiene una estructura clara que normalmente incluye:
+   * Headers → información de control (ej. origen, destino, timestamp, tipo de contenido)
+   * Payload → los datos que realmente se quieren transmitir (contenido útil de la comunicación)
+* Este formato permite que la comunicación sea independiente del lenguaje o la plataforma, ya que ambos extremos solo necesitan acordar el protocolo y la estructura
+
+
+Función del mensaje en sistemas distribuidos
+* Sincronización → coordinar el orden de ejecución entre procesos distribuidos
+* Coordinación → asegurar que los procesos tomen decisiones consistentes (ej. quién accede a un recurso primero)
+* Transmisión de datos → transportar la información real de una aplicación a otra
+* Ej.: un mensaje en un sistema de colas puede usarse tanto para notificar un evento (coordinación) como para enviar un documento (transmisión de datos)
+
+
+Ventaja Principal: Transparencia en Manejo de Errores
+* El middleware que implementa el paso de mensajes se encarga de ocultar al programador los detalles de errores y reintentos
+* Esto significa que si hay pérdida de paquetes, retransmisiones o fallos temporales, el desarrollador no tiene que manejarlo directamente
+* El resultado es un sistema más robusto, desacoplado y portable, ya que los problemas de comunicación se resuelven en una capa común y no en cada aplicación
+
+
+Relación con arquitecturas distribuidas
+* Favorece el desacoplamiento temporal
+   * El emisor y el receptor no tienen que estar activos al mismo tiempo (si se usa comunicación persistente)
+* Facilita el escalamiento horizontal
+   * Múltiples consumidores pueden leer mensajes de la misma cola sin que el emisor tenga que conocerlos
+* Es la base de sistemas modernos como message brokers (ej. RabbitMQ, Kafka, ZeroMQ).
+
+
+Herramientas y mecanismos
+
+
+Sockets
+* Son una abstracción sobre los puertos de red, ubicados en la capa de transporte del modelo OSI / TCP-IP
+* Permiten que aplicaciones lean y escriban datos en la red como si fueran flujos de entrada/salida
+* Tipos principales
+   * TCP (Transmission Control Protocol) → conexión orientada, confiable, asegura orden y entrega
+   * UDP (User Datagram Protocol) → sin conexión, más rápido pero no garantiza entrega ni orden
+   * Sockets en memoria (ej. UNIX sockets) → usados para comunicación local entre procesos en una misma máquina
+* Aunque se ubican en la capa de transporte, exponen información de capas inferiores como host, puerto y protocolo, lo que puede aumentar el acoplamiento
+
+
+ZeroMQ
+* Es una Message Queue que extiende las capacidades de los sockets tradicionales
+* Ofrece un nivel de abstracción más alto para la comunicación, simplificando la interacción con la red
+* Soporta patrones de comunicación que facilitan distintos diseños distribuidos
+   * REQ/REP (request/response) → clásico cliente-servidor
+   * PUB/SUB (publish/subscribe) → distribución de mensajes a múltiples consumidores
+   * PUSH/PULL → distribución balanceada de mensajes entre trabajadores
+* Permite many-to-one y one-to-many sin que el programador maneje manualmente conexiones múltiples
+* Tiene persistencia parcial → el receptor puede almacenar temporalmente una lista de mensajes
+* Limitación → si el emisor se cae, los mensajes no enviados se pierden (no garantiza persistencia completa)
+
+
+MPI - Message Passing Interface
+* Es un estándar para la comunicación en sistemas paralelos y distribuidos de alta eficiencia, muy usado en entornos científicos y de cómputo intensivo
+* Se basa en comunicación explícita por mensajes mediante primitivas send y recv (no hay memoria compartida)
+* Requiere un contexto común de ejecución (MPI.COMM_WORLD) en el cual todos los procesos se identifican y cooperan
+* Características
+   * Todos los procesos deben iniciar y finalizar juntos, lo que asegura sincronización pero reduce flexibilidad
+   * Alta eficiencia en entornos de baja latencia y gran ancho de banda (ej. clusters HPC)
+   * No tolera fallas → si un proceso se cae, todo el sistema falla
+* Ejemplo en Python
+   * rank → identificador único de un proceso
+   * size → número total de procesos en el sistema
+
+
+MoM - Message-Oriented Middleware
+* Middleware orientado a mensajes que utiliza queues como procesos independientes
+* Los productores envían mensajes a la queue, y los consumidores los reciben cuando estén disponibles
+* Provee un intermediario que desacopla productores y consumidores en el tiempo y en el espacio
+   * No necesitan estar conectados simultáneamente
+   * No necesitan conocerse directamente (solo la queue)
+* Ventajas
+   * Mayor flexibilidad y desacoplamiento temporal
+   * Soporte para persistencia de mensajes, tolerancia a fallos y priorización
+* Es la base de sistemas modernos como RabbitMQ, ActiveMQ, IBM MQ
+
+
+Multicasting y Broadcasting
+
+
+Multicasting
+* Definición
+   * Consiste en enviar un mensaje a un grupo específico de nodos, a diferencia del broadcasting que envía a todos los nodos de la red
+   * Ej.: videoconferencia donde solo los usuarios suscritos a la sala reciben el flujo de datos
+* Overlay networks
+   * Los mensajes no siguen necesariamente la topología física de la red, sino una topología virtual (overlay) que organiza cómo se conectan los nodos para optimizar la distribución
+   * Esto permite reducir redundancia y mejorar la eficiencia del tráfico
+* Métricas de calidad en multicasting
+   * Link stress → mide cuántos mensajes duplicados pasan por un mismo enlace físico; mientras menor, más eficiente
+   * RDP (Relative Delay Penalty) → compara la longitud del camino usado en el overlay vs. el camino más corto posible; idealmente debería acercarse a 1
+   * Tree cost → mide la eficiencia de formar un árbol de expansión mínima (spanning tree) que conecte a todos los receptores
+
+
+Broadcasting
+* Flooding
+   * Técnica básica en la que todos los nodos reenvían el mensaje a sus vecinos
+   * Para evitar loops infinitos, un nodo no reenvía un mensaje que ya procesó
+   * Ventaja → asegura que todos los nodos reciban el mensaje
+   * Desventaja → genera alto consumo de ancho de banda
+* Protocolos epidémicos (gossip protocols)
+   * Inspirados en la propagación de un virus: cada nodo infectado transmite el mensaje a otros
+   * Clasificación de nodos
+      * Infectados → ya tienen el mensaje y lo difunden
+      * Susceptibles → aún no lo recibieron
+      * Removidos → ya lo recibieron pero no lo difunden más
+   * Uso típico → propagación rápida de información sin necesidad de conocimiento global de la red
+* Modelos de propagación
+   * Push → cada nodo elige aleatoriamente a otro nodo y le envía el mensaje
+   * Pull → cada nodo pide aleatoriamente a otro nodo el mensaje (si no lo tiene)
+   * Push/Pull → combinación de ambos para mayor rapidez
+* Gossiping (Rumor Spreading)
+   * Cada nodo comparte con uno al azar; si el receptor ya tenía la información, el emisor se “remueve” (deja de difundir)
+   * Ventaja: muy rápido y eficiente en consumo de red, pero no garantiza que el mensaje llegue a absolutamente todos los nodos
+* Certificado de defunción
+   * Mecanismo para eliminar datos obsoletos en sistemas distribuidos
+   * Los nodos propagan un certificado indicando que cierta información fue eliminada
+   * Puede tener una timestamp de validez, para que los nodos sepan hasta cuándo mantenerlo
+   * Algunos nodos mantienen certificados de forma permanente, garantizando que actualizaciones inválidas no vuelvan a circular
+
+
+Brokers y sistemas de mensajería
+
+
+Broker
+* Es un intermediario que gestiona la comunicación entre distintos nodos en un sistema distribuido
+* Se vuelve fundamental cuando los nodos son heterogéneos (distintos lenguajes, plataformas o protocolos) y no pueden comunicarse directamente
+* El broker actúa como traductor y enrutador, asegurando que los mensajes lleguen al destino correcto
+
+
+Funciones principales
+* Soporte de múltiples lenguajes y protocolos: un cliente puede enviar mensajes en un formato, y el broker los adapta para que otro cliente, con distinta tecnología, pueda interpretarlos
+* Gestión de colas de mensajes: permite crear múltiples colas para distribuir la carga de trabajo
+* Priorización: las colas pueden tener diferentes prioridades, garantizando que mensajes críticos se procesen antes que los secundarios
+* Extensibilidad mediante plugins: se pueden agregar módulos para transformación de datos, enrutamiento avanzado o seguridad
+* Transparencia en la comunicación: el emisor y el receptor no necesitan conocerse ni estar activos al mismo tiempo
+
+
+Kafka
+* Es un sistema distribuido de logs, diseñado para manejar grandes volúmenes de datos en tiempo real
+* Aunque cumple funciones similares a un broker, no es un broker tradicional
+   * Su foco está en el almacenamiento distribuido y persistente de eventos (logs)
+   * Los consumidores pueden leer los mensajes en distintos momentos, incluso mucho después de que fueron producidos
+* Características clave
+   * Alta escalabilidad horizontal
+   * Persistencia de datos como un log ordenado
+   * Ideal para streaming de datos en tiempo real y procesamiento de eventos
+
+
+Rol en sistemas distribuidos
+* Los brokers son esenciales para construir arquitecturas desacopladas, escalables y tolerantes a fallas
+* Permiten que distintos servicios se comuniquen de forma confiable sin necesidad de integraciones punto a punto
+* Se usan en integración de aplicaciones empresariales (EAI), microservicios y sistemas event-driven
+Consideraciones de diseño
+
+
+Tolerancia a fallas
+* Es clave definir hasta qué nivel de fallos el sistema debe seguir funcionando
+* Puede implicar mecanismos de reintentos, replicación de mensajes o almacenamiento persistente
+
+
+Escalabilidad
+* La comunicación debe poder manejar un aumento en el volumen de mensajes, usuarios o nodos sin degradar su desempeño
+* Se debe prever si el crecimiento será vertical (más recursos a un nodo) u horizontal (más nodos distribuidos)
+
+
+Seguridad
+* Toda comunicación distribuida debe protegerse contra accesos indebidos y ataques
+* Los mecanismos básicos incluyen:
+   * Cifrado → protege la confidencialidad de los mensajes (ej. TLS)
+   * Autenticación → asegura que el emisor es quien dice ser
+   * Autorización → controla qué operaciones o recursos puede usar cada usuario/proceso
+* Esto es especialmente crítico en sistemas abiertos como Internet
+
+
+Evaluar servicio vs middleware
+* Decidir si la comunicación se implementa como parte de la lógica del servicio o si se apoya en un middleware especializado
+* Middleware agrega abstracción y desacoplamiento, pero puede aumentar la complejidad de la infraestructura
+
+
+Consideraciones para tiempo real
+* En aplicaciones sensibles al tiempo (trading, IoT, control industrial) se requiere:
+   * Orden estricto de eventos → que los mensajes lleguen y se procesen en el mismo orden en que ocurrieron
+   * Cumplimiento de tiempos percibidos como reales → la comunicación debe ocurrir en ventanas de tiempo muy ajustadas para no perder validez

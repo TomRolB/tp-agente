@@ -1,3 +1,4 @@
+import os
 from langchain_anthropic import ChatAnthropic
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
@@ -6,8 +7,15 @@ from final.agent_tools import (
     search_in_text_file_tool,
     list_questions_tool,
     get_performance_tool,
-    get_history_tool
+    get_history_tool,
+    retrieve_content_tool,
+    get_topic_content_tool,
+    analyze_weak_areas_tool,
+    search_concept_tool
 )
+
+# Check if RAG is enabled
+USE_RAG = os.environ.get("USE_RAG", "true").lower() == "true"
 
 
 def create_model():
@@ -21,7 +29,20 @@ def create_model():
 
 
 def create_question_creator_agent():
-    tools = [read_text_file_tool, search_in_text_file_tool, list_questions_tool]
+    tools = [
+        read_text_file_tool,
+        search_in_text_file_tool,
+        list_questions_tool
+    ]
+
+    # Add RAG tools only if enabled
+    if USE_RAG:
+        tools.extend([
+            retrieve_content_tool,
+            get_topic_content_tool,
+            search_concept_tool
+        ])
+
     llm = create_model()
     return create_agent(llm, tools)
 
@@ -33,7 +54,15 @@ def create_difficulty_reviewer_agent():
 
 
 def create_feedback_agent():
-    tools = [get_performance_tool, get_history_tool]
+    tools = [
+        get_performance_tool,
+        get_history_tool
+    ]
+
+    # Add RAG tools only if enabled
+    if USE_RAG:
+        tools.append(analyze_weak_areas_tool)
+
     llm = create_model()
     return create_agent(llm, tools)
 
