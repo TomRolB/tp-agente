@@ -69,13 +69,26 @@ def question_creator_node(state: AgentState):
     if state.get("user_feedback"):
         context += f"\n\nFeedback sobre el usuario: {state['user_feedback']}"
 
-    content_path = os.environ.get("CONTENT_PATH", "SD-Com.txt")
-    message = f"Crea una nueva pregunta de opción múltiple basada en {content_path}.{context}"
+    # Use appropriate prompt and message based on RAG availability
+    use_rag = os.environ.get("USE_RAG", "true").lower() == "true"
+
+    if use_rag:
+        prompt = QUESTION_CREATOR_PROMPT
+        message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso (usa RAG tools).{context}"
+    else:
+        from final.prompts import QUESTION_CREATOR_PROMPT_NO_RAG
+        prompt = QUESTION_CREATOR_PROMPT_NO_RAG
+        # Include content path if available
+        content_path = os.environ.get("CONTENT_PATH", "")
+        if content_path:
+            message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso. El archivo del curso está en: {content_path}{context}"
+        else:
+            message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso.{context}"
 
     try:
         result = agent.invoke({
             "messages": [
-                SystemMessage(content=QUESTION_CREATOR_PROMPT),
+                SystemMessage(content=prompt),
                 HumanMessage(content=message)
             ]
         })

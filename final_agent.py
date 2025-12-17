@@ -1,7 +1,13 @@
+import os
+import sys
 from langgraph.graph import StateGraph, END, START
 from dotenv import load_dotenv
 from colorama import Fore, Style, init as colorama_init
 from langchain_core.messages import HumanMessage
+
+# Configurar encoding UTF-8 para Windows
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding='utf-8')
 
 from tools.tools import check_last_multiple_choice_answer
 from services.service_manager import get_service
@@ -73,6 +79,12 @@ def main():
     """Main execution loop."""
     log_separator()
     print(f"{Fore.CYAN}{Style.BRIGHT}🚀 SISTEMA MULTI-AGENTE DE GENERACIÓN DE PREGUNTAS{Style.RESET_ALL}")
+
+    # Show RAG status
+    use_rag = os.environ.get("USE_RAG", "true").lower() == "true"
+    rag_status = f"{Fore.GREEN}HABILITADO" if use_rag else f"{Fore.YELLOW}DESHABILITADO"
+    print(f"{Fore.CYAN}RAG: {rag_status}{Style.RESET_ALL}")
+
     log_separator()
 
     app = build_workflow()
