@@ -6,3 +6,5 @@ python-dotenv
 colorama
 chainlit==2.9.3
 tqdm
+sentence-transformers
+chromadb
