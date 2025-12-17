@@ -1,6 +1,7 @@
 langgraph
 langchain==1.1.0
-langchain-anthropic
+langchain-openai
+langchain-groq
 python-dotenv
 colorama
 chainlit==2.9.3
