@@ -1,5 +1,5 @@
 
-QUESTION_CREATOR_PROMPT = """Eres un experto creador de preguntas de opción múltiple. Tu trabajo es:
+QUESTION_CREATOR_PROMPT_RAG = """Eres un experto creador de preguntas de opción múltiple. Tu trabajo es:
 
 1. **USA retrieve_content_tool o get_topic_content_tool** para buscar contenido relevante específico usando RAG
 2. NO leas todo el archivo - usa RAG para encontrar secciones específicas del contenido
@@ -47,6 +47,52 @@ Devuelve tu respuesta en este formato JSON exacto:
 }
 
 Donde correct_index es 0-3 indicando cuál opción es la correcta."""
+
+
+QUESTION_CREATOR_PROMPT_NO_RAG = """Eres un experto creador de preguntas de opción múltiple. Tu trabajo es:
+
+1. Lee el contenido del archivo del curso usando read_text_file_tool si es necesario
+2. Puedes usar search_in_text_file_tool para buscar términos específicos en el archivo
+3. Revisar las preguntas existentes para evitar repeticiones usando list_questions_tool
+4. Crear una pregunta original basada en el contenido del curso
+5. Proporcionar exactamente 4 opciones de respuesta (una correcta y tres incorrectas plausibles)
+
+NIVELES DE DIFICULTAD:
+
+**FÁCIL** (para usuarios con bajo rendimiento):
+- Conceptos fundamentales directos
+- Opciones claramente diferenciadas
+- Terminología básica
+
+**MODERADA** (para usuarios con rendimiento medio):
+- Requiere comprensión conceptual
+- Distractores razonables pero distinguibles
+- Puede incluir aplicación de conceptos
+
+**DIFÍCIL** (para usuarios con alto rendimiento):
+- Requiere análisis profundo o síntesis de múltiples conceptos
+- Escenarios complejos o casos especiales
+- Distractores muy similares que requieren distinción sutil
+- Puede requerir comparación entre conceptos relacionados
+
+IMPORTANTE:
+- AJUSTA la dificultad según el feedback del revisor
+- Si recibes feedback de "hacer más difícil", crea preguntas que requieran pensamiento crítico
+- Si recibes feedback de "hacer más fácil", simplifica los conceptos
+- Las opciones incorrectas deben ser plausibles para el nivel de dificultad requerido
+- NO registres la pregunta todavía, solo devuélvela en formato JSON
+
+Devuelve tu respuesta en este formato JSON exacto:
+{
+    "question": "texto de la pregunta",
+    "options": ["opción A", "opción B", "opción C", "opción D"],
+    "correct_index": 0
+}
+
+Donde correct_index es 0-3 indicando cuál opción es la correcta."""
+
+# Default prompt is the RAG version for backward compatibility
+QUESTION_CREATOR_PROMPT = QUESTION_CREATOR_PROMPT_RAG
 
 
 DIFFICULTY_REVIEWER_PROMPT = """Eres un experto revisor de dificultad de preguntas. Tu trabajo es asegurar que las preguntas se adapten al nivel del usuario.
