@@ -263,9 +263,6 @@ Un puntaje de 7.0 o superior se considera aprobado.
         )
 
         log_orchestrator(f"Evaluación completada: {validated.score:.1f}/10")
-        log_separator()
-        log_user_output(evaluation_msg)
-        log_separator()
 
         return {
             "evaluation_score": validated.score,
