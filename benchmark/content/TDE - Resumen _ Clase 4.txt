@@ -1,0 +1,96 @@
+﻿Factores de comprensión y evaluación
+* Descripción de un proceso que se pueda modelar
+* Enunciar los pasos a seguir
+
+
+________________
+
+
+
+
+Workflow
+* Conjunto de actividades relacionadas, que son completadas en un determinado orden para alcanzar un objetivo de la organización
+   * Sería la representación real de un proceso de trabajo
+* Participan actores → humanos (miembros de la org) y no humanos (sistemas de correos, maquinarias, softwares)
+
+
+Beneficios
+* Mejora la eficiencia operativa
+   * permite optimizar la secuencia de tareas, eliminando bottlenecks y redundancias, que lleva a un uso más eficiente de los recursos
+* Incrementa la productividad
+   * tener un wf claro y estructurado fomenta la concentración en las tareas relevantes y minimiza la pérdida de tiempo en innecesarias/improductivas
+* Reduce errores y la duplicación de esfuerzo
+   * un wf bien diseñado incluye controles de calidad y mecanismo de revisión
+
+
+Componentes clave
+* Entrada de datos → recopilación de recursos necesarios
+* Proceso de trabajo → pasos/actividades para transformar los datos de entrada en resultados deseados
+* Salida de resultados → los productos/entregables generados al finalizar el proceso
+* Seguimiento y control → supervisión continua para garantizar estándares de calidad y tiempo establecidos
+
+
+Modelar procesos
+* Deben ser
+   * Expresividad → tomar en cuenta toda la diversidad de conceptos que ocurren en el ámbito de interés
+   * Idoneidad → el conjunto de elementos de modelado debe reflejar los conceptos y necesidades que surgen en la práctica
+   * Suficiencia → no debe haber un exceso de construcciones de modelado
+   * Precisión → capturar los conceptos de forma precisa
+   * Capacidad de aplicación → debería tener la información suficiente como para desarrollar el proceso sin necesidad de información adicional
+   * Comprensión → intuitivo para los usuarios y similar al proceso operativo que existe en la práctica
+   * Representatividad → debe facilitar el análisis del proceso y su monitoreo
+   * Independencia → su descripción no debe basarse en ninguna tecnología específica
+
+
+Tipos de esquemas
+* Secuencial
+   * cada tarea depende de la finalización de la anterior
+   * Ej.: procesos de aprobación de documentos
+* Paralelo
+   * varias tareas se realizan simultáneamente sin depender unas de otras
+   * Ej.: desarrollo de software, cada uno trabaja en módulos distintos
+* Mixto
+   * ciertas partes secuenciales, otras en paralelo
+   * Ej.: producción de un producto físico, diseño y planificación en paralelo, la fabricación en secuencia
+* Ad-hoc
+   * menos estructurado, flexible, se adapta a situaciones excepcionales que requieren respuesta rápida y creativa
+   * Ej.: manejo de solicitudes de servicio al cliente que no se ajustan al proceso estándar
+
+
+Ejemplos
+* Aprobaciones presupuestarias
+* Comunicación interdepartamental
+* Solicitudes de gastos
+* Aprobaciones de contratos
+
+
+BPM
+* Business Process Management
+* También optimiza procesos de la empresa, pero busca eficiencia total, no específica
+* Abarca mucho más que los workflows
+   * BPM → contribuye para organizar toda la empresa, permite integrar sistemas, procesos y personas
+   * WF → facilita la organización de documentos/personas independientemente
+* Escalabilidad
+   * BPM → más complejos, escalables, centralizan la información de toda la empresa
+   * WF → más sencillos, menos escalables
+* Paralelismo
+   * BPM → gestiona varios flujos de trabajo a la vez
+   * WF → define una secuencia de tareas para obtener un resultado
+
+
+Automatización
+* -
+
+
+Etapas
+* Modelado
+   * entender cómo funciona el negocio
+   * definir qué se hace, en qué orden y por quién
+* Automatización
+   * en lugar de pasarse papeles o mandar mails, le tiene que llegar la info a los usuarios y que una vez completada su parte se mande al siguiente
+* Medición
+   * que sea digital da información basada en hechos y datos, no percepciones
+   * la medición permite ver dónde está el problema y no dónde creemos que está
+* Mejora
+   * herramienta fundamental para la evolución
+   * es el principio de la transformación digital

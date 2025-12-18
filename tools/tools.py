@@ -9,6 +9,16 @@ import json
 file_service = FileService()
 
 
+def load_content_from_directory() -> str:
+    """Carga todo el contenido desde CONTENT_DIR cuando no se usa RAG."""
+    content_dir = os.environ.get("CONTENT_DIR", "./content")
+
+    try:
+        return file_service.read_directory_content(content_dir)
+    except Exception as e:
+        return f"Error al cargar contenido del directorio {content_dir}: {str(e)}"
+
+
 def read_text_file(file_path: str) -> str:
     try:
         content = file_service.read_txt_file(file_path)

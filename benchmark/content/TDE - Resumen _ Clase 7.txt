@@ -1,0 +1,69 @@
+﻿Factores de comprensión y evaluación
+* Descripción de una arquitectura de sistemas
+
+
+________________
+
+
+
+
+Arquitectura empresarial
+* Es una plataforma multifuncional que puede ser utilizada para definir el contexto estratégico para una arquitectura empresarial, la propia arquitectura empresarial y las iniciativas de implementación que realizan los diseños y finalmente entregan el valor comercial
+* Es el proceso de traducir la visión y la estrategia empresarial en cambios estructurales efectivos mediante la creación, comunicación y la mejora de los requerimientos, principios y modelos clave que describen el estado futuro de la organización y habilitan su evolución
+* Es la práctica de analizar, diseñar, planificar e implementar el análisis empresarial para ejecutar con éxito las estrategias empresariales
+* Se centra en varios aspectos, incluidos:
+   * Negocio
+      * sus procesos, las metas y estrategias empresariales y cómo se organizan y operan
+   * Tecnología de la Información (TI)
+      * los sistemas de info, la infraestructura tecnológica, el software de base y cómo estos elementos soportan los procesos de negocio y la estrategia de la empresa
+   * Datos
+      * refiere a la gestión y utilización de los datos dentro de la empresa, incluyendo cómo se recopilan, almacenan, procesan y utilizan para la toma de decisiones, asistiendo en la mejora de los procesos
+   * Aplicaciones
+      * son las aplicaciones de software específicas utilizadas en la empresa, cómo se integran y apoyan a los procesos de negocio
+
+
+Niveles de arquitectura
+* Estratégico → 3 a 5 años
+   * Herramientas
+      * Balanced Scorecard Diagram → es un diagrama por el cual se encuadran los objetivos de la empresa en 4 sectores
+         * Sectores → customer relationship, financial, internal processes, education and growth
+         * Para cada sector se tiene un set de indicadores que deben estar alineados con los objetivos de cada sector
+         * Cada objetivo debe estar alineado con los objetivos de los colaboradores
+      * Matriz relacional → en las filas y las columnas se ponen diferentes áreas de la empresas y procesos y en las intersecciones se pone cómo interactúan
+* Táctico → 1 a 2 años
+   * Menos general que la estratégica
+   * Focalizado en un área particular de visión
+   * Herramientas
+* Solución → de meses a 1 año
+   * Más concreta
+   * Ej.:
+      * Implementar una nueva tecnología
+      * Desarrollo de habilidades de personal
+
+
+Arquitectos
+* Arquitecto empresarial
+   * Visión global
+* Arquitecto de negocios
+   * Se ocupa de los negocios
+   * Define la parte comercial de producto, cómo se integra el producto, si no está matando a sus propios productos, qué requerimientos tiene de IT
+* Arquitecto de sistemas
+   * Cómo se integran los sistemas, cuál es el soporte de base necesario
+* Arquitecto de soluciones
+   * Encargado de resolver problemas específicos
+   * Generalmente problemas relacionados a integración
+      * Avanzamos en un proyecto y al encontrar alguna pieza que no encaja, se encarga el arquitecto de soluciones
+* Arquitecto de datos
+   * Cómo los datos dan información de valor agregado al negocio
+   * Que estén accesibles al que los necesita e inaccesibles al que no le son necesarios
+   * Los datos deben ser administrados de manera que siempre sean íntegros - actualización de datos
+   * Al integrar datos no solo deben cumplir con los requisitos de los metadatos, sino con los de datos en sí, validarlos
+* Arquitecto de infraestructura
+   * Más que nada se ocupa de hw
+   * Qué capacidad de procesamiento necesitamos, qué sistema operativo usan, cómo nos conectamos, (teniendo aws) cómo funcionan los Kubernetes (máquinas virtuales)
+* Arquitecto de gobierno
+   * Tiene que lograr que todo quede balanceado
+   * El gobierno de todo el entorno
+   * Balancear los requerimientos, la gestión, que todo esté bien administrado, que todas las arquitecturas se cumplan
+* Arquitecto de seguridad
+   * El que se encarga de los accesos, controles

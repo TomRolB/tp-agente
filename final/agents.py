@@ -13,7 +13,8 @@ from final.agent_tools import (
     retrieve_content_tool,
     get_topic_content_tool,
     analyze_weak_areas_tool,
-    search_concept_tool
+    search_concept_tool,
+    load_course_content_tool
 )
 
 # Check if RAG is enabled
@@ -65,17 +66,21 @@ def create_model():
 
 def create_question_creator_agent():
     tools = [
-        read_text_file_tool,
-        search_in_text_file_tool,
         list_questions_tool
     ]
 
-    # Add RAG tools only if enabled
+    # Add RAG tools if enabled, otherwise add content loader
     if USE_RAG:
         tools.extend([
             retrieve_content_tool,
             get_topic_content_tool,
             search_concept_tool
+        ])
+    else:
+        tools.extend([
+            load_course_content_tool,
+            read_text_file_tool,
+            search_in_text_file_tool
         ])
 
     llm = create_model()
@@ -111,17 +116,21 @@ def create_orchestrator_agent():
 def create_open_question_creator_agent():
     """Creates Open-Ended Question Creator agent"""
     tools = [
-        read_text_file_tool,
-        search_in_text_file_tool,
         list_questions_tool
     ]
 
-    # Add RAG tools only if enabled
+    # Add RAG tools if enabled, otherwise add content loader
     if USE_RAG:
         tools.extend([
             retrieve_content_tool,
             get_topic_content_tool,
             search_concept_tool
+        ])
+    else:
+        tools.extend([
+            load_course_content_tool,
+            read_text_file_tool,
+            search_in_text_file_tool
         ])
 
     llm = create_model()

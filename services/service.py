@@ -126,6 +126,31 @@ class FileService:
             return f.read()
 
     @staticmethod
+    def read_directory_content(directory_path: str) -> str:
+        """Lee todos los archivos .txt de un directorio y los combina."""
+        if not os.path.exists(directory_path):
+            raise FileNotFoundError(f"Directorio no encontrado: {directory_path}")
+        if not os.path.isdir(directory_path):
+            raise ValueError(f"La ruta no es un directorio: {directory_path}")
+
+        txt_files = [f for f in os.listdir(directory_path) if f.endswith('.txt')]
+
+        if not txt_files:
+            raise FileNotFoundError(f"No se encontraron archivos .txt en: {directory_path}")
+
+        combined_content = []
+        for file_name in sorted(txt_files):
+            file_path = os.path.join(directory_path, file_name)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    combined_content.append(f"=== Contenido de {file_name} ===\n\n{content}\n\n")
+            except Exception as e:
+                combined_content.append(f"=== Error al leer {file_name}: {str(e)} ===\n\n")
+
+        return "\n".join(combined_content)
+
+    @staticmethod
     def search_in_file(file_path: str, search_term: str,
                       case_sensitive: bool = False) -> List[Dict[str, any]]:
         if not os.path.exists(file_path):

@@ -1,0 +1,243 @@
+﻿Factores de comprensión y evaluación
+* Entender el estado de una empresa, caso quiebra, caso convocatoria
+* Describir un panel de control y KPI
+* Realizar un bosquejo de un presupuesto de IT
+
+
+________________
+
+
+
+
+Definiciones
+* Balance general / Estado de situación patrimonial
+   * Foto de la situación económica en un momento determinado
+   * Muestra 
+      * Activos → la naturaleza y cantidad de los recursos económicos
+      * Pasivos → deudas
+      * Patrimonio neto → la participación de los socios sobre activos y pasivos
+         * Valor residual que queda para los propietarios si se pagan todas las deudas
+* Análisis económico-financiero
+   * Estudio de la info contable de una empresa para conocer su situación actual y predecir su futuro
+* Interpretación económica-financiera
+   * “Opinión técnica” del estado contable
+   * Con el objetivo de ayudar a los ejecutivos a tomar decisiones
+* Toma de decisiones
+
+
+* Análisis horizontal → compara estados contables homogéneos de diferentes periodos
+* Análisis vertical → como impacta cada ítem al total de pasivos/activos/patrimonio neto
+* Ratios / Indicadores económico-financieros → índices que ayudan a la toma de decisiones
+
+
+Estado contable
+* Atributos
+   * Pertinencia → que pertenezca al reporte, relevantes
+   * Confiabilidad → hechos por cualquiera pero certificados por un contador
+   * Sistematicidad → que siempre comparen periodos equivalentes
+   * Comparabilidad
+   * Claridad → comprensible
+   * Oportunidad → la info entregada en tiempo y forma
+   * Equilibrio entre costos y beneficios → no gastar plata en reportes inútiles
+   * Representación fiel
+   * Relevancia
+   * Objetividad
+* Igualdad contable
+   * Deudor → quien recibe
+   * Acreedor → quien entrega
+   * El monto que entra debe ser igual al que sale
+   * Los valores que entran por una cuenta deben salir por la misma cuenta
+   * Las pérdidas se debitan y las ganancias se acreditan
+
+
+   * Estática
+      * DEBE = HABER  →  ACTIVO = PASIVO + PATRIMONIO NETO
+   * GANANCIA = RESULTADOS(+) - RESULTADOS(-)
+   * Dinámica
+      * ACTIVO = PASIVO + PATRIMONIO NETO + GANANCIA
+
+
+Cuentas contables
+* Según naturaleza
+   * Cuentas patrimoniales
+      * De Activo (A)
+         * representan valores de bienes propiedad de la empresa y derechos a cobrar de la empresas
+      * De Pasivo (P)
+         * representan montos de obligaciones que le deben a terceros
+      * Regularizadoras de Activo (RA)
+         * las que se restan a cuentas de Activo para que el valor neto sea representativo del valor real de bienes/derechos
+      * Regularizadoras de Pasivo (RP)
+         * las que se restan a cuentas de Pasivo para que el valor neto sea representativo del valor real de las obligaciones
+      * De Patrimonio Neto (PN)
+         * representan las inversiones iniciales de los propietarios, las ganancias retenidas y cualquier otro aporte hecho por los propietarios
+   * Cuentas de resultados
+      * De resultados positivos (R+) - ingresos y ganancias
+         * significan aumentos en el Patrimonio Neto
+      * De resultados negativos (R-) - gastos y pérdidas
+         * significan disminuciones en el Patrimonio Neto
+   * Cuentas de movimiento o control (M)
+      * se usan para registrar o controlar una operación, al final deben quedar con saldo 0 y se deben transferir a la cuenta principal
+   * Cuentas de orden (O)
+      *  representan un posible compromiso a futuro como consecuencia de una situación contingente
+      * no se muestran en los estados contables
+* Según contenido
+   * Cuentas analíticas / simples
+      * corresponden a un hecho individual y en conjunto hacen una colectiva
+   * Cuentas colectivas / sintéticas
+* Según su agrupamiento
+   * Rubros / Cuentas compuestas
+      * agrupan cuentas colectivas
+      * ej.: “Deudas bancarias”
+   * Cuentas recompuestas
+      * agrupan a aquellas cuentas compuestas
+      * ej.: Activo, Pasivo, Patrimonio Neto
+
+
+Plan de cuentas y Manual de cuentas
+* Plan de cuentas
+   * Listado ordenado de todas las cuentas
+   * Debe ser lo más completo posible, pero no demasiado extenso
+* Manual de cuentas
+   * contiene instrucciones de cómo deben utilizarse las cuentas del plan de cuentas
+   * Responde a 5 cuestiones básicas
+      * Tipo de cuenta
+      * Saldo habitual
+      * Qué representa el saldo
+      * Cuándo se debita
+      * Cuándo se acredita
+* Variaciones patrimoniales
+   * Ingresos → aumentos del Patrimonio Neto de la producción/venta de bienes, prestación de servicios u otros hechos principales de la empresa
+   * Gastos → disminuciones en del Patrimonio Neto relacionadas a los ingresos
+   * Ganancias → aumentos del Patrimonio Neto debido a operaciones secundarias o accesorias en otras transacciones
+   * Pérdidas → disminuciones del Patrimonio Neto debido a operaciones secundarias
+   * Variación patrimonial modificativa → afecta al Patrimonio Neto
+   * Variación patrimonial permutativa → permutan las cuentas de activos entre sí, las de pasivos entre sí
+* Otros
+   * Utilidad neta = Ingresos - Gastos - Impuestos - (otros)
+
+
+Ejercicio económico
+* En general es de 12 meses
+* Partidas
+   * Corrientes → mayor liquidez (se convierten en dinero más rápido)
+   * No corrientes → menor liquidez
+      * Los activos no corrientes se esperan que sean líquidos al siguiente ejercicio económico
+         * Ej de rubros.
+            * Participación permanente de sociedades
+            * Inversiones para obtener renta / otros beneficios
+            * Bienes de uso (muebles, útiles, etc)
+            * Activos intangibles que representan franquicias/privilegios (marcas, licencias, patentes, gastos de organización, etc)
+Análisis financiero
+* Conocer el pasado
+* Visualizar el presente
+* Planear el futuro de las organizaciones en términos económicos y financieros
+
+
+Fuentes de datos
+* Balance General / Estado de situación patrimonial
+* Estado de Resultados
+* Estado de Evolución de Patrimonio Neto
+* Estado de Flujo de Efectivo
+* (complementario)
+   * Notas a los Estados Contables
+   * Cuadros y Anexos
+
+
+Objetivos del análisis
+* Nivel dirección → determinar la eficiencia de la empresa en general
+* Nivel operativo → medir la eficiencia de los diferentes sectores adentro de la empresa
+* Nivel objetivos → determinar la eficiencia del logro de un objetivo específico
+* Sirve para determinar cómo la empresa administra sus recursos, midiendo la relación entre capital propio y ajeno
+
+
+Análisis
+* Análisis Horizontal
+   * evolución de cada rubro/cuenta de un estado de resultados a otro estado tomado como base
+   * En base a dos estados de períodos consecutivos, evaluados de igual forma
+   * Primero se calcula la variación absoluta, después la relativa
+   * Fórmula 1 → CUENTA ANALIZADA - CUENTA BASE
+   * Fórmula 2 → ( CUENTA ANALIZADA / CUENTA BASE - 1 ) * 100
+* Análisis Vertical
+   * Muestra la importancia de cada rubro/cuenta en relación al total del grupo que pertenece
+   * Análisis “estático” porque muestra la situación financiera de un momento determinado
+   * Para verificar la distribución de sus activos de acuerdo a las necesidades financieras y operativas
+   * Fórmula → ( CUENTA ANALIZADA / TOTAL GRUPO ) * 100
+* EBIDTA
+   * Representa los ingresos generados antes de descontar los costos asociados con el endeudamiento, impuestos, depreciación y amortización
+   * Útil para comparar rentabilidad entre empresas ya que elimina factores no operativos y solo considera ganancias generadas por las operaciones centrales de la empresa
+* Ratios / Indicadores financieros
+   * Complementos al análisis vertical/horizontal
+      * para medir la realidad económica y financiera de una empresa y su capacidad para asumir sus obligaciones y para poder desarrollar su objeto social
+   * Comunes → los que sirven para determinar liquidez, solvencia, estabilidad, solidez y rentabilidad
+   * Ratio de Liquidez
+      * (o razón corriente)
+      * Capacidad de hacer frente a sus deudas a corto plazo
+         * Cuanto del pasivo cubre el activo
+      * Fórmula → LIQUIDEZ = ACTIVO CORRIENTE / PASIVO CORRIENTE
+      * Resultado
+         * igual a 1 → cumple con sus obligaciones
+         * mayor a 1 → corre riesgo de tener activos ociosos
+         * menor a 1 → corre riesgo de no complir con sus obligaciones
+   * Prueba Ácida
+      * Capacidad de la empresa para cancelar sus obligaciones corrientes sin necesidad de vender sus existencias
+      * Fórmula → PRUEBA ÁCIDA = (ACTIVO C - INVENTARIO) / PASIVO C
+      * (el inventario es el menos líquido así que no se cuenta)
+      * Resultado
+         * igual a 1 → bien, garantizaría el pago de la deuda a corto plazo
+         * mayor a 1 → podría tener exceso de recursos y afectar su rentabilidad
+         * menor a 1 → peligro de caer en insuficiencia de recursos para hacer frente a los pagos
+   * Capital de Trabajo
+      * Capacidad de llevar a cabo sus actividades con normalidad en el corto plazo pagando sus deudas inmediatas
+         * Activos que sobran en relación a los pasivos a corto plazo
+      * Fórmula → ACTIVO CORRIENTE - PASIVO CORRIENTE
+      * Resultado
+         * Negativo → deberían vender activo no corriente, realizar ampliaciones de capital o contraer deuda a largo plazo
+* Indicadores de Gestión
+   * Efectividad y eficiencia de la gestión empresarial
+   * Rotación de Créditos por Venta
+      * Cuantos días tarda una empresa en cobrarle a los clientes
+      * Fórmula → RCV = CRÉDITOS POR VENTAS * 360 / VENTAS
+   * Rotación de Cuentas a Pagar
+      * Cuántos días tarda en pagar sus deudas a sus proveedores
+      * Fórmula → RCP = DEUDAS COMERCIALES * 360 / COMPRAS
+   * Rotación de Caja y Bancos
+      * La capacidad del efectivo en caja y bancos para cubrir los días de venta
+      * Fórmula → RCB = CAJA Y BANCOS * 360 / VENTAS
+   * Rotación de Activos Totales
+      * La eficacia en la gestión de activos para generar ventas
+      * Fórmula → RAT = VENTAS / ACTIVOS TOTALES
+      * Resultado
+         * Más alto = Mayor productividad
+   * Rotación de Activo No Corriente
+      * Como activos totales, pero solo se tienen en cuenta los fijos
+      * Fórmula → RANC = VENTAS / ACTIVO NC
+* Indicadores de Endeudamiento
+   * Capacidad de la empresa de cumplir sus obligaciones financieras
+   * Resultados
+      * mayor a 60 → demasiado endeudada
+      * menor a 40 → demasiado patrimonio neto sin usar, pérdida de rentabilidad
+      * entre 40-60 → ideal
+   * Endeudamiento a Corto Plazo
+      * Relación entre los fondos propios y las deudas con los proveedores a corto plazo
+      * Fórmula → ECP = (PASIVO C / PATRIMONIO NETO) * 100
+   * Endeudamiento a Largo Plazo
+      * Fórmula → ELP = (PASIVO NC / PATRIMONIO NETO) * 100
+   * Endeudamiento Total
+      * Tanto corto como largo plazo
+      * Fórmula → (PASIVO / PATRIMONIO NETO) * 100
+   * Endeudamiento de Activo
+      * Cuánto del activo total se ha financiado con recursos propios o capital ajeno
+      * Fórmula → EA = (PASIVO TOTAL / ACTIVO TOTAL) * 100
+* Indicadores de Rentabilidad
+   * Nivel de eficiencia en el uso de sus recursos en relación a la gestión de sus operaciones
+   * Rentabilidad sobre ventas
+      * Porcentaje de utilidad que queda por cada peso de ventas
+      * Fórmula → RV = UTILIDAD NETA / VENTAS * 100
+      * Resultado
+         * Más alto = Mayor rentabilidad
+   * Rentabilidad del Patrimonio Neto
+      * Rendimiento del capital de los socios y de los resultados acumulados
+      * Fórmula → RPN = UTILIDAD NETA / PATRIMONIO NETO * 100
+   * Rentabilidad del Activo
+      * Cuánto se ganó sobre el total del activo
+      * Fórmula → RA = UTILIDAD NETA / ACTIVO

@@ -1,0 +1,233 @@
+﻿Factores de comprensión y evaluación
+* Diferenciar los distintos tipos de empresas y estructuras legales
+* Ubicar un rol dentro de una organización
+* Describir los distintos roles de IT en una organización
+
+
+________________
+
+
+
+
+Empresa
+* Es una organización estructurada en base a un capital y a la utilización que de él hacen sus propietarios, para desarrollar diversas actividades productivas y en el proceso obtener un lucro o, en el caso de empresas públicas, para prestar servicios a la comunidad
+
+
+Objetivos de una empresa
+* Son los pasos definidos para alcanzar los resultados de negocio que la empresa espera
+* Beneficios
+   * Permite que la toma de decisiones esté orientada a los resultados
+   * Orienta a los colaboradores a un mismo fin
+   * Proporciona un parámetro para medir el éxito
+   * Direcciona las estrategias definidas
+* Deben ser SMART
+   * Específico
+   * Medible
+   * Alcanzable
+   * Realista
+   * Con un tiempo límite
+* Clasificación
+   * Según función
+      * General → expresa el resultado deseado final de un proyecto
+      * Específico → son las etapas para llegar al general
+   * Según plazo
+      * Corto → hasta un año
+      * Mediano → 1-5 años
+      * Largo → 5+ años
+
+
+Tipos de empresas
+* Tamaño
+   * Micro → hasta 5 trabajadores
+   * Pequeña → 6-50 trabajadores
+   * Mediana → 50-200 trabajadores
+   * Grande → 200+ trabajadores
+* Alcance geográfico
+   * Local → dentro de un pueblo/ciudad
+   * Regional → opera en más de una ciudad y su operación puede llegar a una zona geográfica más amplia
+   * Nacional → sus operaciones tienen una cobertura casi total de un país
+   * Multinacional → alcanza a múltiples países pero la casa matriz pertenece a la nación de origen
+   * Transnacional → alcanza a múltiples países y su operación está descentralizada, cada región opera de forma independiente
+* Giro / Actividad / Sectores de la industria
+   * De extracción → obtiene recursos naturales directo de la fuente
+   * De transformación o manufactura → trabaja las materias prima, las transforma en productos terminados o bases para generar otros productos
+   * Comercial → todas las que adquieran un bien para vender a consumidores u otras empresas
+   * De servicios → ofrecen elementos “intangibles”, servicios
+* Origen del capital
+   * Pública → capital del gobierno - es del gobierno
+   * Privada → capital provisto por el sector privado - sus creadores, accionistas y dueños no son del gobierno
+   * Mixta → con capital privado y público - suelen ser de extracción/transformación de recursos regulados por el gobierno
+* Constitución jurídica (tipos de sociedades)
+   * Sociedad anónima
+      * Su capital se divide en acciones de igual valor
+      * Integrada por 3 órganos “asamblea de accionistas”, “directorio” y “sindicatura”
+   * Sociedad anónima con participación estatal mayoritaria
+      * El Estado posee al menos el 51% de las acciones
+   * Responsabilidad limitada
+      * Menos de 50 socios
+      * Su capital está dividido en cuotas y cada cuota es un voto
+      * La administración la hace una gerencia
+   * Capital e Industria
+      * Dos socios → capitalistas e industriales
+      * Capitalistas → responsabilidad es personal, solidaria e ilimitada
+      * Industriales → solo aportan su trabajo y no tienen responsabilidad
+   * Colectiva
+      * Responsabilidad → es personal o subsidiaria, solidaria e ilimitada
+      * Participaciones de los socios → partes de interés, la participación se divide en porciones según el aporte
+   * Cooperativa
+      * Hechas y controladas por los miembros
+      * Responsabilidades, ganancias y pérdidas distribuidas equitativamente entre miembros
+      * Responsabilidad limitada → en caso de deuda no pierden sus activos personales
+   * Comanditaria / Compadita por acciones
+      * Existen dos clases de accionistas → Comanditados, Comanditarios
+      * Comanditados → responden a las deudas sociales de forma personal o subsidiaria, solidaria e ilimitada
+         * involucrados en la gestión y toma de decisiones
+         * personal/subsidiaria - pagar con sus propios recursos / pagar las deudas si la empresa no puede hacerlo
+         * solidaria - responsabilidad compartida entre comanditados, podría tener que pagar todo si el resto no puede
+         * ilimitada - pueden ser obligados a cubrir las deudas sin un límite
+      * Comanditarios → están obligados a dar lo que hayan prometido al crear la empresa, no son responsables de las deudas más allá de lo prometido
+         * no involucrados en la gestión
+   * Acción simplificada
+      * forma fácil de formar micro y pequeñas empresas
+      * solo se necesita un socio para constituirla
+      * recursos y responsabilidades se limitan a lo que cada socio aporta
+   * ONG / OSC
+      * Organizaciones no gubernamentales / Organizaciones de la Sociedad Civil
+      * Estructuradas en base a un capital aportado por sus socios para desarrollar actividades sin fines de lucro, en pos del bien común
+* Uso de la tecnología
+   * Artesanal → herramientas manuales e infraestructura limitada
+   * Tradicional → herramientas básicas que no agregan un “valor característico” al producto terminado
+   * Tecnología media → maquinaria y procesos mecanizados, con plantas de fabricación
+   * Tecnología avanzada → aplican procesos automatizados a la producción y utilizan cómputo o ingeniería para la fabricación de productos complejos
+
+
+Organización de recursos humanos
+* La gestión del personal y las decisiones RRHH impactan sobre el funcionamiento y comportamiento de toda la empresa
+* Generalmente se representa con un organigrama, que de forma visual permite conocer lo que se espera de cada miembro del equipo y a quién debe reportar
+* Objetivo → alinear los objetivos de la empresa con el de sus empleados, procurando que en el proceso se garantice el bienestar de los mismos
+
+
+Tipos de estructuras
+* Organización formal e informal
+   * Ambos suelen coexistir
+   * La formal suele ser la tradicional, con niveles de jerarquía y cada uno con tareas y objetivos asignados
+   * La informal es más flexible y está basado en las relaciones personales y las dinámicas que se establecen en los grupos
+* Organización jerárquica
+   * Sistema vertical con comunicación descendente (directivos>mandos medios>subordinados)
+   * Ventajas
+      * Está claro quien es la autoridad
+      * Cada uno sabe a quién tiene que responder
+      * Hay un plan de carrera/promoción que es escalar la pirámide
+   * Desventajas
+      * Rigidez
+      * Problemas de comunicación y desunión
+* Dirección por objetivos
+   * Se subdividen los objetivos generales de la empresa y se asignan por áreas para que los lleven a cabo de forma autónoma
+   * Es vital que cada persona esté totalmente informada y de acuerdo con los objetivos que se le asignan
+   * Ventajas
+      * Facilita la planificación
+      * Impulsa el desempeño de los equipos
+      * Aumenta el compromiso
+   * Desventajas
+* Organización matricial
+   * Los miembros dependen de varios líderes
+      * Ventajas
+         * Objetivos del proyecto claros
+         * Uso eficiente de los recursos
+         * Libre flujo de información
+         * Capacitación para los gerentes de proyectos
+         * Retención de equipos
+      * Desventajas
+         * Informes complejos
+         * Tiempos de respuesta lentos
+         * Instrucciones contradictorias
+         * Posibles conflictos de poder
+         * Gestión de múltiples prioridades
+* Organización en pirámide invertida
+   * La idea es que los clientes son parte de la empresa y los pilares de la organización se apoyan en la atención al consumidor
+   * En la cima los clientes, abajo de todo la dirección
+* Organización en red o virtual
+   * La empresa está compuesta por un grupo ejecutivo que se encarga de contratar los servicios de empresas externas
+   * Se subcontratan todas las áreas que no son core del negocio
+* Organización Flex - sin estructura propia
+   * Formado por un núcleo, la subcontratación y el trabajo flexible
+   * Core - personas calificadas y esenciales para la empresa
+   * Subcontratación - empresas externas que realizan actividades menos relevantes
+   * Trabajo flexible - los trabajadores con contratos temporales
+
+
+Funciones
+* Varían de empresa a empresa
+   * Empresas pequeñas → se hacen en pocas secciones y con frecuencia
+   * Empresas grandes → el departamento de rrhh puede ser muy complejo y dividirse en secciones que se encargan de actividades diferentes
+* Es el nexo de únión entre los valores de la empresa y sus empleados
+* Establecen la política de selección de personal
+* Hacen la inducción de nuevos empleados
+* Establecen la política de capacitación y planes de formación
+* Administran el presupuesto que la empresa invierte para Formación y Empleo
+* Establecen la política de evaluación del desempeño
+* Establecen la política compensatoria
+   * Objetivo → retención del personal
+* Encargados de mantener el clima laboral
+* Administración
+   * Elaboración de nóminas
+   * Aspectos legales de contratación
+   * Documentos necesarios en caso de despidos
+   * Gestión y actualización del expediente de los empleados
+   * …
+
+
+Gestión de RRHH por competencias
+* Traduce los valores de la empresa en competencias que todos deberían tener
+* Constituyen la base para todas las áreas, de la cual se desarollan políticas de selección, formación, promoción, etc
+
+
+La motivación en el trabajo
+* Todo lo que impulsa a una persona a hacer lo mejor posible su trabajo
+* Tipos de motivaciones
+   * Internas → dependen de cada persona, de su voluntad interior (orgullo, ambición, responsabilidad, …)
+   * Externas → determinadas por las condiciones de trabajo, salario, relaciones con los compañeros, …
+* Si se conocen las necesidades se pueden comprender las motivaciones
+   * Se tienen que estimular las necesidades insatisfechas
+* Necesidades
+   * Básicas
+      * Fisiológicas - respiración, alimentación, descanso, …
+   * Secundarias
+      * Seguridad - física, de empleo, moral, de salud, …
+      * Sociales - amistad, afecto, …
+      * Reconocimiento - autorreconocimiento, confianza, respeto, éxito, …
+      * Autorrealización - moralidad, creatividad, resolución de problemas, …
+
+
+Rol de IT
+* -
+
+
+Departamento de sistemas
+* Área de la empresa que se encarga de proveer información y las herramientas para manipularla
+* Responsable de ofrecer soluciones informáticas y el equipo necesario para su implementación
+* Administrar la seguridad informática - física y lógica
+
+
+Funciones
+* Realizar mantenimiento correctivo, preventivo y predictivo de los equipos
+* Optimizar el rendimiento y sintonía del sw de base
+* etc
+* Basicamente → se encarga de la red informática, los servidores, computadoras personales, dispositivos móviles, aplicaciones y los servicios de uso general instalados en los equipos de la empresa
+
+
+Roles
+* Informático generalista (analista de sistemas)
+   * conocedor de los sistemas de información, recomendable en desarrollo de proyectos
+* Experto en desarrollo de proyectos
+   * analista de sistemas, conocedor de las metodologías de desarrollo
+* Técnico en sistemas
+   * conocedor de sistemas operativos y experto en sw básico
+* Administrador de BD
+   * experto en el mantenimiento y admin de bd
+* Administrador de redes
+   * garantiza la disponibilidad de acceso local y remota, admin de VPNs, accesos y DMZ
+* Administrador de seguridad
+   * identificación y evaluación de vulnerabilidades, admin de firewalls y encriptación
+   * monitorización y detección de amenazas, gestión de incidentes de seguridad
+* etc

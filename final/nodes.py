@@ -94,12 +94,7 @@ def question_creator_node(state: AgentState):
     else:
         from final.prompts import QUESTION_CREATOR_PROMPT_NO_RAG
         prompt = QUESTION_CREATOR_PROMPT_NO_RAG
-        # Include content path if available
-        content_path = os.environ.get("CONTENT_PATH", "")
-        if content_path:
-            message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso. El archivo del curso está en: {content_path}{context}"
-        else:
-            message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso.{context}"
+        message = f"Crea una nueva pregunta de opción múltiple basada en el material del curso. USA load_course_content_tool para acceder al contenido.{context}"
 
     try:
         result = agent.invoke({
@@ -153,11 +148,7 @@ def open_question_creator_node(state: AgentState):
     else:
         from final.prompts import OPEN_ENDED_QUESTION_CREATOR_PROMPT_NO_RAG
         prompt = OPEN_ENDED_QUESTION_CREATOR_PROMPT_NO_RAG
-        content_path = os.environ.get("CONTENT_PATH", "")
-        if content_path:
-            message = f"Crea una nueva pregunta abierta basada en el material del curso. El archivo del curso está en: {content_path}{context}"
-        else:
-            message = f"Crea una nueva pregunta abierta basada en el material del curso.{context}"
+        message = f"Crea una nueva pregunta abierta basada en el material del curso. USA load_course_content_tool para acceder al contenido.{context}"
 
     try:
         result = agent.invoke({

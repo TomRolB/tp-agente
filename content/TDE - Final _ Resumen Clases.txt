@@ -1,0 +1,2446 @@
+﻿Clase 1
+
+
+Empresa
+* Es una organización estructurada en base a un capital y a la utilización que de él hacen sus propietarios, para desarrollar diversas actividades productivas y en el proceso obtener un lucro o, en el caso de empresas públicas, para prestar servicios a la comunidad
+
+
+Objetivos de una empresa
+* Son los pasos definidos para alcanzar los resultados de negocio que la empresa espera
+* Beneficios
+   * Permite que la toma de decisiones esté orientada a los resultados
+   * Orienta a los colaboradores a un mismo fin
+   * Proporciona un parámetro para medir el éxito
+   * Direcciona las estrategias definidas
+* Deben ser SMART
+   * Específico
+   * Medible
+   * Alcanzable
+   * Realista
+   * Con un tiempo límite
+* Clasificación
+   * Según función
+      * General → expresa el resultado deseado final de un proyecto
+      * Específico → son las etapas para llegar al general
+   * Según plazo
+      * Corto → hasta un año
+      * Mediano → 1-5 años
+      * Largo → 5+ años
+
+
+Tipos de empresas
+* Tamaño
+   * Micro → hasta 5 trabajadores
+   * Pequeña → 6-50 trabajadores
+   * Mediana → 50-200 trabajadores
+   * Grande → 200+ trabajadores
+* Alcance geográfico
+   * Local → dentro de un pueblo/ciudad
+   * Regional → opera en más de una ciudad y su operación puede llegar a una zona geográfica más amplia
+   * Nacional → sus operaciones tienen una cobertura casi total de un país
+   * Multinacional → alcanza a múltiples países pero la casa matriz pertenece a la nación de origen
+   * Transnacional → alcanza a múltiples países y su operación está descentralizada, cada región opera de forma independiente
+* Giro / Actividad / Sectores de la industria
+   * De extracción → obtiene recursos naturales directo de la fuente
+   * De transformación o manufactura → trabaja las materias prima, las transforma en productos terminados o bases para generar otros productos
+   * Comercial → todas las que adquieran un bien para vender a consumidores u otras empresas
+   * De servicios → ofrecen elementos “intangibles”, servicios
+* Origen del capital
+   * Pública → capital del gobierno - es del gobierno
+   * Privada → capital provisto por el sector privado - sus creadores, accionistas y dueños no son del gobierno
+   * Mixta → con capital privado y público - suelen ser de extracción/transformación de recursos regulados por el gobierno
+* Constitución jurídica (tipos de sociedades)
+   * Sociedad anónima
+      * Su capital se divide en acciones de igual valor
+      * Integrada por 3 órganos “asamblea de accionistas”, “directorio” y “sindicatura”
+   * Sociedad anónima con participación estatal mayoritaria
+      * El Estado posee al menos el 51% de las acciones
+   * Responsabilidad limitada
+      * Menos de 50 socios
+      * Su capital está dividido en cuotas y cada cuota es un voto
+      * La administración la hace una gerencia
+   * Capital e Industria
+      * Dos socios → capitalistas e industriales
+      * Capitalistas → responsabilidad es personal, solidaria e ilimitada
+      * Industriales → solo aportan su trabajo y no tienen responsabilidad
+   * Colectiva
+      * Responsabilidad → es personal o subsidiaria, solidaria e ilimitada
+      * Participaciones de los socios → partes de interés, la participación se divide en porciones según el aporte
+   * Cooperativa
+      * Hechas y controladas por los miembros
+      * Responsabilidades, ganancias y pérdidas distribuidas equitativamente entre miembros
+      * Responsabilidad limitada → en caso de deuda no pierden sus activos personales
+   * Comanditaria / Compadita por acciones
+      * Existen dos clases de accionistas → Comanditados, Comanditarios
+      * Comanditados → responden a las deudas sociales de forma personal o subsidiaria, solidaria e ilimitada
+         * involucrados en la gestión y toma de decisiones
+         * personal/subsidiaria - pagar con sus propios recursos / pagar las deudas si la empresa no puede hacerlo
+         * solidaria - responsabilidad compartida entre comanditados, podría tener que pagar todo si el resto no puede
+         * ilimitada - pueden ser obligados a cubrir las deudas sin un límite
+      * Comanditarios → están obligados a dar lo que hayan prometido al crear la empresa, no son responsables de las deudas más allá de lo prometido
+         * no involucrados en la gestión
+   * Acción simplificada
+      * forma fácil de formar micro y pequeñas empresas
+      * solo se necesita un socio para constituirla
+      * recursos y responsabilidades se limitan a lo que cada socio aporta
+   * ONG / OSC
+      * Organizaciones no gubernamentales / Organizaciones de la Sociedad Civil
+      * Estructuradas en base a un capital aportado por sus socios para desarrollar actividades sin fines de lucro, en pos del bien común
+* Uso de la tecnología
+   * Artesanal → herramientas manuales e infraestructura limitada
+   * Tradicional → herramientas básicas que no agregan un “valor característico” al producto terminado
+   * Tecnología media → maquinaria y procesos mecanizados, con plantas de fabricación
+   * Tecnología avanzada → aplican procesos automatizados a la producción y utilizan cómputo o ingeniería para la fabricación de productos complejos
+
+
+Organización de recursos humanos
+* La gestión del personal y las decisiones RRHH impactan sobre el funcionamiento y comportamiento de toda la empresa
+* Generalmente se representa con un organigrama, que de forma visual permite conocer lo que se espera de cada miembro del equipo y a quién debe reportar
+* Objetivo → alinear los objetivos de la empresa con el de sus empleados, procurando que en el proceso se garantice el bienestar de los mismos
+
+
+Tipos de estructuras
+* Organización formal e informal
+   * Ambos suelen coexistir
+   * La formal suele ser la tradicional, con niveles de jerarquía y cada uno con tareas y objetivos asignados
+   * La informal es más flexible y está basado en las relaciones personales y las dinámicas que se establecen en los grupos
+* Organización jerárquica
+   * Sistema vertical con comunicación descendente (directivos>mandos medios>subordinados)
+   * Ventajas
+      * Está claro quien es la autoridad
+      * Cada uno sabe a quién tiene que responder
+      * Hay un plan de carrera/promoción que es escalar la pirámide
+   * Desventajas
+      * Rigidez
+      * Problemas de comunicación y desunión
+* Dirección por objetivos
+   * Se subdividen los objetivos generales de la empresa y se asignan por áreas para que los lleven a cabo de forma autónoma
+   * Es vital que cada persona esté totalmente informada y de acuerdo con los objetivos que se le asignan
+   * Ventajas
+      * Facilita la planificación
+      * Impulsa el desempeño de los equipos
+      * Aumenta el compromiso
+   * Desventajas
+* Organización matricial
+   * Los miembros dependen de varios líderes
+      * Ventajas
+         * Objetivos del proyecto claros
+         * Uso eficiente de los recursos
+         * Libre flujo de información
+         * Capacitación para los gerentes de proyectos
+         * Retención de equipos
+      * Desventajas
+         * Informes complejos
+         * Tiempos de respuesta lentos
+         * Instrucciones contradictorias
+         * Posibles conflictos de poder
+         * Gestión de múltiples prioridades
+* Organización en pirámide invertida
+   * La idea es que los clientes son parte de la empresa y los pilares de la organización se apoyan en la atención al consumidor
+   * En la cima los clientes, abajo de todo la dirección
+* Organización en red o virtual
+   * La empresa está compuesta por un grupo ejecutivo que se encarga de contratar los servicios de empresas externas
+   * Se subcontratan todas las áreas que no son core del negocio
+* Organización Flex - sin estructura propia
+   * Formado por un núcleo, la subcontratación y el trabajo flexible
+   * Core - personas calificadas y esenciales para la empresa
+   * Subcontratación - empresas externas que realizan actividades menos relevantes
+   * Trabajo flexible - los trabajadores con contratos temporales
+
+
+Funciones
+* Varían de empresa a empresa
+   * Empresas pequeñas → se hacen en pocas secciones y con frecuencia
+   * Empresas grandes → el departamento de rrhh puede ser muy complejo y dividirse en secciones que se encargan de actividades diferentes
+* Es el nexo de únión entre los valores de la empresa y sus empleados
+* Establecen la política de selección de personal
+* Hacen la inducción de nuevos empleados
+* Establecen la política de capacitación y planes de formación
+* Administran el presupuesto que la empresa invierte para Formación y Empleo
+* Establecen la política de evaluación del desempeño
+* Establecen la política compensatoria
+   * Objetivo → retención del personal
+* Encargados de mantener el clima laboral
+* Administración
+   * Elaboración de nóminas
+   * Aspectos legales de contratación
+   * Documentos necesarios en caso de despidos
+   * Gestión y actualización del expediente de los empleados
+   * …
+
+
+Gestión de RRHH por competencias
+* Traduce los valores de la empresa en competencias que todos deberían tener
+* Constituyen la base para todas las áreas, de la cual se desarollan políticas de selección, formación, promoción, etc
+
+
+La motivación en el trabajo
+* Todo lo que impulsa a una persona a hacer lo mejor posible su trabajo
+* Tipos de motivaciones
+   * Internas → dependen de cada persona, de su voluntad interior (orgullo, ambición, responsabilidad, …)
+   * Externas → determinadas por las condiciones de trabajo, salario, relaciones con los compañeros, …
+* Si se conocen las necesidades se pueden comprender las motivaciones
+   * Se tienen que estimular las necesidades insatisfechas
+* Necesidades
+   * Básicas
+      * Fisiológicas - respiración, alimentación, descanso, …
+   * Secundarias
+      * Seguridad - física, de empleo, moral, de salud, …
+      * Sociales - amistad, afecto, …
+      * Reconocimiento - autorreconocimiento, confianza, respeto, éxito, …
+      * Autorrealización - moralidad, creatividad, resolución de problemas, …
+
+
+Rol de IT
+* -
+
+
+Departamento de sistemas
+* Área de la empresa que se encarga de proveer información y las herramientas para manipularla
+* Responsable de ofrecer soluciones informáticas y el equipo necesario para su implementación
+* Administrar la seguridad informática - física y lógica
+
+
+Funciones
+* Realizar mantenimiento correctivo, preventivo y predictivo de los equipos
+* Optimizar el rendimiento y sintonía del sw de base
+* etc
+* Basicamente → se encarga de la red informática, los servidores, computadoras personales, dispositivos móviles, aplicaciones y los servicios de uso general instalados en los equipos de la empresa
+
+
+Clase 2
+Definiciones
+* Balance general / Estado de situación patrimonial
+   * Foto de la situación económica en un momento determinado
+   * Muestra 
+      * Activos → la naturaleza y cantidad de los recursos económicos
+      * Pasivos → deudas
+      * Patrimonio neto → la participación de los socios sobre activos y pasivos
+         * Valor residual que queda para los propietarios si se pagan todas las deudas
+* Análisis económico-financiero
+   * Estudio de la info contable de una empresa para conocer su situación actual y predecir su futuro
+* Interpretación económica-financiera
+   * “Opinión técnica” del estado contable
+   * Con el objetivo de ayudar a los ejecutivos a tomar decisiones
+* Toma de decisiones
+
+
+* Análisis horizontal → compara estados contables homogéneos de diferentes periodos
+* Análisis vertical → como impacta cada ítem al total de pasivos/activos/patrimonio neto
+* Ratios / Indicadores económico-financieros → índices que ayudan a la toma de decisiones
+
+
+Estado contable
+* Atributos
+   * Pertinencia → que pertenezca al reporte, relevantes
+   * Confiabilidad → hechos por cualquiera pero certificados por un contador
+   * Sistematicidad → que siempre comparen periodos equivalentes
+   * Comparabilidad
+   * Claridad → comprensible
+   * Oportunidad → la info entregada en tiempo y forma
+   * Equilibrio entre costos y beneficios → no gastar plata en reportes inútiles
+   * Representación fiel
+   * Relevancia
+   * Objetividad
+* Igualdad contable
+   * Acreedor → quien recibe
+   * Deudor → quien entrega
+   * El monto que entra debe ser igual al que sale
+   * Los valores que entran por una cuenta deben salir por la misma cuenta
+   * Las pérdidas se debitan y las ganancias se acreditan
+
+
+   * Estática
+      * DEBE = HABER  →  ACTIVO = PASIVO + PATRIMONIO NETO
+   * GANANCIA = RESULTADOS(+) - RESULTADOS(-)
+   * Dinámica
+      * ACTIVO = PASIVO + PATRIMONIO NETO + GANANCIA
+
+
+Cuentas contables
+* Según naturaleza
+   * Cuentas patrimoniales
+      * De Activo (A)
+         * representan valores de bienes propiedad de la empresa y derechos a cobrar de la empresas
+      * De Pasivo (P)
+         * representan montos de obligaciones que le deben a terceros
+      * Regularizadoras de Activo (RA)
+         * las que se restan a cuentas de Activo para que el valor neto sea representativo del valor real de bienes/derechos
+      * Regularizadoras de Pasivo (RP)
+         * las que se restan a cuentas de Pasivo para que el valor neto sea representativo del valor real de las obligaciones
+      * De Patrimonio Neto (PN)
+         * representan las inversiones iniciales de los propietarios, las ganancias retenidas y cualquier otro aporte hecho por los propietarios
+   * Cuentas de resultados
+      * De resultados positivos (R+) - ingresos y ganancias
+         * significan aumentos en el Patrimonio Neto
+      * De resultados negativos (R-) - gastos y pérdidas
+         * significan disminuciones en el Patrimonio Neto
+   * Cuentas de movimiento o control (M)
+      * se usan para registrar o controlar una operación, al final deben quedar con saldo 0 y se deben transferir a la cuenta principal
+   * Cuentas de orden (O)
+      *  representan un posible compromiso a futuro como consecuencia de una situación contingente
+      * no se muestran en los estados contables
+* Según contenido
+   * Cuentas analíticas / simples
+      * corresponden a un hecho individual y en conjunto hacen una colectiva
+   * Cuentas colectivas / sintéticas
+* Según su agrupamiento
+   * Rubros / Cuentas compuestas
+      * agrupan cuentas colectivas
+      * ej.: “Deudas bancarias”
+   * Cuentas recompuestas
+      * agrupan a aquellas cuentas compuestas
+      * ej.: Activo, Pasivo, Patrimonio Neto
+
+
+Plan de cuentas y Manual de cuentas
+* Plan de cuentas
+   * Listado ordenado de todas las cuentas
+* Manual de cuentas
+   * contiene instrucciones de cómo deben utilizarse las cuentas del plan de cuentas
+   * Responde a 5 cuestiones básicas
+      * Tipo de cuenta
+      * Saldo habitual
+      * Qué representa el saldo
+      * Cuándo se debita
+      * Cuándo se acredita
+* Variaciones patrimoniales
+   * Ingresos → aumentos del Patrimonio Neto de la producción/venta de bienes, prestación de servicios u otros hechos principales de la empresa
+   * Gastos → disminuciones en del Patrimonio Neto relacionadas a los ingresos
+   * Ganancias → aumentos del Patrimonio Neto debido a operaciones secundarias o accesorias en otras transacciones
+   * Pérdidas → disminuciones del Patrimonio Neto debido a operaciones secundarias
+   * Variación patrimonial modificativa → afecta al Patrimonio Neto
+   * Variación patrimonial permutativa → permutan las cuentas de activos entre sí, las de pasivos entre sí
+* Otros
+   * Utilidad neta = Ingresos - Gastos - Impuestos - (otros)
+
+
+Ejercicio económico
+* En general es de 12 meses
+* Partidas
+   * Corrientes → mayor liquidez (se convierten en dinero más rápido)
+   * No corrientes → menor liquidez
+      * Los activos no corrientes se esperan que sean líquidos al siguiente ejercicio económico
+
+
+Análisis financiero
+* Conocer el pasado
+* Visualizar el presente
+* Planear el futuro de las organizaciones en términos económicos y financieros
+
+
+Fuentes de datos
+* Balance General / Estado de situación patrimonial
+* Estado de Resultados
+* Estado de Evolución de Patrimonio Neto
+* Estado de Flujo de Efectivo
+* (complementario)
+   * Notas a los Estados Contables
+   * Cuadros y Anexos
+
+
+Objetivos del análisis
+* Nivel dirección → determinar la eficiencia de la empresa en general
+* Nivel operativo → medir la eficiencia de los diferentes sectores adentro de la empresa
+* Nivel objetivos → determinar la eficiencia del logro de un objetivo específico
+* Sirve para determinar cómo la empresa administra sus recursos, midiendo la relación entre capital propio y ajeno
+
+
+Análisis
+* Análisis Horizontal
+   * evolución de cada rubro/cuenta de un estado de resultados a otro estado tomado como base
+   * En base a dos estados de períodos consecutivos, evaluados de igual forma
+   * Primero se calcula la variación absoluta, después la relativa
+   * Fórmula 1 → CUENTA ANALIZADA - CUENTA BASE
+   * Fórmula 2 → ( CUENTA ANALIZADA / CUENTA BASE - 1 ) * 100
+* Análisis Vertical
+   * Muestra la importancia de cada rubro/cuenta en relación al total del grupo que pertenece
+   * Análisis “estático” porque muestra la situación financiera de un momento determinado
+   * Para verificar la distribución de sus activos de acuerdo a las necesidades financieras y operativas
+   * Fórmula → ( CUENTA ANALIZADA / TOTAL GRUPO ) * 100
+* EBIDTA
+   * Representa los ingresos generados antes de descontar los costos asociados con el endeudamiento, impuestos, depreciación y amortización
+   * Útil para comparar rentabilidad entre empresas ya que elimina factores no operativos y solo considera ganancias generadas por las operaciones centrales de la empresa
+* Ratios / Indicadores financieros
+   * Complementos al análisis vertical/horizontal
+      * para medir la realidad económica y financiera de una empresa y su capacidad para asumir sus obligaciones y para poder desarrollar su objeto social
+   * Comunes → los que sirven para determinar liquidez, solvencia, estabilidad, solidez y rentabilidad
+   * Ratio de Liquidez
+      * (o razón corriente)
+      * Capacidad de hacer frente a sus deudas a corto plazo
+         * Cuanto del pasivo cubre el activo
+      * Fórmula → LIQUIDEZ = ACTIVO CORRIENTE / PASIVO CORRIENTE
+      * Resultado
+         * igual a 1 → cumple con sus obligaciones
+         * mayor a 1 → corre riesgo de tener activos ociosos
+         * menor a 1 → corre riesgo de no complir con sus obligaciones
+   * Prueba Ácida
+      * Capacidad de la empresa para cancelar sus obligaciones corrientes sin necesidad de vender sus existencias
+      * Fórmula → PRUEBA ÁCIDA = (ACTIVO C - INVENTARIO) / PASIVO C
+      * (el inventario es el menos líquido así que no se cuenta)
+      * Resultado
+         * igual a 1 → bien, garantizaría el pago de la deuda a corto plazo
+         * mayor a 1 → podría tener exceso de recursos y afectar su rentabilidad
+         * menor a 1 → peligro de caer en insuficiencia de recursos para hacer frente a los pagos
+   * Capital de Trabajo
+      * Capacidad de llevar a cabo sus actividades con normalidad en el corto plazo pagando sus deudas inmediatas
+         * Activos que sobran en relación a los pasivos a corto plazo
+      * Fórmula → ACTIVO CORRIENTE - PASIVO CORRIENTE
+      * Resultado
+         * Negativo → deberían vender activo no corriente, realizar ampliaciones de capital o contraer deuda a largo plazo
+* Indicadores de Gestión
+   * Efectividad y eficiencia de la gestión empresarial
+   * Rotación de Créditos por Venta
+      * Cuantos días tarda una empresa en cobrarle a los clientes
+      * Fórmula → RCV = CRÉDITOS POR VENTAS * 360 / VENTAS
+   * Rotación de Cuentas a Pagar
+      * Cuántos días tarda en pagar sus deudas a sus proveedores
+      * Fórmula → RCP = DEUDAS COMERCIALES * 360 / COMPRAS
+   * Rotación de Caja y Bancos
+      * La capacidad del efectivo en caja y bancos para cubrir los días de venta
+      * Fórmula → RCB = CAJA Y BANCOS * 360 / VENTAS
+   * Rotación de Activos Totales
+      * La eficacia en la gestión de activos para generar ventas
+      * Fórmula → RAT = VENTAS / ACTIVOS TOTALES
+      * Resultado
+         * Más alto = Mayor productividad
+   * Rotación de Activo No Corriente
+      * Como activos totales, pero solo se tienen en cuenta los fijos
+      * Fórmula → RANC = VENTAS / ACTIVO NC
+* Indicadores de Endeudamiento
+   * Capacidad de la empresa de cumplir sus obligaciones financieras
+   * Resultados
+      * mayor a 60 → demasiado endeudada
+      * menor a 40 → demasiado patrimonio neto sin usar, pérdida de rentabilidad
+      * entre 40-60 → ideal
+   * Endeudamiento a Corto Plazo
+      * Relación entre los fondos propios y las deudas con los proveedores a corto plazo
+      * Fórmula → ECP = (PASIVO C / PATRIMONIO NETO) * 100
+   * Endeudamiento a Largo Plazo
+      * Fórmula → ELP = (PASIVO NC / PATRIMONIO NETO) * 100
+   * Endeudamiento Total
+      * Tanto corto como largo plazo
+      * Fórmula → (PASIVO / PATRIMONIO NETO) * 100
+   * Endeudamiento de Activo
+      * Cuánto del activo total se ha financiado con recursos propios o capital ajeno
+      * Fórmula → EA = (PASIVO TOTAL / ACTIVO TOTAL) * 100
+* Indicadores de Rentabilidad
+   * Nivel de eficiencia en el uso de sus recursos en relación a la gestión de sus operaciones
+   * Rentabilidad sobre ventas
+      * Porcentaje de utilidad que queda por cada peso de ventas
+      * Fórmula → RV = UTILIDAD NETA / VENTAS * 100
+      * Resultado
+         * Más alto = Mayor rentabilidad
+   * Rentabilidad del Patrimonio Neto
+      * Rendimiento del capital de los socios y de los resultados acumulados
+      * Fórmula → RPN = UTILIDAD NETA / PATRIMONIO NETO * 100
+   * Rentabilidad del Activo
+      * Cuánto se ganó sobre el total del activo
+      * Fórmula → RA = UTILIDAD NETA / ACTIVO
+
+
+Clase 3 (y 6?)
+Estrategia
+* Plan de acción diseñado para lograr un objetivo específico a largo plazo
+* Elementos clave
+   * Análisis
+   * Objetivos
+   * Planificación
+   * Implementación
+   * Evaluación
+* Importante
+   * Dirección y enfoque
+      * Estrategias competitivas
+      * Estrategias de crecimiento
+      * Estrategias de innovación
+   * Optimización de recursos
+   * Adaptación al cambio
+* Proceso de desarrollo
+   * Análisis del entorno
+   * Establecimiento de objetivos
+   * Desarrollo de estrategias
+   * Implementación
+   * Evaluación y control
+
+
+Planeamiento estratégico
+* Visión y misión → descripción del propósito y operaciones de la empresa
+* Análisis FODA
+* Establecimiento de objetivos SMART
+* Desarrollo de estrategias
+* Asignación de recursos → distribución eficiente de recursos humanos, financieros y materiales para la implementación de estrategias
+
+
+Conceptos de Carl Von Clausewitz
+* Enfoque en los objetivos y la misión
+* Identificación del centro de gravedad
+* Adaptación y flexibilidad
+* Integración de estrategias tácticas y operativas
+   * Alinear los objetivos estratégicos con las acciones tácticas y operativas para garantizar una ejecución efectiva
+* Conocimiento del entorno competitivo
+
+
+Michael Porter - Modelo 5 Fuerzas Competitivas
+* Las 5 fuerzas
+   * Rivalidad entre competidores existentes
+      * + intensa → - rentabilidad potencial
+   * Amenaza de nuevos competidores
+      * barrera de entrada baja → reduce rentabilidad de las existentes
+   * Amenaza de nuevos productos/servicios
+      * de productos sustitutos
+   * Poder de negociación de los clientes
+   * Poder de negociación de los proveedores
+* Los factores que influyen en la competencia dentro de la industria
+
+
+Matriz de Crecimiento / Matriz de Boston Consulting Group
+* Eje vertical → el crecimiento en el mercado
+* Eje horizontal → la cuota del mercado, su participación en el mercado
+  
+
+* Estrella
+   * Gran crecimiento y gran participación de mercado
+   * Hay que potenciarla al máximo hasta que pase a ser Vaca
+* Vaca
+   * Genera efectivo necesario para hacer más Estrellas
+* Interrogante
+   * Hay que reevaluar la estrategia para que se pueda convertir en Estrella o Perro
+* Perro
+   * Se recomienda deshacerse de los mismo, están en su última etapa de vida
+
+
+Las 4 P de Marketing
+* Product → del ciclo de vida - cómo innova, en que se diferencia, como termina
+* Price → precio en estrategias de inserción y tener en cuenta que es variable sensible
+* Place → canales de distribución, cómo se ven, como lo hago llegar
+* Promotion → cómo lo hago conocido, comunicación individual / a masas
+Matriz FODA
+* Cuadrantes
+   * Fortalezas - interno bueno
+   * Oportunidades - externo bueno
+   * Debilidades - interno malo
+   * Amenazas - externo malo
+
+
+Análisis FODA
+* 5 pasos
+   * 1- Definir lo que se va a analizar
+   * 2- Armar un grupo de trabajo con integrantes de diferentes áreas de la empresa
+      * Intentar a incluir a gente de toda la empresa
+   * 3- Realizar un análisis interno de fortalezas y debilidades
+   * 4- Realizar un análisis externo de oportunidades y amenazas
+   * 5- Poner en práctica las acciones derivadas del análisis
+* Análisis interno → identificar fortalezas y debilidades
+   * Fortalezas → cuales son las ventajas sobre otras empresas
+   * Debilidades → desventajas respecto de la competencia
+      * detectar obstáculos que impidan tener una mejor posición dentro del mercado e intentar minimizar sus causas
+* Análisis externo → tiene que permitirnos entender cómo encaja el negocio en el mercado y conocer qué tan favorable y atractiva es la industria para la empresa
+
+
+Balanced Scorecard
+* Manera en la que definimos los indicadores claves de la compañía que se encarga de alinear la estrategia de las organizaciones con los mismos
+* Cómo estás parado en la empresa en relación a tus acciones y objetivos
+* Es una herramienta de acompañamiento de toma de decisiones ejecutadas por el equipo de dirección fundamentada en indicadores de gestión
+* Pilares principales
+   * Finanzas
+   * Clientes
+   * Procesos internos
+   * Desarrollo
+* Proceso
+   * Identificar objetivos
+   * Determinar los indicadores para gestionar el nivel de éxito de los objetivos (KPI)
+   * Establecer metas concretas
+   * Diseñar acciones o iniciativas
+
+
+Propuesta de Valor de Osterwalder (modelo canvas)
+* Herramienta que le permite a las empresas visualizar y analizar su modelo de negocios de manera holística y fácil de entender
+* Destaca la importancia de la colaboración con clientes, socios y otros relevantes
+* Los 9 bloques
+   * Propuesta de Valor - cuál es nuestra propuesta definitiva?
+      * Conjunto de productos/servicios, describe los beneficios
+   * Clientes - para quién estamos creando valor?
+      * Segmentos de clientes → grupos de personas/organizaciones a las que la empresa intenta alcanzar y servir con su propuesta de valor
+   * Canales de distribución - cómo se entrega la propuesta de valor a los clientes?
+      * cómo la comunicás y cómo les llega
+   * Relación con el Cliente - qué tipo de vínculo creamos con el cliente?
+      * cómo generamos lealtad y cuánto estamos dispuestos a pagar por eso
+      * cómo la vas a iniciar y mantener
+   * Flujo de Ingresos - cuánto están dispuestos a pagar por la propuesta de valor?
+      * Cómo ganamos plata, lo que la empresa genera
+   * Recursos Clave - qué recursos necesitamos para generar la propuesta de valor, hacerla llegar al cliente, relacionarnos con el cliente y generar ingresos?
+      * recursos físicos, financieros, humanos, tecnológicos
+   * Actividades Clave - qué acciones críticas debemos realizar para operar de manera exitosa?
+      * Actividades de producción, marketing, ventas, servicio al cliente
+   * Socios Clave - qué alianzas críticas debemos realizar para operar de manera exitosa?
+      * Proveedores, socios de distribución, colaboradores de desarrollo conjunto
+   * Estructura de Costos - cuáles son los costos más relevantes del modelo?
+      * costos asociados con la operación y mantenimiento del modelo
+Clase 4
+Workflow
+* Conjunto de actividades relacionadas, que son completadas en un determinado orden para alcanzar un objetivo de la organización
+   * Sería la representación real de un proceso de trabajo
+* Participan actores → humanos (miembros de la org) y no humanos (sistemas de correos, maquinarias, softwares)
+
+
+Beneficios
+* Mejora la eficiencia operativa
+   * permite optimizar la secuencia de tareas, eliminando bottlenecks y redundancias, que lleva a un uso más eficiente de los recursos
+* Incrementa la productividad
+   * tener un wf claro y estructurado fomenta la concentración en las tareas relevantes y minimiza la pérdida de tiempo en innecesarias/improductivas
+* Reduce errores y la duplicación de esfuerzo
+   * un wf bien diseñado incluye controles de calidad y mecanismo de revisión
+
+
+Componentes clave
+* Entrada de datos → recopilación de recursos necesarios
+* Proceso de trabajo → pasos/actividades para transformar los datos de entrada en resultados deseados
+* Salida de resultados → los productos/entregables generados al finalizar el proceso
+* Seguimiento y control → supervisión continua para garantizar estándares de calidad y tiempo establecidos
+
+
+Modelar procesos
+* Deben ser
+   * Expresividad → tomar en cuenta toda la diversidad de conceptos que ocurren en el ámbito de interés
+   * Idoneidad → el conjunto de elementos de modelado debe reflejar los conceptos y necesidades que surgen en la práctica
+   * Suficiencia → no debe haber un exceso de construcciones de modelado
+   * Precisión → capturar los conceptos de forma precisa
+   * Capacidad de aplicación → debería tener la información suficiente como para desarrollar el proceso sin necesidad de información adicional
+   * Comprensión → intuitivo para los usuarios y similar al proceso operativo que existe en la práctica
+   * Representatividad → debe facilitar el análisis del proceso y su monitoreo
+   * Independencia → su descripción no debe basarse en ninguna tecnología específica
+
+
+Tipos de esquemas
+* Secuencial
+   * cada tarea depende de la finalización de la anterior
+   * Ej.: procesos de aprobación de documentos
+* Paralelo
+   * varias tareas se realizan simultáneamente sin depender unas de otras
+   * Ej.: desarrollo de software, cada uno trabaja en módulos distintos
+* Mixto
+   * ciertas partes secuenciales, otras en paralelo
+   * Ej.: producción de un producto físico, diseño y planificación en paralelo, la fabricación en secuencia
+* Ad-hoc
+   * menos estructurado, flexible, se adapta a situaciones excepcionales que requieren respuesta rápida y creativa
+   * Ej.: manejo de solicitudes de servicio al cliente que no se ajustan al proceso estándar
+
+
+Ejemplos
+* Aprobaciones presupuestarias
+* Comunicación interdepartamental
+* Solicitudes de gastos
+* Aprobaciones de contratos
+
+
+BPM
+* Business Process Management
+* También optimiza procesos de la empresa, pero busca eficiencia total, no específica
+* Abarca mucho más que los workflows
+   * BPM → contribuye para organizar toda la empresa, permite integrar sistemas, procesos y personas
+   * WF → facilita la organización de documentos/personas independientemente
+* Escalabilidad
+   * BPM → más complejos, escalables, centralizan la información de toda la empresa
+   * WF → más sencillos, menos escalables
+* Paralelismo
+   * BPM → gestiona varios flujos de trabajo a la vez
+   * WF → define una secuencia de tareas para obtener un resultado
+
+
+Automatización
+* -
+
+
+Etapas
+* Modelado
+   * entender cómo funciona el negocio
+   * definir qué se hace, en qué orden y por quién
+* Automatización
+   * en lugar de pasarse papeles o mandar mails, le tiene que llegar la info a los usuarios y que una vez completada su parte se mande al siguiente
+* Medición
+   * que sea digital da información basada en hechos y datos, no percepciones
+   * la medición permite ver dónde está el problema y no dónde creemos que está
+* Mejora
+   * herramienta fundamental para la evolución
+   * es el principio de la transformación digital
+
+
+Clase 5
+
+
+Terminología
+* Control-flow → describe el conjunto de tareas que componen a un proceso de negocios y el hilo de ejecución de las mismas
+   * Se pueden representar a través de
+      * BPMN - Business Process Model and Notation
+      * UML - Unified Modeling Language 
+      * Petri Nets
+      * State charts
+      * EPCs → Event-driven Process Chain
+   * No es lo mismo un diagrama de estado que uno de flujo
+      * Un diagrama de flujo → las cosas se mueven de acuerdo a una secuencia
+      * Un diagrama de estado → muestra cómo se pasa de estado a estado a través de acciones (ej.: autómatas)
+* Datos → aquellos que establecen qué se hace en cada punto del workflow, recoge la info que se requiere durante la ejecución de un proceso de negocio
+   * Se pueden representar a través de
+      * UML
+      * ER diagrams
+      * Object-role models
+* Recursos → las personas/aplicaciones/equipos que lo van a usar
+   * identifica a las personas e instalaciones que realmente llevan a cabo el proceso de negocio, el contexto organizacional en el que operan
+   * tiene a los patrones
+   * Se pueden representar a través de
+      * Use cases
+      * Role-activity diagrams
+      * Organizational charts
+
+
+Representaciones de WF
+* Petri Nets → útil para describir la dinámica de los procesos
+   * los lugares representan las etapas intermedias de la operación de un proceso
+   * las transiciones corresponden a las actividades/eventos que se componen al proceso
+   * No tiene capacidad de decisión - queda implícito
+* WF Nets → para describir los procesos de flujo de trabajo de una manera precisa
+   * mejores para el análisis en tiempo de diseño y ejecución
+   * los wf tienen un lugar único de inicio y un lugar único de finalización
+   * Tiene capacidad de decisión - queda explícito
+* EPC → describe un proceso de negocio en términos de una serie de transformaciones basadas en funciones entre un conjunto de eventos de entrada y un conjunto de eventos de salida
+   * Tiene operadores lógicos an/or/xor
+* BPMN → para definir procesos de negocio con un metamodelo formal y una notación gráfica asociada
+   * Incorpora notaciones
+   * Define patterns
+* UML → para describir el funcionamiento de un proceso a través de Actions, Nodes, Paths y Containment Elements
+
+
+Patrones
+* De creación
+* De inserción
+* De extracción
+* De desvío
+* De inicio
+* De visibilidad
+* De recursos múltiples
+
+
+Paradoja del círculo vicioso
+* El utilizar ORs puede llevar a ciclos infinitos
+
+
+Low Code vs No Code
+* Enfoques a desarrollo de código
+* Programar en un lenguaje de muy alto nivel
+* Programación gráfica - drag and drop
+* No Code
+   * Enfoque en el que alguien sin conocimiento de código pueda escribir un programa
+   * Los componentes están disponibles dentro de una interfaz gráfica
+   * La generación de prototipos puede probarse antes de su publicación
+   * Para usuarios que quieren crear su propia app sin ayuda de un dev
+   * Basado en modelos ya creados que se rellena y modifican con la interfaz gráfica
+   * Con un entorno de trabajo cerrado, con estructura propietaria
+* Low Code
+   * Poder escribir un programa sin necesidad de saber la sintaxis, pero sí está pensado para programadores pero no especialistas
+   * Para programadores, les facilita el trabajo
+   * Utiliza la programación manual de base y la plataforma facilita la conformación
+* Ventajas
+   * Fáciles de usar
+   * No requiere conocimientos de programación
+   * Ahorro de tiempo
+   * Ahorro de plata en cuanto a profesionales sin especialización en programación
+* Desventajas
+   * Menor flexibilidad, se desarrollo en un entorno cerrado y propietario
+   * La mayoría de las plataformas no ofrencen migración
+
+
+
+
+Clase 7
+
+
+Arquitectura empresarial
+* Es un enfoque multidimensional para diseñar y gestionar la estructura y operaciones de una organización
+   * Se centra en alinear la estrategia de la empresa con su estructura organizativa y sus procesos, tecnología, datos y aplicaciones para mejorar su eficacia y eficiencia.
+* Componentes
+   * Plataforma multifuncional
+      * Define el contexto estratégico → marco estratégico que guía la arquitectura empresarial, asegurando que esté alineada con la misión, visión y objetivos
+      * Define la arquitectura empresarial en sí → diseña la estructura organizativa, los procesos, la tecnología y los datos necesarios para sostener la estrategia empresarial
+      * Define las iniciativas de implementación → proyectos y acciones concretas que finalmente entregan valor comercial
+   * Proceso de traducción de la estrategia empresarial
+      * Implica convertir la visión y misión en cambios estructurales efectivos
+      * Mediante la creación, comunicación y la mejora de los requerimientos, principios y modelos clave que describen el estado futuro de la organización y habilitan su evolución
+   * Práctica de analizar, diseñar, planificar e implementar el análisis empresarial para ejecutar con éxito las estrategias empresariales
+      * Implica una visión holística de la organización
+* Se centra en varios aspectos, incluidos:
+   * Negocio
+      * los procesos de negocios definen cómo se realizan las actividades dentro de la empresa: sus procesos, las metas y estrategias empresariales y cómo se organizan y operan
+   * Tecnología de la Información (TI)
+      * los sistemas de info, la infraestructura tecnológica, el software de base
+      * cómo estos elementos soportan los procesos de negocio y la estrategia de la empresa
+   * Datos
+      * refiere a la gestión y utilización de los datos dentro de la empresa
+      * incluyendo cómo se recopilan, almacenan, procesan y utilizan para la toma de decisiones, asistiendo en la mejora de los procesos
+   * Aplicaciones
+      * son las aplicaciones de software específicas utilizadas en la empresa, cómo se integran y apoyan a los procesos de negocio
+
+
+Niveles de arquitectura
+* Estratégico → largo plazo - 3 a 5 años
+   * Herramientas
+      * Balanced Scorecard Diagram → es un diagrama por el cual se encuadran los objetivos de la empresa en 4 sectores
+         * Sectores → customer relationship, financial, internal processes, education and growth
+         * Para cada sector se tiene un set de indicadores que deben estar alineados con los objetivos de cada sector
+         * Cada objetivo debe estar alineado con los objetivos de los colaboradores
+      * Matriz relacional → en las filas y las columnas se ponen diferentes áreas de la empresas y procesos y en las intersecciones se pone cómo interactúan
+         * Se identifican dependencias entres diferentes áreas, como cambios en un área pueden impactar a otra, identificar riesgos
+* Táctico → mediano plazo - 1 a 2 años
+   * Menos general que la estratégica
+   * Focalizado en un área particular de visión
+   * Dan un plan sobre cómo lograr los objetivos de las arquitecturas estratégicas
+   * Herramientas
+      * Hojas de ruta ?
+* Solución → corto plazo - 6 a 12 meses
+   * Más concreta
+      * Describe un proyecto específico o mejora de una capacidad específica
+   * Solucionan un problema o aprovechan una oportunidad
+   * Ej.:
+      * Implementar una nueva tecnología
+      * Desarrollo de habilidades de personal
+
+
+Tipos de Arquitectura
+* de Negocio
+   * Define estrategias de negocio, modelos operacionales, objetivos de la empresa
+   * Se pueden tener de forma gráfica la visión y misión
+* de Información
+   * Cómo está organizada y estructurada la información en el sistema
+   * Se pueden tener de forma gráfica cómo se relacionan los elementos de negocio unos con otros y crean información
+* de Aplicación
+   * Diagrama cómo interactúan entre ellas las aplicaciones en la empresa
+   * Cómo transforman, transmiten y guardan información
+* de Tecnología
+   * Explica cómo funcionan los sistemas informáticos, la infraestructura que soporta toda la lógica de negocio
+* de Seguridad
+* Geoespacial
+* Social
+
+
+Alcances de una Arquitectura
+* Temporal
+   * Los plazos que deben durar las arquitecturas (estratégico/táctico/solución)
+* Organizativo
+   * Alcanza su mejor resultado si esta se encuentra en todas las partes de la empresa
+   * Es normal que se le dé más importancia más a una parte que a otra
+* Detallado
+   * Elegir un nivel de detalle apropiado
+   * El equipo de implementación debe tener flexibilidad para elegir lo óptimo pero no demasiado como para terminar decidiendo
+* de Interasados
+   * Identificar a las partes interesadas y mantenerlas al tanto
+
+
+Buena Arquitectura
+* Robustez
+   * Fuerte
+   * No vulnerable a cambios de negocio, información, aplicación o sistemas tecnológicos
+* Viabilidad
+   * Si no es viable no se pueden cumplir los objetivos
+* Usabilidad
+   * Si no provee valor demostrable para los interesados, no tiene sentido
+* Durabilidad
+   * Tiene que aguantar el paso del tiempo y soportar los cambios
+   * Debe intentar predecir las posibles condiciones y ambientes futuros
+* Verificable
+   * Se tiene que poder verificar que la arquitectura funcione debidamente y que no genera efectos secundarios
+* Flexibilidad
+   * Poder adaptarse a los cambios sin dejar de proveer direcciones
+* Elegante
+   * Una bien diseñada tiende a ser elegante y a ser simple
+* Trazabilidad
+   * En cuanto no existe de forma aislada
+   * La arquitectura es la descripción de una empresa, que está relacionada a sus objetivos, otras arquitecturas y proyectos
+
+
+Arquitectos
+* Arquitecto empresarial
+   * Visión global
+* Arquitecto de negocios
+   * Se ocupa de los negocios
+   * Define la parte comercial de producto, cómo se integra el producto, si no está matando a sus propios productos, qué requerimientos tiene de IT
+* Arquitecto de sistemas
+   * Cómo se integran los sistemas, cuál es el soporte de base necesario
+* Arquitecto de soluciones
+   * Encargado de resolver problemas específicos
+   * Generalmente problemas relacionados a integración
+      * Avanzamos en un proyecto y al encontrar alguna pieza que no encaja, se encarga el arquitecto de soluciones
+* Arquitecto de datos
+   * Cómo los datos dan información de valor agregado al negocio
+   * Que estén accesibles al que los necesita e inaccesibles al que no le son necesarios
+   * Los datos deben ser administrados de manera que siempre sean íntegros - actualización de datos
+   * Al integrar datos no solo deben cumplir con los requisitos de los metadatos, sino con los de datos en sí, validarlos
+* Arquitecto de infraestructura
+   * Más que nada se ocupa de hw
+   * Qué capacidad de procesamiento necesitamos, qué sistema operativo usan, cómo nos conectamos, (teniendo aws) cómo funcionan los Kubernetes (máquinas virtuales)
+* Arquitecto de gobierno
+   * Tiene que lograr que todo quede balanceado
+   * El gobierno de todo el entorno
+   * Balancear los requerimientos, la gestión, que todo esté bien administrado, que todas las arquitecturas se cumplan
+* Arquitecto de seguridad
+   * El que se encarga de los accesos, controles
+
+
+Clase 8
+Índice
+* Números que indican los porcentajes de variación de cada valor de la variable respecto al valor que toma como referencia
+
+
+Índice de Precios al Consumidor - IPC
+* Es un indicador que mide la evolución promedio de los precios de un conjunto de bienes y servicios representativos del gasto de consumo de los hogares residentes en un área determinada. 
+
+
+Interés
+* Simple → M = C0 + C0 * r * t
+* Compuesto → Mn = C0 * (1 + r) n
+* Para “nt” períodos de Capitalizacion → Mn = C0 * ( 1 + r / n ) nt
+
+
+Analizar proyectos
+* -
+
+
+VAN
+* Valor Actual Neto
+* Para evaluar la rentabilidad de un proyecto o inversión
+* Representa la diferencia entre el valor presente de los flujos de fondos futuros generados por un proyecto y el costo inicial de la inversión, descontado a una tasa de interés apropiada
+* La regla de VAN supone que todos los flujos de fondos pueden reinvertirse a la tasa de descuento
+* Estimación del VAN
+   * Estimar los flujos de fondos futuros
+   * Estimar la tasa de descuento
+   * Estimar los costos iniciales
+  
+
+
+
+Valor Residual
+* Valor que tiene el proyecto al final de su vida útil y por el cual se podría vender
+* Si en verdad se pueden calcular, se agregan a la VAN
+
+
+TIR
+* Tasa Interna de Retorno
+* Tasa de descuento que fija el VAN a cero
+* Desventajas
+   * No distingue entre reinvertir y endeudarse
+   * Pueden haber múltiples o ninguna TIR
+   * Problemas con inversiones mutuamente excluyentes
+* Ventajas
+   * Fácil de entender y comunicar
+
+
+Repago Nominal
+* Cuanto tiempo tarda el proyecto en “recuperar” la inversión inicial
+* Desventajas
+   * Ignora el valor del dinero en el tiempo
+   * Ignora los flujos de fondos después del período de recuperación
+   * Sesgado contra proyectos a largo plazo
+   * Requiere un criterio de aceptación arbitrario
+   * No indica nada sobre la VAN, puede ser negativa
+* Ventajas
+   * Fácil de comprender
+   * Sesgado hacia la liquidez
+
+
+Repago Descontado
+* Como el repago nominal pero descontando el costo del dinero
+* El período de recuperación descontado toma en cuenta el valor del dinero en el tiempo, aplicando una tasa de descuento para ajustar los flujos de efectivo futuros
+* Proceso
+   * Calcular los flujos de efectivo netos para cada período
+   * Aplicar una tasa de descuento adecuada para calcular su VAN
+   * Determinar qué períodos los flujos de efectivo descontados acumulados son iguales o superiores al costo inicial
+
+
+Rendimiento Contable Promedio
+* Cálculo
+   * RCP = Ingreso Neto Promedio / Valor Contable Medio de la Inversión
+* Es fatalmente defectuoso
+* Desventajas
+   * Ignora el valor del dinero en el tiempo
+   * Utiliza una tasa de recorte arbitraria
+   * Basado en valores contables, no en flujos de efectivo ni valores de mercado
+* Ventajas
+   * La información contable suele estar disponible y fácil de acceder
+   * Fácil de calcular
+
+
+PI
+* Índice de Rentabilidad
+* Es el valor presente de todos los flujos futuros dividido el capital inicial
+  
+
+* Aceptar si el índice es mayor a 1
+
+
+Clase 9
+
+
+Clase 10
+Diagrama de Stacey
+* Ejes
+   * X → grado de certeza que se tiene con respecto a un problema
+   * Y → grado de acuerdo respecto al mismo
+* Regiones
+   * Decisión racional, técnica
+   * Decisión política
+   * Decisión juiciosa
+   * Complejidad
+   * Caos
+
+
+Cynefin Framework
+* Clasifica los problemas y decisiones en cinco contextos
+* Ayuda a los gerentes a elegir enfoques de gestión apropiados para cada contexto
+
+
+Contextos
+* Complejo → Emergent strategies
+* Complicado → Good practices
+* Caótico → Novel strategies
+* Claro → Best practices
+* Desordenado
+
+
+Organización Tradicional
+* Diseñadas principalmente para la estabilidad
+* Involucran una jerarquía estructural estática
+* Los objetivos y los derechos de decisión fluyen hacia abajo, con los órganos directivos en la parte superior
+* Operan a través de la planificación y el control lineales para capturar valor para los accionistas
+* Aunque tal estructura puede ser fuerte, a menudo es rígida y de movimiento lento
+
+
+Organización Ágil
+* Diseñada tanto para la estabilidad como para el dinamismo
+   * La responsabilidad sigue siendo del jefe
+   * La autoridad se va repartiendo → empowering al equipo de trabajo
+* Cultura centrada en las personas que presenta un aprendizaje rápido, con ciclos de decisión rápidos; con el propósito de co-crear valor (uso de tecnología)
+* Son posibles las reconfiguraciones rápidas y eficientes de estrategia, estructura, procesos, personas y tecnología hacia oportunidades de creación y protección de valor
+* Agregan velocidad y adaptabilidad a la estabilidad, creando una fuente crítica de ventaja competitiva en condiciones VUCA
+   * volatile, uncertain, complex, ambiguous
+
+
+5 Elementos Principales
+* El liderazgo es el valor fundamental en toda la organización
+   * Líder → el que tiene la capacidad para que se haga lo que el negocio necesita, más allá de la capacidad técnica que tenga
+* Red de grupos empoderados
+   * Darle autoridad a los colaboradores para que puedan seguir adelante
+   * Que puedan tomar decisiones propias
+   * También se busca educarlos, no sancionarlos, en caso de error
+   * El responsable sigue siendo el líder
+* Decisiones y ciclos de aprendizaje rápidos
+   * Los proyectos son cortos
+   * Los proyectos grandes se parten en proyectos intermedios
+   * La idea es ir haciendo circular a los colaboradores entre proyectos
+* Modelo dinámico de personas con compromiso e iniciativa
+   * Que la propia gente es la que hace que el grupo funcione
+   * Se motivan entre ellos
+   * Lleva al compromiso con el proyecto
+* Tecnología habilitadora de próxima generación
+   * La tecnología permite este tipo de organización
+
+
+Errores en Software
+* Rework
+   * Implica modificar una versión anterior
+   * Se centra en corregir errores o problemas específicos después de que hayan ocurrido
+   * Tipos
+      * Evolucionario → para mejoras
+      * Retrospectiva → obligatorio
+         * Cambios que se deberían haber hecho antes
+      * Correctiva → obligatorio
+         * Cambios para arreglar errores en la versión actual
+         * Se hace un recall de los productos
+* Technical Debt
+   * Se refiere a compromisos técnicos asumidos para acelerar la entrega, lo que puede resultar en problemas de calidad y mantenibilidad a largo plazo
+* Reducir rework y technical debt
+   * Definir mejores prácticas y promover su adhesión
+   * Automatizar todo el trabajo sin valor
+   * No permitir que las fallas se agraven
+   * No pasar de fase apresuradamente
+   * Automatizar y esquematizar el testing
+
+
+Scrum
+* Marco que ofrece un tipo de proceso empírico
+   * No es una metodología, no es un conjunto de principios
+   * Solo establece las bases de un proceso empírico aplicado al desarrollo de sw
+* Requiere que se implementen 5 Ceremonias para obtener el mejor resultado posible
+
+
+Sprint
+* Es un período de tiempo fijo y corto, típicamente de una a cuatro semanas, durante el cual se desarolla un incremento potencialmente entregable de producto
+* Contiene a los eventos de Scrum
+
+
+Ceremonias de Scrum
+* Sprint Planning
+   * Objetivo → definir qué trabajo se realizará durante el próximo sprint y cómo se logrará
+   * El equipo Scrum se reúne para seleccionar ítems del Product Backlog que se incluirán en el Sprint Backlog y planificar las tareas necesarias para completar esos ítems
+   * El Scrum Master debe asegurarse de que exista la reunión
+* Daily Scrum
+   * Objetivo → sincronizar las actividades del equipo y planificar las próximas 24 horas
+   * Una reunión diaria de 15 minutos donde cada miembro del equipo responde a tres preguntas: ¿Qué hice ayer?, ¿Qué haré hoy?, y ¿Hay algún impedimento en mi camino?
+* Sprint Review
+   * Objetivo → inspeccionar el incremento y adaptar el Product Backlog si es necesario
+   * Reunión al final del sprint
+   * El product owner y el equipo de desarrollo presentan a los stakeholder el resultados del sprint y reciben feedback
+* Sprint Retrospective
+   * Objetivo → mejorar el proceso y la colaboración del equipo
+   * Justo después del Sprint Review
+   * Formato en 5 fases
+      * Preparar el ambiente
+      * Recolectar información
+      * Generación de ideas
+      * Decidir qué hacer
+      * Cierre
+* Sprint Grooming / Refinement
+   * Objetivo → mantener el Product Backlog actualizado y preparado para futuros sprints
+   * Una actividad continua donde el equipo refina y detalla los ítems del Product Backlog, asegurando que estén claros, estimados y priorizados adecuadamente para futuros sprints.
+
+
+Roles Principales
+* Product Owner
+   * Responsable de maximizar el valor del producto y del trabajo del equipo de desarrollo
+   * Habla con los stakeholders para entender los requisitos del producto
+   * Gestiona el backlog
+* Scrum Master
+   * No tienen autoridad sobre los miembros del equipo
+   * Se asegura que se sigan las prácticas de Scrum
+      * El que más sabe de metodologías
+   * Facilitador
+      * Organiza y facilita la comunicación con todos
+* Equipo de Desarrollo
+   * Formado por profesionales multidisciplinarios que trabajan juntos para entregar incrementos de producto
+   * Responsables de auto-organizarse para completar el trabajo durante el sprint
+
+
+Roles Secundarios
+* Stakeholder
+   * Los interesados en el proyecto
+   * Incluye clientes, usuarios finales, gerentes, ejecutivos, etc
+   * Dan retroalimentación sobre el producto y pueden participar en las revisiones de sprint
+* Usuarios finales
+   * Los que van a utilizar el producto
+   * Su experiencia y comentarios son importantes
+
+
+Modelo de Spotify
+* Líder
+   * Se encarga de coordinar los esfuerzos de los squads
+   * Se comunica con los equipos para explicar la importancia de solucionar el problema
+* Squads
+   * Equivalentes al equipo de Scrum - de 6 a 12 personas
+   * Conformado por todos los roles necesarios para poder trabajar en un proyecto específico por sí mismos
+* Tribus
+   * Conjunto de squads - de 50 a 150 personas
+   * Los squads de una misma tribu están enfocados en el mismo producto
+   * Pueden tener más de un líder siendo que hay diferentes especialistas para guiar
+* Capítulos
+   * Reunen a todos los especialistas de diferentes equipos dentro de una misma tribu
+   * Les permite discutir sobre su área de especialización y sus desafíos especfícos
+* Guilds
+   * Como capítulos pero abierto a todos los que estén interesados en el tema
+   * Originalmente con la idea de practicar habilidades o adquirir nuevos conocimientos, ahora no necesariamente relacionados con el producto
+
+
+Clase 11
+Gestión / Dirección de Proyectos
+* La aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir con los requisitos del proyecto
+* Implica
+   * Identificar requisitos
+   * Abordar las diversas necesidades, inquietudes y expectativas de los interesados
+   * Equilibrar las restricciones contrapuestas del proyecto
+      * Alcance
+      * Calidad
+      * Cronograma
+      * Presupuesto
+      * Recursos
+      * Riesgo
+
+
+Proyecto
+* Esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único
+* Con principio y final definidos
+
+
+Grupos de Procesos
+* Iniciar
+* Planificar
+* Ejecutar
+* Seguimiento y Control
+* Cierre
+
+
+Influencias Organizativas y Ciclo de Vida del Proyecto
+* -
+
+
+Influencias Organizacionales
+* La cultura, el estilo y estructura de la organización - particular a cada una
+   * Visión, misión, valores, creencias y expectativas compartidas
+   * Reglamentos, políticas, métodos y procedimientos
+   * Sistemas de motivación y recompensa
+   * Tolerancia al riesgo
+   * Visión de las relaciones de liderazgo, jerarquía y autoridad
+   * Código de conducta, ética laboral y horario de trabajo
+   * Entornos operativos
+* La madurez en la dirección de proyectos facilita la inclusión de entidades externas
+
+
+Ciclo de Vida de un Proyecto
+* -
+* Etapas y resultado
+   * Inicio → acta de constitución del proyecto
+   * Organización y preparación → plan de dirección del proyecto
+   * Ejecución del trabajo → entregables aceptados
+   * Cierre → documentos del proyecto archivados
+  
+
+
+
+Grupos de Procesos de Dirección de Proyectos
+* Los procesos se aplican globalmente y a todos los grupos de industrias
+* El director del proyecto, en colaboración con el equipo del proyecto, determina cuales son los procesos apropiados y el grado de rigor adecuado para cada uno
+* Los grupos no son fases del proyecto
+  
+
+  
+
+
+
+Grupo de Procesos de Iniciación
+* Tareas
+   * Define el alcance inicial
+   * Se comprometen los recursos financieros iniciales
+   * Se identifican los interesados que influencian el proyecto
+   * Se selecciona el director del proyecto
+   * Se genera el acta de constitución del proyecto para su aprobación
+
+
+Grupo de Procesos de Planificación
+* Compuesto por procesos que
+   * Establecen el alcance total
+   * Definen y refinan objetivos
+   * Desarrollan el plan para la dirección y los documentos del proyecto
+* Tareas
+   * Desarrollar el plan para la dirección del proyecto
+   * Alcance
+      * Recopilar requisitos
+      * Definir el alcance
+      * Crear la Estructura de Desglose del Trabajo (EDT)
+   * Actividades
+      * Definirlas
+      * Secuenciarlas
+      * Estimar sus recursos
+      * Estimar su duración
+   * Desarrollar el cronograma
+   * Costos
+      * Estimar los costos
+      * Determinar el presupuesto
+   * Planificar la calidad
+   * Desarrollar el plan de recursos humanos
+   * Planificar las comunicaciones
+   * Riesgos
+      * Planificar la gestión de riesgos
+      * Identificar los riesgos
+      * Análisis cualitativo
+      * Análisis cuantitativo
+      * Planificar la respuesta
+   * Planificar las adquisiciones
+
+
+Grupo de Procesos de Ejecución
+* Tareas
+   * Dirigir y gestionar la ejecución del proyecto
+   * Realizar el aseguramiento de calidad
+   * Equipo del proyecto
+      * Adquirirlo
+      * Desarrollarlo
+      * Dirigirlo
+   * Comunicación
+      * Distribuir la información
+      * Gestionar las expectativas de los interesados
+   * Efectuar las adquisiciones
+
+
+Grupo de Procesos de Seguimiento y Control
+* Tareas
+   * Monitorear y controlar el trabajo del proyecto
+   * Realizar el control integrado de cambios
+   * Alcance
+      * Verificarlo
+      * Controlarlo
+   * Controlar el cronograma
+   * Controlar los costos
+   * Realizar el control de calidad
+   * Informar el desempeño
+   * Monitorear y controlar los riesgos
+   * Administrar las adquisiciones
+
+
+Grupo de Procesos de Cierre
+* Tareas
+   * Cerrar el proyecto o fase
+   * Cerrar las adquisiciones
+
+
+Gestión de la Integración de Proyectos
+* -
+
+
+Desarrollar el Acta de Constitución del Proyecto
+* Proceso de desarrollar un documento que autoriza formalmente un proyecto o fase y documenta los requisitos iniciales que satisfacen las necesidades y expectativas de los interesados
+* Entradas
+   * Enunciado del Trabajo del Proyecto (SOW)
+      * Descripción narrativa de los productos/servicios a entregar
+      * Referencia a
+         * Una necesidad comercial → demanda del mercado, avance tecnológico, requisito legal, regulación del gobierno, etc
+         * Una descripción del alcance de un producto
+         * Documenta las características del producto/servicio
+         * Un plan estratégico
+   * Caso de Negocio
+      * Proporciona la información necesaria desde una perspectiva comercial para determinar si vale o no la inversión requerida
+      * Se crea como resultado de
+         * Una necesidad comercial → nueva oportunidad, etc
+         * Solicitud de un cliente
+         * Requisito legal
+   * Contrato
+      * (Si el proyecto se está ejecutando para un cliente externo)
+   * Factores Ambientales de la Empresa
+      * (incluyen: )
+      * Las normas gubernamentales / industriales
+      * La infraestructura de la organización
+      * Las condiciones del mercado
+   * Activos de los Procesos de la Organización        
+      * (pueden influir: )
+      * Los procesos estándar, las normas y las políticas que se utilizan en la empresa
+      * Las plantillas → plantilla del acta
+      * La información histórica y la base de conocimientos de lecciones aprendidas
+* Herramientas y Técnicas
+   * Juicio de Expertos
+      * Para evaluar las entradas
+      * Expertos → todo grupo o individuo con conocimientos o capacitación especializados, internos o externos a la empresa
+* Salidas
+   * Acta de Constitución del Proyecto
+      * (incluye: )
+      * Propósito o justificación del proyecto
+      * Objetivos medibles y criterios de éxito relacionados
+      * Requisitos de alto nivel
+      * Descripción del proyecto de alto nivel
+      * Riesgos de alto nivel
+
+
+Desarrollar el Plan para la Dirección del Proyecto
+* Proceso de documentar las acciones necesarias para definir, preparar, integrar y coordinar todos los planes subsidiarios
+* x
+
+
+Dirigir y Gestionar la Ejecución del Proyecto
+* Proceso de ejecutar el trabajo definido en el plan para la dirección del proyecto para cumplir con los objetivos del mismo
+* Los entregables se producen como salidas de los procesos ejecutados
+* Se recopila la información sobre el desempeño del trabajo que se utiliza como entrada para el Grupo de Procesos de Seguimiento y Control
+* Requiere la implementación de los cambios aprobados
+   * Acción correctiva → para poder alinear el desempeño futuro previsto con el plan
+   * Acción preventiva → para reducir la probabilidad de riesgos
+   * Reparación de defectos → identificación de un defecto en un componente con una recomendación de reparación o reemplazo del componente
+
+
+Monitorear y Controlar el Trabajo del Proyecto
+* Proceso de monitorear, revisar y regular el avance a fin de cumplir con los objetivos definidos en el plan
+* Entradas
+   * Informes de desempeño
+   * Activos de los procesos de la organización
+   * Factores ambientales de la empresa
+   * Plan para la dirección del proyecto
+* Salidas
+   * Actualizaciones al plan de dirección del proyecto
+   * Actualizaciones a los documentos del proyecto
+   * Solicitudes de cambio
+
+
+Realizar el Control Integrado de Cambios
+* Proceso de revisar todas las solicitudes de cambio, aprobar y gestionar los cambios en los entregables, en los documentos del proyecto y en el plan para la dirección del proyecto
+* Está desde el inicio hasta el final
+* Tareas
+   * Que solo se implementen los cambios aprobados y gestionarlos
+   * Revisar, analizar y aprobar las solicitudes de cambio
+   * Mantener la integridad de las líneas base, incorporando solo cambios aprobados al plan y a los documentos
+   * Revisar, aprobar o rechazar las acciones preventivas y correctivas recomendadas
+   * Coordinar los cambios a través de todo el proyecto
+   * Documentar el impacto total de las solicitudes de cambio
+
+
+Cerrar el Proyecto o Fase
+* Proceso de finalizar todas las actividades en todos los grupos de procesos de dirección de proyecto
+* Entradas
+   * Entregables aceptados
+   * Activos de los procesos de la organización
+   * Plan para la dirección del proyecto
+* Salidas
+   * Actualizaciones a los activos de los procesos de la organización
+   * Transición de producto, servicio o resultado final
+
+
+Gestión del Alcance del Proyecto
+* Incluye los procesos necesarios para garantizar que el proyecto incluya todo el trabajo requerido para completarlo con éxito
+* El objetivo principal es definir y controlar qué se incluye y qué no se incluye en el proyecto
+
+
+Recopilar Requisitos
+* Proceso de definir y documentar las necesidades de los interesados a fin de cumplir con los objetivos
+
+
+Definir el Alcance
+* Proceso de desarrollar una descripción detalla del proyecto y del producto
+
+
+Crear la EDT
+* (Estructura de Desglose de Trabajo)
+* Proceso de subdividir los entregables y el trabajo del proyecto en componentes más pequeños y fáciles de manejar
+
+
+Verificar el Alcance
+* Proceso de formalizar la aceptación de los entregables del proyecto que se han completado
+
+
+Controlar el Alcance
+* Proceso de monitorear el estado del alcance del proyecto y del producto, y de gestionar cambios a la línea base del alcance
+
+
+Gestión del Tiempo del Proyecto
+* Incluye los procesos requeridos para administrar la finalización del proyecto a tiempo
+
+
+Procesos
+* Definir las actividades
+   * Identificar las acciones específicas a ser realizadas para elaborar los entregables del proyecto
+* Secuencias las actividades
+   * Identificar y documentar las interrelaciones entre las actividades del proyecto
+* Estimar los recursos de las actividades
+   * Estimar el tipo y las cantidades de materiales, personas, equipos o suministros requeridos para ejecutar cada actividad
+* Estimar la duración de las actividades
+   * Establecer la cantidad de períodos de trabajo necesarios para finalizar cada actividad con los recursos estimados
+* Desarrollar el cronograma
+   * Analizar la secuencia de las actividades, su duración, los requisitos de los recursos y las restricciones del cronograma
+* Crontrolar el cronograma
+   * Hacer el seguimiento del estado del proyecto
+
+
+Gestión de los Costos del Proyecto
+* Incluye los procesos involucrados en estimar, presupuestar y controlar los costos de modo que se complete el proyecto dentro del presupuesto aprobado
+
+
+Procesos
+* Estimar los costos
+   * Desarrollar una aproximación de recursos financieros necesarios para completar las actividades del proyecto
+* Determinar el presupuesto
+   * Sumar los costos estimados de actividades individuales o paquetes de trabajo para establecer una línea base de costos autorizada
+* Controlar los costos
+   * Monitorear la situación del proyecto para actualizar el presupuesto y gestionar cambios a la línea base de costo
+
+
+Gestión de la Calidad del Proyecto
+* Incluye los procesos y actividades que determinan responsabilidades, objetivos y políticas de calidad a fin de que el proyecto satisfaga las necesidades
+* Implementa el sistema de gestión de calidad por medio de políticas y procedimientos, con actividades de mejora continua de los procesos llevados a cabo durante todo el proyecto
+
+
+Procesos
+* Planificar la calidad
+   * Identificar los requisitos de calidad y/o normas para el proyecto y el producto, documentando la manera en que el proyecto demostrará el cumplimiento con los mismos
+* Realizar el Aseguramiento de Calidad
+   * Auditar los requisitos de calidad y los resultados de las medidas de control de calidad, para asegurar que se utilicen las normas de calidad apropiadas y las definiciones operacionales
+* Realizar el Control de Calidad
+   * Monitorear y registrar los resultados de la ejecución de actividades de control de calidad
+   * Con el objetivo de evaluar el desempeño y recomendar cambios
+
+
+Gestión de los RRHH del Proyecto
+* Incluye los procesos que organizan, gestionan y conducen el equipo del proyecto
+* El equipo está conformado por las personas a las que se le asignaron roles y responsabilidades
+* La participación temprana de los miembros del equipo durante el proceso de planificación fortalece su compromiso con el proyecto
+
+
+Procesos
+* Desarrollar el plan de RRHH
+   * Identificar y documentar los roles del proyecto, sus responsabilidades, las habilidades requeridas y las relaciones de comunicación
+   * Crear el plan para la dirección de personal
+* Adquirir el equipo del proyecto
+   * Se confirman los recursos humanos disponibles y se forma el equipo
+* Desarrollar el equipo del proyecto
+   * Se mejoran las competencias, la interacción con los miembros del equipo y el ambiente general para lograr un mejor desempeño
+* Dirigir el equipo del proyecto
+   * Monitorear el desempeño de los miembros del equipo, dar retroalimentación, resolver problemas y gestionar cambios
+
+
+Gestión de las Comunicaciones del Proyecto
+* Garantiza la generación, recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto
+* Una comunicación eficaz crea un puente entre los interesados del proyecto
+
+
+Procesos
+* Identificar a los interesados
+   * Identificar a todas las personas u organizaciones impactadas por el proyecto
+   * Documentar la información relevante relativa a sus intereses, su participación y su impacto en el éxito del proyecto
+* Planificar las comunicaciones
+   * Determinar las necesidades de información de los interesados en el proyecto y definir cómo abordar las comunicaciones con ellos
+* Distribuir la información
+   * Poner la información relevante a disposición de los interesados
+* Gestionar las expectativas de los interesados
+   * Comunicarse y trabajar en conjunto con los interesados para satisfacer sus necesidades y abordar los problemas conforme se presentan
+* Informar el desempeño
+   * Recopilar y distribuir información sobre el desempeño, incluyendo informes de estado, las mediciones del avance y proyecciones
+
+
+Gestión de los Riesgos del Proyecto
+* Los objetivos son aumentar la probabilidad y el impacto de eventos positivos, y disminuir la probabilidad y el impacto de eventos negativos
+
+
+Procesos
+* Planificar la gestión de riesgos
+   * Definir cómo realizar las actividades de gestión de los riesgos
+* Identificar los riesgos
+   * Determinar los riesgos que pueden afectar el proyecto y documentar sus características
+   * Formas
+      * Consultarlo con miembros del equipo, seguramente hayan trabajado en otros proyectos y tengan experiencia en el tema
+      * Documentar los supuestos → cosas que el equipo asume, sin saber o consultar
+      * Método Delphi → técnica de consulta iterativa que utiliza la opinión de un grupo de expertos para prever futuros posibles
+      * Crear un registro con los riesgos más comunes
+* Realizar el análisis cuantitativo de riesgos
+   * Analizar numericamente el efecto de los riesgos identificados sobre los objetivos generales del proyecto
+   * Técnicas → análisis de sensibilidad, análisis del valor monetario esperado, y modelado y simulación
+* Realizar el análisis cualitativo de riesgos
+   * Priorizar los riesgos para realizar otros análisis o acciones posteriores, evaluando y combinando la probabilidad de ocurrencia y su impacto
+   * También es recomendable asignarles un valor numérico, pero sería basado en experiencia
+   * Técnicas → brainstorming, entrevistas y evaluación de expertos
+* Planificar la respuesta a los riesgos
+   * Desarrollar opciones y acciones para mejorar las oportunidades y reducir las amenazas a los objetivos del proyecto
+   * Riesgos negativos → evitar, mitigar, transferir, aceptar
+   * Riesgos positivos → explotar, compartir, mejorar, aceptar
+* Monitorear y controlar los riesgos
+   * Implementar planes de respuesta a los riesgos
+   * Se rastrean los riesgos identificados, se monitorean los riesgos residuales, se identifican nuevos riesgos y se evalúa la efectividad del proceso de gestión de los riesgos a través del proyecto
+
+
+Gestión de las Adquisiciones del Proyecto
+* Incluye los procesos de compra o adquisición de los productos y servicios que son necesarios fuera del equipo del proyecto
+* Incluye los procesos de gestión del contrato y de control de cambios requeridos para desarrollar y administrar contratos u órdenes de compra emitidas
+
+
+Procesos
+* Planificar las adquisiciones
+   * Documentar las decisiones de compra especificando la forma e identificando a posibles proveedores
+* Efectuar las adquisiciones
+   * Obtener respuestas de los proveedores, seleccionar uno y adjudicar un contrato
+* Administrar las adquisiciones
+   * Monitorear la ejecución de los contratos
+   * Efectuar cambios y correcciones según sea necesario
+* Cerrar las adquisiciones
+   * Completar cada adquisición para el proyecto
+
+
+________________
+
+
+
+
+The Open Group
+* Empresa que no está atada a ningún software en particular
+* Busca desarrollar estándares para la digitalización de empresas
+* Ofrecen herramientas para la transformación  e integración de una empresa a un entorno digital en todos sus niveles
+* Surgen a partir de la unificación de la mayoría de las empresas de distribución de Unix ?
+
+
+Áreas de la empresa en las que ayudan
+* Digital Strategy
+   * Manejo de la inversión para la digitalización
+* Agile Practices
+   * Habilidades para detectar y adaptarse rápido a cambios en el entorno del mercado
+* Digital Product
+   * Es la sección del porfolio orientada al producto final que se busca tener
+* Enterprise Architecture
+   * TOGAF
+* Customer Experience
+   * Estudia la experiencia de usuario y busca optimizarla
+* Digital Pipeline
+   * Sobre el manejo de información dentro de la empresa
+* Securing the enterprise
+   * Sobre las posibles brechas de seguridad y riesgos de las políticas de la empresa
+* Growing the Digital Organization
+* Modeling the Organization
+   * Refiere a la arquitectura implementada
+
+
+Ventajas de sus Servicios
+* Fácil acceso a la información
+* Respaldado por líderes de la industria
+* Cuenta con años de experiencias
+
+
+TOGAF - The Open Group Architecture Framework
+* Architecture Framework
+   * Es una herramienta que se va a utilizar para el desarrollo de arquitecturas
+   * Método para diseñar un sistema de información en términos de uin conjunto de Building Blocks
+   * Debe proporcionar un vocabulario común
+   * Lista de estándares recomendados
+* Es un marco de referencia
+
+
+Elementos claves
+* Metodología → planificación e implementación
+* Marco de trabajo → estructura organizada
+* Conjunto de contenido → creación y gestión
+* Conjunto de procesos → flujo de trabajo y actividades
+
+
+Arquitecturas que cubre
+* Negocios → estrategia, organización
+* Aplicaciones → técnicas, plan y prácticas
+* Datos → gestión, flujo en sistemas
+* Tecnológica - hw, sw, soporte
+
+
+Conceptos básicos
+* Entregables - Deliverables
+* Artefactos - Artifacts
+* Bloques de construcción - Building Blocks
+   * ABB → Architecture Building Blocks
+      * Sería como la interfaz
+   * SBB → Solution Building Blocks
+
+
+Desventajas
+* Documentación compleja que requiere mucho tiempo
+* Alto nivel de personalización puede convertirse en problema a la larga
+* Contratación de consultores externos para implementarla
+
+
+Ventajas
+* Enfoque estructurado y completo
+* Herramientas y recursos que permiten alinear los objetivos estratégicos
+* Estandarización y la mejora continua
+* Actualización regular
+* Facilita la comunicación y comprensión entre IT y las partes interesadas
+
+
+ADM - Architecture Development Method
+* El corazón del TOGAF
+* Proceso para crear o cambiar la arquitectura
+* Se definen
+   * Baseline
+   * Roadmap
+   * Target Architecture
+* Plantea 10 fases
+   * Preliminary
+      * Se decide si cambiar la arquitectura actual o empezar una de nuevo
+      * Se decide si se integran los sistemas legacy
+   * Architecture Vision
+      * Revisar capacidades para cumplir con los requerimientos
+      * Se obtiene el approach a la realización a la arquitectura y qué mediciones se van a usar
+   * Business Architecture
+      * Participación de los Stakeholders, explicarlo y recibir feedback
+      * Va a delimitar lo que van a hacer en las próximas 2 etapas
+   * Information Systems Architectures
+      * Preguntas que se hacen
+         * Cómo se almacenarán los datos
+         * Qué estructuras se van a usar
+         * Qué aplicaciones se van a usar para interactuar con dicha información
+   * Technology Architecture
+      * Foco puesto en software base y hardware
+   * (las últimas 3 dan una visión sobre cómo van a ser las arquitecturas)
+   * Opportunities and Solutions
+      * Primera versión del roadmap
+      * Se plantean arquitecturas de transición entre la baseline y la target
+      * Último chequeo de capacidades, requerimientos, etc
+   * Migration Planning
+      * Se define una schedule para transitar la migración
+   * Implementation Governance
+      * Revisar los proyectos, que sean acordes a la target
+   * Architecture Change Management
+      * Verificación y validación de los cambios hechos
+      * En base a las mediciones se decide si se empieza de nuevo el proceso
+   * Requirements Managements
+      * Reevaluación de los requerimientos
+      * (en verdad estaría en todas las fases del proceso)
+Clase 12
+Calidad
+* Definiciones
+   * Creación de experiencias positivas y predecibles para los clientes respondiendo constantemente a sus expectativas o excediéndolas
+   * Anticipar y exceder las necesidades y expectativas de los clientes, a un costo menor o igual al valor por ellos asignado
+* Conceptos de calidad
+   * No es absoluto
+   * Está sujeto a restricciones
+   * Trata de compromisos aceptables
+   * Es multidimensional
+   * Los criterios de calidad no son independientes
+   * Cualquier indicador de calidad que no tome en cuenta al cliente es irrelevante
+* Diagrama  
+
+
+Calidad centrada en el Cliente
+   * Cliente
+   * La persona más importante de la empresa
+   * La empresa depende del cliente
+   * Es el propósito del trabajo de la empresa
+   * El cliente le hace un favor a la empresa cuando le da la oportunidad de servirlo
+  
+
+   * Pirámide
+   * Visión, Misión y Valores
+   * Elementos estratégicos que definen el propósito y la dirección a largo plazo de la organización
+   * Visión → lo que la empresa quiere ser en el futuro
+   * Misión → su propósito fundamental y su razón de ser
+   * Valores → creencias y principios que guían el comportamiento y decisiones de todos los miembros de la organización
+   * Principios de Calidad
+   * Directrices fundamentales que guían las acciones y decisiones de la empresa en su búsqueda de la excelencia
+   * Principios como la orientación al cliente, liderazgo, participación del personal, enfoque basado en procesos, toma de decisiones basada en evidencia, gestión de relaciones, etc
+   * Mejora continua de Procesos
+   * Implica implementar prácticas y enfoques que aseguren que los procesos sean revisados y optimizados regularmente
+   * Compromiso continuo para hacer las cosas mejor, más eficientes y más efectivas
+   * Metodología de mejora - Herramientas
+   * Refiere a las herramientas de calidad que se utilizan para mejorar los procesos dentro de la empresa
+   * Incluyen técnicas como el diagrama de Ishikawa, Diagrama de Pareto, Análisis de Causa Raíz, etc
+   * Proporcionan métodos estructurados y sistemáticos para identificar, analizar y resolver problemas
+
+
+Objetivos
+   * (todo lo que hace a la satisfacción del cliente)
+   * Calidad
+   * Calidad del producto
+   * Calidad del servicio
+   * Costo
+   * Eliminación de pérdidas
+   * Reducción de precios
+   * Entrega
+   * Lugar correcto
+   * Cantidad correcta
+   * Hora correcta
+   * Seguridad
+   * Para la salud
+   * En el lugar de trabajo
+   * En el uso
+   * Ambiente laboral
+   * Todos participan
+   * Todos se preocupan
+   * Calidad en la vida de trabajo
+
+
+Modelo de Excelencia
+   * Es un modelo de gestión que busca dar un marco de referencia aprobado para evaluar la calidad de una empresa
+   * Misión → promover la mejora en la calidad de gestión de las organizaciones
+   * Evaluación
+   * Liderazgo
+   * Enfoque en mercados y clientes
+   * Gestión de los procesos
+   * Gestión de la innovación
+   * Gestión de las personas
+   * Gestión de los recursos
+   * Gestión de la responsabilidad social
+   * Resultados en las otras categorías
+
+
+Metodología
+   * Asegurar que los Clientes determinen la Calidad
+   * Tratar todo como un proceso
+   * Mejorar continuamente
+   * Incluir la Calidad desde el principio
+   * Resolver problemas utilizando evidencia
+   * Hacer que todos participen
+
+
+SOLUCION
+   * S - Seleccionar el tema
+   * Identificar y clarificar el tema
+   * Principios
+   * Debe ser basado en evidencia
+   * Se analiza de qué forma afecta el tema a las necesidades/requerimientso del cliente
+   * El tema debe estar bajo el control del equipo y la influencia del sponsor
+   * El tema debe ser lo suficientemente importante y urgente como para merecer el tiempo del equipo
+   * El tema debe ser enunciado como un problema o una oportunidad de mejora
+   * La declaración         de un tema describe al tema y las razones para mejorarlo
+   * Propósito → clarificar el tema, asegurar el consenso del equipo y poder comunicarlo a otros
+   * Herramientas
+   * Brainstorming → técnica para intercambiar ideas en un ambiente desinhibido
+   * Multivote → técnica de grupo para reducir una lista de elementos a unos pocos puntos manejables
+   * Matriz de decisiones → diagrama que le ayuda a comparar varios temas o puntos de acuerdo a diversos criterios
+   * Desarrollar un plan preliminar del proyecto para el equipo
+   * Definir
+   * Cuándo se reunirá el equipo
+   * Quién debe estar involucrado
+   * Qué preguntas deben ser respondidas
+   * Dónde buscaremos respuestas
+   * Cómo realizaremos el trabajo, para cuándo
+   * Comprender el impacto que tiene el tema sobre otras personas en la organización
+   * Comenzar a planificar el proyecto
+   * Herramientas
+   * Diagrama de Impacto
+   * O - Obtener información
+   * Documentar el proceso actual
+   * Mapa del Proceso
+   * La representación gráfica de un proceso que destaca los pases de una función a otra
+   * Puntos principales → las actividades, el tiempo, las funciones
+   * Importante → identificar el proceso necesario para producir la salida deseada, hacer una lista de las actividades dentro de las funciones
+   * Diagrama de Flujo
+   * Representación gráfica de un proceso, donde se muestran los pasos y las actividades en orden secuencial
+   * Explorar la situación actual desde varios puntos de vista
+   * Utilizar herramientas para recolectar
+   * Determinar las fuentes de datos
+   * Censo
+   * Muestra
+   * Herramientas para recolectar los datos
+   * Hoja de control
+   * Formulario utilizado para controlar físicamente la frecuencia en la que ocurre un evento específico durante un cierto período de tiempo
+   * Análisis de datos
+   * Clasificación de datos
+   * Diagrama de afinidad
+   * Para clasificar grandes cantidades de información no organizada en categorías lógicamente relacionadas
+   * Utilizada como proceso creativo
+   * Despliegue de los datos
+   * Gráfico de líneas, barras, circular
+   * Enfoque de puntos críticos
+   * Diagrama de Pareto
+   * Diagrama de barras especializado que ayuda a identificar los temas importantes destacando la frecuencia de la ocurrencia
+   * Extracción de conclusiones tentativas
+   * L - Localizar las causas
+   * Explorar las posibles causas de un tema
+   * Diagrama de Ishikawa, causa-efecto
+   * Lista de verifiación
+   * Gráficos de líneas, barras, circular
+   * Gráfico de Pareto
+   * 5 por qué
+   * Regla de 3 realidades
+   * Brainstorming
+   * Verificar las causas con evidencia
+   * Seleccionar las causas principales
+   * U - Unirse para buscar la solución
+   * Producir una lista de posibles mejoras
+   * Seleccionar la mejora óptima
+   * Análisis de campo de fuerzas
+   * Diagrama de flujo
+   * Lista de verificación
+   * Diagrama de afinidad
+   * Brainstorming
+   * Mapa del proceso
+   * Presentación del plan de mejoras para su aprobación
+   * Trabajar con el sponsor en el detalle de los pasos del plan
+   * Trabajar con los miembros de la empresa que se considere oportuno
+   * Estar preparado para establecer objetivos, medidas y planes para la prueba piloto
+   * Prueba piloto
+   * Planificar prueba piloto
+   * Establecer el objetivo
+   * Diseñar un nuevo proceso si es necesario
+   * Desarrollar medidas
+   * Medidas R → de resultado, al final del proceso y basadas en la inspección
+   * Medidas P → del proceso, a lo largo del proceso y como medidas preventivas
+   * Determinar las necesidades de capacitación si corresponde
+   * Desarrollar un plan de comunicación
+   * Delinear las actividades
+   * Determinar los recursos necesarios
+   * Definir un cronograma
+   * C - Coordinar la prueba piloto
+   * Objetivos
+   * Comprender las claves del éxito en la presentación de pruebas
+   * Observar y evaluar una prueba piloto en progreso
+   * Pasos
+   * Comunicar
+   * Que todos los involucrados sepan el plan
+   * Establezca un compromiso
+   * Recuerde el diagrama de impacto
+   * Poner en práctica
+   * Apoyo
+   * Con capacitación
+   * Con recursos → personas, dinero, equipo
+   * Con un compromiso efectivo
+   * Medida
+   * Usando un diagrama de flujo o mapa de proceso mejorado
+   * Con herramientas de recolección de datos para registra las medidas identificadas en el plan de la prueba piloto
+   * Controle y despliegue activamente los datos durante la duración de la prueba piloto
+   * Documentar
+   * Crear un registro
+   * Mantener un cuadro de progreso e informes para evaluar, conservar y enseñar
+   * I  -  Investigar los resultados
+   * Evaluar si la prueba piloto logró los resultados esperados
+   * Determinar si el plan de la prueba piloto fue seguido
+   * Establecer un curso de acción adecuado
+   * Comunicar los resultados a las personas que dieron datos
+   * Cierre el circuito
+   * O - Organizar la transferencia
+   * Obtener la autorización para una puesta en práctica más amplia
+   * Explorar los obstáculos para la transferencia
+   * Proceso
+   * Documentar el método
+   * Para transferirlo a otros
+   * Como referencia para el futuro
+   * Comunicar
+   * Presentarlo a gerencia
+   * Compartir la información con toda la empresa
+   * Poner en práctica
+   * Ofrecer apoyo
+   * Establecer compromiso
+   * Continuar el control activo
+   * Alentar las ideas de mejora
+   * N - Nuevas mejoras
+   * Observar la eficacia del equipo
+   * Observar cómo se desarrolló el proceso del equipo
+   * Reconocer el trabajo del equipo
+   * Determinar los siguientes pasos para el equipo
+  
+
+
+
+Herramientas
+   * Brainstorming → generación de ideas creativas 
+   * Matriz de Decisiones → comparación de alternativas
+   * Diagrama de Flujo → representa los pasos de un proceso
+   * Mapa de proceso → representa un proceso interárea
+   * Hoja de Recolección → recolección y ordenamiento de datos
+   * Gráficos → exposición y análisis de datos
+   * Diagrama de Pareto → principio de 80-20, determina prioridades
+   * Diagrama de Afinidad → agrupa datos con criterios específicos
+   * Diagrama de Ishikawa → análisis de causas probables
+   * Campo de fuerzas → planificación de acciones preventivas
+
+
+Objetivos
+   * Aprender un método confiable de mejoramiento para aumentar el desempeño de la compañía
+   * Comprender cómo se pueden y deben usar los pasos para aplicarlos en temas de satisfacción del cliente
+   * Comprender cómo se relacionan las mejoras que se emprenden con la visión general de la empresa
+   * Aprender cómo analizar la información para mejorar la satisfacción del cliente
+   * Aprender cómo ser miembro de un equipo de calidad eficaz
+
+
+Planeamiento Estratégico
+   * 
+
+Pilares
+   * Previsible
+   * Proceso de planeamiento estratégico sistemático
+   * Participativo
+   * Basado en evidencia
+   * Contempla a todos los interesados
+   * Comunicación
+   * Múltiples puntos de influencia interna mediante distintos medios de comunicación
+   * Retroalimentación permanente del desempeño en función de los planes en ejecución
+   * Fortalecimiento del vínculo entre los objetivos del negocio y el desarrollo profesional de las personas
+   * El proceso es tan valioso como el output que genera
+
+
+Proceso
+   * Revisión de estrategias por área
+   * Revisión del ciclo anterior y elaboración de Plan Estratégico Preliminar
+   * Elaboración de planes de acción por área
+   * Consolidación del plan de la compañía
+
+
+Gestión de la Calidad
+   * -
+
+
+Gestión de Clientes
+   * Encuestas de satisfacción y lealtad
+   * Alcance → clientes propios y de competencia
+   * Frecuencia → anual
+   * Investigación → independiente
+   * Basada en atributos valorados por el cliente
+   * Técnica de cliente incógnito
+   * Evalúa la calidad de respuesta presencial y telefónica
+   * Prueba ácida para nosotros mismos
+   * Mercado objetivo
+   * Clientes → empresas y profesionales que usan el servicio “valor agregado” para el desarrollo de sus negocios
+   * Gestión de las relaciones con clientes
+   * Fuerza de ventas directas y distribuidores
+   * Llamadas de bienvenida
+   * Servicios de post venta
+   * Fuentes de conocimiento
+   * Difusión interna
+
+
+Gestión de Proveedores
+   * Proveedores como parte de la cadena de valor
+   * Relaciona a largo plazo con proveedores estratégicos
+   * Planificación compartir de las inversiones
+   * Revisión cotidiana conjunta del servicio
+   * Evaluación de proveedores
+   * Encuesta de satisfacción de proveedores con la empresa
+   * Capacitación de calidad
+   * QAT’s con proveedores
+   * Desayunos IPACE
+   * Incorporación a Benchmarking
+
+
+Gestión de los RRHH
+   * Valores referentes a las personas
+   * Selección del personal
+   * Inducción, capacitación y desarrollo
+
+
+Calidad en la Empresa (resumen?)
+   * Significa la creación de experiencias positivas y predecibles para los clientes, respondiendo constantemente a sus expectativas o excediéndolas, impactando así en un su nivel de satisfacción
+   * Se fundamenta en una filosofía de trabajo expresada en, una metodología, procesos, técnicas, materiales y recursos
+   * Principios
+   * Asegurar que los clientes determinen la calidad
+   * Tratar todo como un proceso
+   * Mejorar de manera continua
+   * Incluir la calidad desde el principio
+   * Resolver problemas con evidencia
+   * Hacer que todos se involucren y participen
+   * Medios para implantar la Calidad
+   * Equipos de Mejora
+   * Quality Action Team
+   * Equipo interfuncional formado por miembros de distintas áreas
+   * Sponsor
+   * Clarifica temas críticos, políticas y objetivos de los equipos
+   * Relaciona los temas con el negocio y orienta los cambios, promoviendo los Principios de la Calidad
+   * Lider
+   * Referente del QAT ante el Sponsor y el Facilitador
+   * Planifica la agenda y conduce las reuniones
+   * Facilitador
+   * Comprende los Principios de Calidad
+   * Asesora al QAT en general
+   * Facilita los procesos y provee información cuando es necesaria
+   * Es el “consultor”
+   * Miembro del equipo
+   * Reconocido por su capacidad de cooperación, buena disposición y efectividad
+   * Misión → trabajar en la mejora de procesos para alcanzar la calidad
+   * Metodología
+   * Metodología de resolución de problemas
+   * Cada paso contiene definiciones, objetivos, plan de acción, puntos de control y herramientas específicas
+
+
+Clase 13
+
+
+Herramientas de Enterprise Architecture
+   * Sw diseñado para ayudar a las organizaciones a planificar, analizar y gestionar su estructura y procesos de negocio y tecnología
+   * Funciones clave
+   * Gap analysis
+   * Control de versiones
+   * Roadmap de proyectos
+   * Evaluación de riesgos
+   * Modelado de software
+   * BPM
+   * Ventajas de utilizar estas herramientas
+   * Visión holística
+   * visión completa de todos los componentes de la empresa, incluyendo procesos, personas, tecnologías y datos
+   * Eficiencia operacional
+   * los procesos se pueden optimizar y automatizar
+   * eliminar redundancias y mejora de la productividad
+   * Colaboración
+   * Integración con otros sistemas
+   * Automatización inteligente
+   * muchas herramientas van incluyendo funcionalidades asistidas por AI
+
+
+Cuadrante mágico de Gartner
+   * Representación gráfica que evalúa y posiciona (ppt) según la habilidad de ejecución y la integridad de la visión
+   * Clasificaciones
+   * Retadores / Aspirantes
+   * Buena ejecución actual y capaces de dominar un segmento del mercado
+   * Aún no demuestran un real entendimiento de la dirección por la que va el mercado
+   * Líderes
+   * Jugadores de Nicho
+   * Visionarios
+
+
+Orbus Infinity
+   * (según cuadrante Gartner) Líder
+   * Misión
+   * Empoderar a las empresas para gestionar con éxito el cambio complejo
+   * Visión
+   * Cerrar la brecha entre la estrategia y la ejecución
+   * Propósito
+   * Bridge the gap between ideas and reality
+   * Ayuda a facilitar la colaboración y comunicación entre los integrantes de la empresa
+   * Unifica chats, calendarios, archivos
+   * Da la capacidad de tomar decisiones en tiempo real mostrandote cómo está el entorno actual de la empresa
+   * Da una mejor alineación con el mercado
+   * Permite simular entornos para ver cómo afectarían a la empresa
+   * Centralizada en IT
+   * Permite que gestionemos eficientemente nuestros activos e inversiones tecnológicas
+
+
+BizzDesign
+   * (según cuadrante Gartner) Líder
+   * Funciones principales
+   * Modelado y visualización
+   * Análisis y simulación
+   * Gestión de portfolios
+   * Colaboración y gobernanza
+   * Integración y extensibilidad
+   * Fortalezas
+   * Interfaz intuitiva
+   * Tiene soporte para lenguajes de modelado
+   * Tienen una guía para capitación y asesoramiento
+   * Servicio al cliente y soporte
+   * Experiencia del consumidor
+   * Debilidades
+   * Se necesita una formación para utilizar la herramienta
+   * Tiene un costo importante
+
+
+Lean IX
+   * Le permite a una empresa colaborar y utilizar datos para tener una visión más clara y ordenada de la infraestructura de la empresa y de sus sistemas de información tecnológica actuales
+   * Útil para planificar arquitecturas futuras
+   * Está enfocada en ERP
+   * Ventajas
+   * Rápido tiempo de generación de valor
+   * Altamente configurable
+   * Fácil de usar
+   * La más barata
+   * Desventajas
+   * No incluye todas las funcionalidades necesidades
+
+
+Hopex
+   * (según cuadrante Gartner) Líder
+   * Plataforma SaaS
+   * Moderna, segura y escalable
+   * Busca proveer un framework con herramientas para facilitar la comunicación y colaboración entre miembros de un mismo team
+   * Busca garantizar un espacio único para que trabaje el equipo
+   * Integración en el ecosistema de IT de la empresa
+   * Engloba diferentes herramientas para que la empresa no dependa de terceros
+   * Garantiza
+   * Seguridad, Confidencialidad, (ppt)
+   * Desventajas
+   * No es intuitiva, requiere asesoramiento para su utilización
+   * La más costosa
+
+
+Cómo elegir una de las herramientas
+   * Saber identificar las necesidades del negocio
+   * Según su facilidad de uso
+   * Según es fácil de integrar con las herramientas actuales
+   * Según su escalabilidad
+   * Si tienen soporte y servicio al cliente
+   * Según costo
+   * Según si es segura la plataforma
+
+
+Clase 14
+
+
+Digital Business
+   * 
+
+Transformación Digital
+   * Significa utilizar la tecnología digital en todas las partes de una empresa, cambiando la forma en que se hacen las cosas
+   * Siempre teniendo en cuenta cómo se benefician los clientes
+   * Lo importante de la digitalización es cómo almacenamos la información, no la automatización
+   * Qué podemos hacer con esos
+   * Depende de la estructura, no los datos
+   * El conocimiento está en la estructura → en un BST, podés tener la info ordenada recorriéndolo in order, no hace falta calcular nada, ya es por cómo está guardado
+   * En las IA el conocimiento está en cómo se guardaron los datos de entrenamiento, en las matrices
+   * Visión Estratégica
+   * Establecer metas y Objetivos claros
+
+
+Integración Tecnológica
+   * Integración tecnológica
+   * Herramientas → IA, IoT y Cloud computing
+   * Ecosistemas interconectados
+   * Los dispositivos IOT ayudan a que máquinas se comuniquen con aplicaciones
+   * Hace que las cosas funcionen mejor, a los clientes más satisfechos y ayuda a las empresas a encontrar nuevas formas de hacer las cosas
+   * Piedra angular del proceso de transformación digital
+   * Ej.: el ecosistema de Apple
+   * Cloud computing como backbone
+   * Ofrece flexibilidad y escalabilidad necesarias para la transformación digital
+   * No se gasta en configuración de nuevos sistemas
+   * Se pueden generar nuevas ideas y reaccionar más rápido a lo que está sucediendo en el mercado
+   * Ventajas → ubicuidad (disponibilidad, colaboración, etc), storage, potencia de cómputo
+   * Cambio cultural
+   * Abrazar el cambio y desarrollar la alfabetización digital
+   * Se trata de cambiar la forma en que todos piensan y trabajan juntos
+   * Educar, entrenar, alfabetizar, instruir, perfeccionar
+   * Gestionar la resistencia al cambio
+   * Implica abordar la resistencia comunicando los beneficios de la transformación digital y dando apoyo a lo largo de la transición
+   * Involucrando a los empleados se puede generar mayor aceptación y reducir la resistencia
+   * Técnicas
+   * Comunicación clara → más problable que confién y apoyen la transición si la entienden
+   * Involucrar a los empleados → se sienten más empoderados y comprometidos con los cambios
+   * Ambiente de trabajo positivo → que se fomente el probar cosas nuevas
+   * Enfoque centrado en el cliente
+   * Se prioriza la experiencia de usuario
+   * Puede mejorar la satisfacción, lealtad y compromiso con los clientes
+   * A través del análisis de datos
+   * Para entender sus necesidades, preferencias y tendencias
+   * Permite adaptar sus productos/servicios/estrategias para satisfacer mejor a los clientes
+   * Involucrar a los clientes a través de los canales digitales
+
+
+Casos de Transformación Digital
+   * Netflix - Qwikster
+   * Amazon
+   * Revolución bancaria
+   * Cambiaron las fintech
+   * Fortalecimiento de los bunkers digitales
+   * Telemedicina
+   * Facilitar las consultas virtuales
+   * La tecnología portátil y de indumentaria
+   * Fábricas 4.0
+   * Los sensores IOT y los algoritmos de mantenimiento predictivo optimizan la eficiencia de la producción, reducen el tiempo de inactividad y minimizan los costos
+   * LoRa - Long Range
+   * Señal inalámbrica
+   * Transmiten con poca potencia, pocos datos
+   * Mucha información a poco mantenimiento
+
+
+________________
+
+
+
+
+Performance Management
+   * Herramienta para evaluar el trabajo y desempeño de los empleados de la empresa
+   * Objetivos
+   * Equilibrar la relaci[on entre los empleados y el valor que aportan
+   * Crear un entorno donde los empleados puedan desempeñarse alineados a los objetivos de la organización
+
+
+Funciones claves
+   * Definir y establecer los objetivos de la empresa
+   * Establecer expectativas claras
+   * Establecer el estándar → en cuanto a tiempo, calidad, producción, etc
+   * Fomentar la comunicación efectiva → resulta en empleados comprometidos cuyos objetivos individuales están alineados con la empresa
+   * Determinar necesidades de capacitación y desarrollo
+
+
+Ciclo Tradicional
+   * Planificar → establecer objetivos en el plano general de la empresa y planes de desarrollo del personal
+   * Accionar → el empleado se dedica a trabajar y alcanzar sus objetivos
+   * Monitorear → los empleados registran el progreso en todo momento
+   * Review → el empleado se reune con el manager para evaluar y analizar su desempeño, manteniendo o cambiando sus objetivos individuales
+   * Compensación → reconocimiento de los empleados con alto rendimiento
+
+
+Objetivos principales
+   * Ayudar a la organización a mejorar el rendimiento general
+   * Impulsar la comunicación entre empleados y directivos
+   * Dando lugar al desarrollo profesional del empleado y a un beneficio de los directivos al ser conscientes del estado de sus empleados
+   * Ayudar a los empleados a aprender y crecer
+   * Cumplir con los requisitos organizacionales
+   * Se da un seguimiento certero de los objetivos por lo tanto le permite al manager tener un enfoque más holístico
+   * Aumentar la retención de empleados
+
+
+Formas de lograrlo
+   * Teniendo objetivos SMART
+   * Elemento clave para el planeamiento estratégico
+   * KPIs
+   * Para lograr resultados deseados
+   * Para identificar áreas de mejora
+   * Para mantener la competitividad de la organización
+   * OKRs → Objective Key Results
+   * Metodología de gestión de objetivos
+   * Se detallan objetivos parciales respecto al general
+
+
+Métricas para medir performance
+   * Calificaciones del gerente
+   * Autoevaluaciones
+   * Logro de objetivos
+   * Si no se toma en cuenta el logro de los objetivos, la medición(?) de performance se vuelve sesgada
+   * Feedback 360°
+
+
+Importancia
+   * (es un pilar fundamental para el éxito organizacional)
+   * Mejora del desempeño
+   * Atraer y retener el talento
+   * Desarrollo de empleados
+   * Motivación y compromiso de empleados
+   * Es importante hacerles saber cómo sus objetivos afectan a la empresa, tanto grupales como individuales
+   * Toma de decisiones informada
+   * Comunicación efectiva
+   * Entre supervisores y empleados para que sepan por qué se toman X decisiones
+
+
+Gestión de rendimiento vs Evaluación
+   * Gestión de rendimiento
+   * Proceso continuo y completo
+   * Se centra en mejorar el desempleo y desarrollo de los empleados en relación a los objetivos de la empresa
+   * Metas claras
+   * Retroalimentación
+   * Evaluación
+   * En un período específico
+   * Analizar objetivos
+   * Identificar áreas de mejora
+   * Tiene un diferente alcance y enfoque temporal
+
+
+Performance Review Tradicional
+   * Proceso anual estándar
+   * Pasos
+   * Solicitud de retroalimentación → a colegas, supervisores, subordinados, clientes
+   * Asignación de calificaciones y redacción de informes
+   * Cuantitativo vs Cualitativo
+   * Métricas vs Relativos
+   * Entrega de la revisión de rendimiento
+   * Se le comunican al empleados los objetivos que van a tener en el próximo año y sus puntos a mejorar
+   * Se toman decisiones basadas en la evaluación
+   * Desventajas
+   * Pérdida de tiempo y recursos
+   * Enfocada en el pasado → no es significativo cómo trabajaban hace un año
+   * Bajo impacto en el desarrollo profesional
+   * Efectos negativos en la motivación y la moral
+   * Riesgo de litigio aumentado → citaban las revisiones en demandas de discriminación (de empleados a empresas)
+   * Susceptibles a la subjetividad del jefe del empleado
+
+
+Ventajas del Performance Management
+   * Proceso continuo → de identificar, medir y desarrollar el desempeño del empleado
+   * Enfoque integral → no se limita a una evaluación aislada
+   * Administrativo → ayuda a mantener la organización administrativamente
+   * Estratégico → ayuda a las organizaciones  alograr objetivos estratégicos de negocio
+   * Informativo → proporciona información continua sobre el desempeño
+   * Desarrollo → facilita el desarrollo de los empleados, identificando áreas de mejora
+   * Documental → mantiene un registro de la evaluación del desempeño
+   * Refuerzo de Comportamientos y Valores
+   * Comunicación → crea una comunicación más fluida y dinámica
+
+
+________________
+
+
+
+
+IT Architecture
+   * Cubre la tecnología de la información en una arquitectura empresarial
+   * Aplicaciones de sw
+   * Datos
+   * Infraestructura de Tecnología
+   * Seguridad de Información
+   * Es importante → la info se usa en todo el marco empresarial
+   * Propósito → guiar el cambio de los sistemas para cumplir con los objetivos comerciales generales, la estrategia y la propuesta de valor
+
+
+Aspectos en los que inhiere
+   * Arquitectura empresarial
+   * Gestión del Ciclo de Vida de los Servicios
+   * Interoperabilidad y Estándares
+   * Optimización de Costos
+   * Reducir costos sin comprometer la calidad de la arquitectura
+   * Innovación Tecnológica
+   * Explora y adopta nuevas tecnologías
+
+
+Ejemplos de Arquitecturas
+   * Service-Oriented Architecture - SOA
+   * A partir de la necesidad de integrar sus sistemas de información de manera más flexible y eficiente
+   * Elementos → proveedor de servicios, agente de servicios, usuario de servicios
+   * Ventajas
+   * Reutilización → de servcios ajenos a la aplicación?
+   * Flexibilidad → para integrar facilmente sin necesidad de reestructurar
+   * Interoperabilidad → permite integración de servicios de forma heterogénea
+   * Escalabilidad
+   * (ppt)
+   * Enterprise Service Bus - ESB
+   * Componente de sw que se utiliza para facilitar la integración y la comunicación entre los diferentes sistemas y aplicaciones de una aplicación(?) empresarial
+   * Manejo del flujo de datos
+   * Garantizan → seguridad, integridad, privacidad
+   * SOA vs ESB
+   * SOA → arquitectura más modular orientada a servicios, requiere planificación cuidados
+   * ESB → integración más rápida y centralizada en los sistemas, arquitectura dependiente de una única infraestructura centralizada
+   * Interoperabilidad y comunicación
+   * SOA: Define cómo se deben diseñar y organizar los servicios para que sean interoperables y reutilizables, promoviendo una arquitectura modular.
+   * ESB: Proporciona la infraestructura necesaria para que estos servicios puedan comunicarse entre sí, independientemente de las plataformas y tecnologías subyacentes. Actúa como un intermediario que facilita el intercambio de mensajes entre servicios.
+   * Desacoplamiento y flexibilidad
+   * SOA: Promueve el desacoplamiento de los componentes de software, de manera que cada servicio funcione de manera independiente y pueda ser reemplazado o actualizado sin afectar a otros servicios.
+   * ESB: Facilita este desacoplamiento al gestionar la comunicación y la interacción entre los servicios, permitiendo que los cambios en un servicio no afecten directamente a los otros servicios conectados.
+   * Enrutamiento y transformación
+   * SOA: Define los servicios y sus interfaces, pero no se enfoca en cómo deben enrutar y transformar los mensajes entre estos servicios.
+   * ESB: Se encarga del enrutamiento inteligente y la transformación de mensajes, asegurando que los datos lleguen al servicio correcto en el formato adecuado.
+   * Gestión y monitoreo
+   * SOA: Establece un marco para la creacion y gestion de servicios, pero no proporciona las herramientas específicas para monitorizar y gestionar la interacción entre servicios.
+   * ESB: Ofrece capacidades de gestión y monitoreo centralizados, permitiendo la supervisión del tráfico de mensajes y la salud de los servicios, lo cual es crucial para mantener una estructura SOA eficiente.
+   * Reutilización y escalabilidad
+   * SOA: Facilita la reutilización de servicios existentes para construir nuevas aplicaciones y procesos de negocio, promoviendo la eficiencia y la agilidad.
+   * ESB: Escala esta reutilización al proporcionar una plataforma centralizada para integrar y coordinar estos servicios, haciendo que sea más fácil añadir y gestionar nuevos servicios a medida que crece la organización.
+   * Seguridad y gobernanza
+   * SOA: Define políticas y prácticas para la seguridad y la gobernanza de los servicios, asegurando que los servicios sean seguros y cumplan con las regulaciones.
+   * ESB: Implementa estas políticas de seguridad y gobernanza, asegurando que los mensajes y datos intercambiados entre servicios sean seguros y estén gobernados correctamente.
+
+
+________________
+
+
+
+
+Enterprise Resource Planning
+   * Es la planificación de recursos empresariales
+   * Herramientas fundamentales para (ppt)
+   * Ayuda a gestionar de forma eficiente los procesos tales como finanzas, fabricación y servicios en un sistema integrado
+   * Brinda → automatización, integración, inteligencias esenciales
+
+
+Beneficios
+   * Mayor productividad → “hacer más, con menos recursos”
+   * Informes acelerados
+   * Reduce el riesgo → maximiza la visibilidad y el control del negocio
+   * IT más simple → ofrece una manera más fácil de trabajar
+   * Agilidad mejorada → reaccionar rápido a nuevas oportunidades
+
+
+Funcionamiento
+   * Está compuesto por módulos integrados o aplicaciones de negocio que se hablan entre sí y comparten una base de datos común
+   * Se dividen en diferentes módulos clave que se encargan de diferentes aspectos
+   * Pero todos trabajan juntos usando los mismos datos para cumplir con las necesidades de la empresa
+
+
+Tipos de implementación
+   * ERP en la Nube
+   * Flexible y menos costoso
+   * Para empresas chicas
+   * ERP on-premise
+   * Más costoso
+   * Para empresas grandes
+   * Tradicional
+   * ERP híbrido
+
+
+Customer Relationship Management
+   * La gestión de la relación con los clientes
+   * Refiere a toda estrategia, técnica y herramienta que esté orientada a mejorar y establecer la relación de la empresa con el cliente
+   * Customer Relationship Manager
+   * Software que se usa para facilitar los procesos y estrategias aplicadas a mejorar la relación con el cliente
+   * Con herramientas para principalmente marketing, servicios y ventas
+
+
+Funciones
+   * Centraliza toda la información de clientes de la empresa en un solo lugar facilmente accesible, con el objetivo de asistir en la retención de clientes y aumentar ventas
+   * Tareas
+   * Rastrea y administra información
+   * Provee estadísticaas y reportes
+   * SImplifica tareas repetitivas
+   * Recomienda acciones a tomar
+   * Facilita información sobre clientes
+   * Automatiza múltiples procesos
+   * Recopila la información y puede utilizarla
+
+
+Beneficios
+   * Mejor uso de tiempo y recursos
+   * Mayor satisfacción del cliente
+   * Aumento de ganancia
+   * Permite analizar en busca de mejoras
+
+
+En Ventas
+   * Parte del CRM que se dedica a mejorar la relación con el cliente en ventas
+   * -
+   * Optimiza proceso de venta
+   * Embudo de ventas
+   * Ejemplo de CRM en ventas → Salesforce
+
+
+En Marketing
+   * Tiene software que permite integrar ventas y marketing
+   * Le permite a la empresa hacer el seguimiento del proceso por el que pasan los clientes
+   * Facilita la automatización
+
+
+En Atención al Cliente
+   * Debe poder proporcionar soporte la mayor parte del tiempo
+   * Atención 360 → pudiendo integrar las diferentes formas de comunicación con el cliente
+   * Guardar el registro de la comunicación del cliente desde el primer contacto

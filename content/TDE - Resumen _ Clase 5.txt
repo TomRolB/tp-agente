@@ -1,0 +1,88 @@
+﻿Factores de comprensión y evaluación
+* Registrar los errores de casos no exitosos
+
+
+________________
+
+
+
+
+Terminología
+* Control-flow → describe el conjunto de tareas que componen a un proceso de negocios y el hilo de ejecución de las mismas
+   * Se pueden representar a través de
+      * BPMN - Business Process Model and Notation
+      * UML - Unified Modeling Language 
+      * Petri Nets
+      * State charts
+      * EPCs → Event-driven Process Chain
+   * No es lo mismo un diagrama de estado que uno de flujo
+      * Un diagrama de flujo → las cosas se mueven de acuerdo a una secuencia
+      * Un diagrama de estado → muestra cómo se pasa de estado a estado a través de acciones (ej.: autómatas)
+* Datos → aquellos que establecen qué se hace en cada punto del workflow, recoge la info que se requiere durante la ejecución de un proceso de negocio
+   * Se pueden representar a través de
+      * UML
+      * ER diagrams
+      * Object-role models
+* Recursos → las personas/aplicaciones/equipos que lo van a usar
+   * identifica a las personas e instalaciones que realmente llevan a cabo el proceso de negocio, el contexto organizacional en el que operan
+   * tiene a los patrones
+   * Se pueden representar a través de
+      * Use cases
+      * Role-activity diagrams
+      * Organizational charts
+
+
+Representaciones de WF
+* Petri Nets → útil para describir la dinámica de los procesos
+   * los lugares representan las etapas intermedias de la operación de un proceso
+   * las transiciones corresponden a las actividades/eventos que se componen al proceso
+   * No tiene capacidad de decisión - queda implícito
+* WF Nets → para describir los procesos de flujo de trabajo de una manera precisa
+   * mejores para el análisis en tiempo de diseño y ejecución
+   * los wf tienen un lugar único de inicio y un lugar único de finalización
+   * Tiene capacidad de decisión - queda explícito
+* EPC → describe un proceso de negocio en términos de una serie de transformaciones basadas en funciones entre un conjunto de eventos de entrada y un conjunto de eventos de salida
+   * Tiene operadores lógicos an/or/xor
+* BPMN → para definir procesos de negocio con un metamodelo formal y una notación gráfica asociada
+   * Incorpora notaciones
+   * Define patterns
+* UML → para describir el funcionamiento de un proceso a través de Actions, Nodes, Paths y Containment Elements
+
+
+Patrones
+* De creación
+* De inserción
+* De extracción
+* De desvío
+* De inicio
+* De visibilidad
+* De recursos múltiples
+
+
+Paradoja del círculo vicioso
+* El utilizar ORs puede llevar a ciclos infinitos
+
+
+Low Code vs No Code
+* Enfoques a desarrollo de código
+* Programar en un lenguaje de muy alto nivel
+* Programación gráfica - drag and drop
+* No Code
+   * Enfoque en el que alguien sin conocimiento de código pueda escribir un programa
+   * Los componentes están disponibles dentro de una interfaz gráfica
+   * La generación de prototipos puede probarse antes de su publicación
+   * Para usuarios que quieren crear su propia app sin ayuda de un dev
+   * Basado en modelos ya creados que se rellena y modifican con la interfaz gráfica
+   * Con un entorno de trabajo cerrado, con estructura propietaria
+* Low Code
+   * Poder escribir un programa sin necesidad de saber la sintaxis, pero sí está pensado para programadores pero no especialistas
+   * Para programadores, les facilita el trabajo
+   * Utiliza la programación manual de base y la plataforma facilita la conformación
+* Ventajas
+   * Fáciles de usar
+   * No requiere conocimientos de programación
+   * Ahorro de tiempo
+   * Ahorro de plata en cuanto a profesionales sin especialización en programación
+* Desventajas
+   * Menor flexibilidad, se desarrollo en un entorno cerrado y propietario
+   * La mayoría de las plataformas no ofrencen migración

@@ -51,8 +51,8 @@ Donde correct_index es 0-3 indicando cuál opción es la correcta."""
 
 QUESTION_CREATOR_PROMPT_NO_RAG = """Eres un experto creador de preguntas de opción múltiple. Tu trabajo es:
 
-1. Lee el contenido del archivo del curso usando read_text_file_tool si es necesario
-2. Puedes usar search_in_text_file_tool para buscar términos específicos en el archivo
+1. USA load_course_content_tool para cargar el contenido completo del curso
+2. Puedes usar search_in_text_file_tool para buscar términos específicos si necesitas profundizar
 3. Revisar las preguntas existentes para evitar repeticiones usando list_questions_tool
 4. Crear una pregunta original basada en el contenido del curso
 5. Proporcionar exactamente 4 opciones de respuesta (una correcta y tres incorrectas plausibles)
@@ -232,8 +232,8 @@ Devuelve tu respuesta en este formato JSON exacto:
 
 OPEN_ENDED_QUESTION_CREATOR_PROMPT_NO_RAG = """Eres un experto creador de preguntas abiertas educativas. Tu trabajo es:
 
-1. Lee el contenido del archivo del curso usando read_text_file_tool si es necesario
-2. Puedes usar search_in_text_file_tool para buscar términos específicos
+1. USA load_course_content_tool para cargar el contenido completo del curso
+2. Puedes usar search_in_text_file_tool para buscar términos específicos si necesitas profundizar
 3. Revisar preguntas existentes para evitar repeticiones usando list_questions_tool
 4. Crear una pregunta abierta que requiera respuesta desarrollada
 5. Proporcionar criterios claros de evaluación

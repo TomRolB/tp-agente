@@ -1,0 +1,88 @@
+﻿Índice
+* Números que indican los porcentajes de variación de cada valor de la variable respecto al valor que toma como referencia
+
+
+Índice de Precios al Consumidor - IPC
+* Es un indicador que mide la evolución promedio de los precios de un conjunto de bienes y servicios representativos del gasto de consumo de los hogares residentes en un área determinada. 
+
+
+Interés
+* Simple → M = C0 + C0 * r * t
+* Compuesto → Mn = C0 * (1 + r) n
+* Para “nt” períodos de Capitalizacion → Mn = C0 * ( 1 + r / n ) nt
+
+
+Analizar proyectos
+* -
+
+
+VAN
+* Valor Actual Neto
+* Para evaluar la rentabilidad de un proyecto o inversión
+* Representa la diferencia entre el valor presente de los flujos de fondos futuros generados por un proyecto y el costo inicial de la inversión, descontado a una tasa de interés apropiada
+* La regla de VAN supone que todos los flujos de fondos pueden reinvertirse a la tasa de descuento
+* Estimación del VAN
+   * Estimar los flujos de fondos futuros
+   * Estimar la tasa de descuento
+   * Estimar los costos iniciales
+  
+
+
+
+Valor Residual
+* Valor que tiene el proyecto al final de su vida útil y por el cual se podría vender
+* Si en verdad se pueden calcular, se agregan a la VAN
+
+
+TIR
+* Tasa Interna de Retorno
+* Tasa de descuento que fija el VAN a cero
+* Desventajas
+   * No distingue entre reinvertir y endeudarse
+   * Pueden haber múltiples o ninguna TIR
+   * Problemas con inversiones mutuamente excluyentes
+* Ventajas
+   * Fácil de entender y comunicar
+
+
+Repago Nominal
+* Cuanto tiempo tarda el proyecto en “recuperar” la inversión inicial
+* Desventajas
+   * Ignora el valor del dinero en el tiempo
+   * Ignora los flujos de fondos después del período de recuperación
+   * Sesgado contra proyectos a largo plazo
+   * Requiere un criterio de aceptación arbitrario
+   * No indica nada sobre la VAN, puede ser negativa
+* Ventajas
+   * Fácil de comprender
+   * Sesgado hacia la liquidez
+
+
+Repago Descontado
+* Como el repago nominal pero descontando el costo del dinero
+* El período de recuperación descontado toma en cuenta el valor del dinero en el tiempo, aplicando una tasa de descuento para ajustar los flujos de efectivo futuros
+* Proceso
+   * Calcular los flujos de efectivo netos para cada período
+   * Aplicar una tasa de descuento adecuada para calcular su VAN
+   * Determinar qué períodos los flujos de efectivo descontados acumulados son iguales o superiores al costo inicial
+
+
+Rendimiento Contable Promedio
+* Cálculo
+   * RCP = Ingreso Neto Promedio / Valor Contable Medio de la Inversión
+* Es fatalmente defectuoso
+* Desventajas
+   * Ignora el valor del dinero en el tiempo
+   * Utiliza una tasa de recorte arbitraria
+   * Basado en valores contables, no en flujos de efectivo ni valores de mercado
+* Ventajas
+   * La información contable suele estar disponible y fácil de acceder
+   * Fácil de calcular
+
+
+PI
+* Índice de Rentabilidad
+* Es el valor presente de todos los flujos futuros dividido el capital inicial
+  
+
+* Aceptar si el índice es mayor a 1

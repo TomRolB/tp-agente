@@ -1,6 +1,7 @@
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 from dotenv import load_dotenv
+import os
 from services.service import FileService, MCQService
 from tools.tools import check_multiple_choice_answer as check_answer_func
 from tools.tools import check_last_multiple_choice_answer as check_last_answer_func
@@ -69,6 +70,9 @@ tools = [
 ]
 
 if __name__ == "__main__":
+    # Get content directory from env
+    content_dir = os.environ.get("CONTENT_DIR", "./content")
+
     agent = create_react_agent(
         model="openai:gpt-4o-mini",
         tools=tools,
@@ -76,22 +80,22 @@ if __name__ == "__main__":
     )
 
     print("=" * 60)
-    print("EJEMPLO 1: Leer archivo .txt")
+    print("EJEMPLO 1: Leer archivos del directorio de contenido")
     print("=" * 60)
 
     result = agent.invoke({
-        "messages": [{"role": "user", "content": "Lee el archivo SD-Com.txt y dame un resumen"}]
+        "messages": [{"role": "user", "content": f"Lee los archivos de {content_dir} y dame un resumen"}]
     })
     print(f"\nRespuesta: {result['messages'][-1].content}\n")
 
     print("=" * 60)
-    print("EJEMPLO 2: Crear y registrar MCQ basado en el archivo")
+    print("EJEMPLO 2: Crear y registrar MCQ basado en el contenido")
     print("=" * 60)
 
     result = agent.invoke({
         "messages": [{
             "role": "user",
-            "content": "Lee el archivo SD-Com.txt y crea una pregunta de opción múltiple nueva basada en su contenido."
+            "content": f"Lee los archivos de {content_dir} y crea una pregunta de opción múltiple nueva basada en su contenido."
         }]
     })
     print(f"\nRespuesta: {result['messages'][-1].content}\n")
@@ -114,7 +118,7 @@ if __name__ == "__main__":
     result = agent.invoke({
         "messages": [{
             "role": "user",
-            "content": "Crea otra pregunta de opción múltiple nueva basada en SD-Com.txt."
+            "content": f"Crea otra pregunta de opción múltiple nueva basada en el contenido de {content_dir}."
         }]
     })
     print(f"\nRespuesta: {result['messages'][-1].content}\n")
@@ -137,7 +141,7 @@ if __name__ == "__main__":
     result = agent.invoke({
         "messages": [{
             "role": "user",
-            "content": "Crea una tercera pregunta de opción múltiple nueva basada en SD-Com.txt."
+            "content": f"Crea una tercera pregunta de opción múltiple nueva basada en el contenido de {content_dir}."
         }]
     })
     print(f"\nRespuesta: {result['messages'][-1].content}\n")

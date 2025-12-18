@@ -5,7 +5,8 @@ from tools.tools import (
     list_multiple_choice_questions,
     get_user_performance,
     get_answer_history_detailed,
-    get_unified_performance
+    get_unified_performance,
+    load_content_from_directory
 )
 from services.service_manager import get_service
 
@@ -60,6 +61,16 @@ def get_history_tool() -> str:
 def get_unified_performance_tool() -> str:
     """Get unified performance across MCQ and Open-Ended questions"""
     return get_unified_performance()
+
+
+@tool
+def load_course_content_tool() -> str:
+    """
+    Load all course content from the content directory.
+    Use this when RAG is disabled to access course materials.
+    Returns: Combined content from all .txt files in CONTENT_DIR
+    """
+    return load_content_from_directory()
 
 
 # ===== RAG TOOLS =====
