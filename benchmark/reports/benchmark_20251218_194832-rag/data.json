@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-18 19:55:15",
+    "turns_planned": 10,
+    "turns_completed": 10,
+    "persona_type": "ExpertPersona",
+    "average_generation_time_seconds": 38.27,
+    "min_generation_time_seconds": 10.44,
+    "max_generation_time_seconds": 72.71,
+    "total_generation_time_seconds": 382.73
+  },
+  "persona_config": {
+    "true_level": 5.0,
+    "target_sensitivity": 0.3,
+    "target_accuracy": 0.75
+  },
+  "results": [
+    {
+      "turn": 1,
+      "question": "¿Cuál es una de las principales ventajas del enfoque de desarrollo No Code?",
+      "options": [
+        "Permite a usuarios sin conocimientos de programación crear aplicaciones a través de una interfaz gráfica.",
+        "Brinda a los programadores una plataforma abierta para realizar cualquier modificación de código.",
+        "Requiere un profundo conocimiento de la sintaxis de programación para generar aplicaciones.",
+        "Ofrece flexibilidad total en el diseño y la estructura del código de la aplicación."
+      ],
+      "difficulty_score": 1,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 17.58
+    },
+    {
+      "turn": 2,
+      "question": "¿Qué postulado fundamental establece la teoría de la relatividad especial de Albert Einstein?",
+      "options": [
+        "La velocidad de la luz en el vacío es constante y la misma para todos los observadores independientemente de su movimiento relativo.",
+        "La gravedad es una fuerza atractiva que actúa a distancia entre dos cuerpos con masa.",
+        "La energía puede ser convertida en masa y viceversa, como se expresa en la ecuación E=mc².",
+        "El universo está en expansión acelerada desde el Big Bang."
+      ],
+      "difficulty_score": 2,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 37.21
+    },
+    {
+      "turn": 3,
+      "question": "¿Cuál es una característica clave de una organización ágil en comparación con una organización tradicional?",
+      "options": [
+        "Reconfiguraciones rápidas y eficientes de estrategia y procesos.",
+        "Estructura jerárquica estática y fuerte.",
+        "Flujo de objetivos y decisiones de arriba hacia abajo.",
+        "Planificación y control lineales para capturar valor."
+      ],
+      "difficulty_score": 2,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 10.44
+    },
+    {
+      "turn": 4,
+      "question": "En la gestión de procesos empresariales (BPM), ¿cómo se diferencian los enfoques de 'Low Code' y 'No Code' respecto a su aplicabilidad y flexibilidad en el desarrollo de aplicaciones?",
+      "options": [
+        "Low Code permite a los programadores realizar ajustes detallados en el código, mientras que No Code está diseñado para usuarios sin conocimientos de programación, limitando la personalización.",
+        "Low Code y No Code ofrecen el mismo nivel de flexibilidad, pero No Code es más fácil de usar debido a su interfaz completamente gráfica.",
+        "No Code proporciona más opciones de personalización que Low Code debido a su diseño de entorno cerrado y propietario.",
+        "Ambos enfoques requieren conocimientos avanzados de programación para realizar ajustes significativos en las aplicaciones desarrolladas."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 47.57
+    },
+    {
+      "turn": 5,
+      "question": "¿Cuál de las siguientes afirmaciones describe correctamente la capacidad de decisión en los WF Nets en comparación con las Petri Nets?",
+      "options": [
+        "Los WF Nets tienen capacidad de decisión explícita, mientras que las Petri Nets la tienen implícita.",
+        "Las Petri Nets tienen capacidad de decisión explícita, mientras que los WF Nets la tienen implícita.",
+        "Tanto las Petri Nets como los WF Nets tienen capacidad de decisión explícita.",
+        "Ninguna de las dos, ni Petri Nets ni WF Nets, tiene capacidad de decisión explícita."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 31.42
+    },
+    {
+      "turn": 6,
+      "question": "En el contexto de plataformas de software cerradas y propietarias, ¿cuál de las siguientes desventajas podría dificultar más la integración con otros sistemas empresariales?",
+      "options": [
+        "La falta de interoperabilidad debido a estándares propietarios",
+        "El costo inicial de adquisición",
+        "La cantidad limitada de usuarios",
+        "La velocidad de implementación"
+      ],
+      "difficulty_score": 2,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 45.89
+    },
+    {
+      "turn": 7,
+      "question": "¿Cuál de las siguientes afirmaciones sobre las interacciones intermoleculares es incorrecta?",
+      "options": [
+        "Los puentes de hidrógeno son más fuertes que las fuerzas de Van der Waals.",
+        "Las fuerzas de dispersión de London son un tipo de fuerza de Van der Waals.",
+        "Las fuerzas de Van der Waals incluyen interacciones dipolo-dipolo.",
+        "Todas las interacciones intermoleculares son más fuertes que los enlaces covalentes."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "D",
+      "correct_answer": "D",
+      "generation_time_seconds": 70.11
+    },
+    {
+      "turn": 8,
+      "question": "En un circuito eléctrico complejo, se tienen dos resistencias en paralelo, R1 y R2, ambas conectadas en serie con una resistencia R3. Si R1 = 4Ω, R2 = 6Ω, y R3 = 5Ω, ¿cuál es la resistencia total del circuito?",
+      "options": [
+        "7.4Ω",
+        "15Ω",
+        "11Ω",
+        "9Ω"
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 72.71
+    },
+    {
+      "turn": 9,
+      "question": "En el contexto de Business Process Management (BPM), ¿cuál es una de las diferencias clave entre el enfoque de 'Low Code' y 'No Code' en el desarrollo de aplicaciones?",
+      "options": [
+        "El enfoque 'Low Code' permite a los programadores escribir código de alto nivel, mientras que 'No Code' está diseñado para usuarios sin conocimiento de programación.",
+        "El enfoque 'Low Code' está diseñado para usuarios sin conocimiento de programación, mientras que 'No Code' requiere conocimientos avanzados de programación.",
+        "Ambos enfoques requieren un conocimiento profundo de la sintaxis de programación.",
+        "El enfoque 'No Code' permite a los programadores escribir código de alto nivel, mientras que 'Low Code' no requiere conocimientos de programación."
+      ],
+      "difficulty_score": 2,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 23.2
+    },
+    {
+      "turn": 10,
+      "question": "En el ámbito laboral, ¿cómo podría un gerente utilizar la teoría de Maslow para mejorar la motivación de un equipo que muestra signos de desmotivación debido a la falta de reconocimiento?",
+      "options": [
+        "Implementar un sistema de recompensas y reconocimientos públicos para satisfacer las necesidades de reconocimiento y autoestima.",
+        "Aumentar los salarios de todos los empleados para cubrir necesidades fisiológicas básicas.",
+        "Proporcionar entrenamientos de seguridad laboral para asegurar las necesidades de seguridad.",
+        "Organizar actividades recreativas para fomentar la amistad y satisfacer las necesidades sociales."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 26.6
+    }
+  ]
+}

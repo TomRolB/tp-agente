@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-18 20:05:06",
+    "turns_planned": 10,
+    "turns_completed": 10,
+    "persona_type": "ExpertPersona",
+    "average_generation_time_seconds": 52.98,
+    "min_generation_time_seconds": 11.33,
+    "max_generation_time_seconds": 81.17,
+    "total_generation_time_seconds": 529.79
+  },
+  "persona_config": {
+    "true_level": 5.0,
+    "target_sensitivity": 0.3,
+    "target_accuracy": 0.75
+  },
+  "results": [
+    {
+      "turn": 1,
+      "question": "¿Cuál es la principal diferencia entre una empresa multinacional y una transnacional?",
+      "options": [
+        "Una empresa multinacional tiene una casa matriz en su país de origen, mientras que una transnacional opera de manera descentralizada en varios países.",
+        "Una empresa multinacional opera solo en su país de origen, mientras que una transnacional opera en más de un país.",
+        "Una empresa multinacional se enfoca en actividades de extracción, mientras que una transnacional se centra en la manufactura.",
+        "Una empresa multinacional es de propiedad pública, mientras que una transnacional es de propiedad privada."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 19.5
+    },
+    {
+      "turn": 2,
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor el propósito de los objetivos SMART en una empresa?",
+      "options": [
+        "Son herramientas para definir metas claras y alcanzables que guían las acciones estratégicas de la empresa.",
+        "Son métodos para calcular el crecimiento financiero anual de la empresa.",
+        "Son modelos para gestionar la estructura organizativa de la empresa.",
+        "Son técnicas para evaluar el rendimiento de los empleados en tiempo real."
+      ],
+      "difficulty_score": 2,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 11.33
+    },
+    {
+      "turn": 3,
+      "question": "En el contexto de la gestión de proyectos, ¿cómo se puede mitigar el riesgo de un proyecto que se enfrenta a problemas tanto en la gestión del tiempo como en el control de calidad?",
+      "options": [
+        "Implementando un plan de respuesta a riesgos que incluya acciones preventivas para el cronograma y ajustes en los controles de calidad.",
+        "Reasignando todos los recursos al control de calidad para garantizar que los productos cumplan con los estándares.",
+        "Aumentando el presupuesto del proyecto para contratar más personal y acelerar las tareas.",
+        "Reduciendo el tiempo asignado a cada tarea para compensar los retrasos y aumentar la eficiencia."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 24.42
+    },
+    {
+      "turn": 4,
+      "question": "En la gestión de proyectos, ¿cuál es la mejor estrategia para abordar un riesgo identificado como alto impacto y alta probabilidad, pero que no puede ser evitado completamente debido a restricciones presupuestarias?",
+      "options": [
+        "Mitigar el riesgo desarrollando planes de contingencia que reduzcan su impacto en los objetivos del proyecto.",
+        "Transferir el riesgo mediante la contratación de un seguro que cubra los costos asociados.",
+        "Aceptar el riesgo y prepararse para asumir las consecuencias sin intervención adicional.",
+        "Evitar el riesgo deteniendo todas las actividades que puedan desencadenar su ocurrencia."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 72.28
+    },
+    {
+      "turn": 5,
+      "question": "En una organización que implementa una arquitectura empresarial, ¿cuál de los siguientes roles es principalmente responsable de garantizar que los datos sean accesibles para aquellos que los necesitan y estén protegidos de aquellos que no deben acceder a ellos?",
+      "options": [
+        "Arquitecto de datos",
+        "Arquitecto de seguridad",
+        "Arquitecto de soluciones",
+        "Arquitecto de infraestructura"
+      ],
+      "difficulty_score": 2,
+      "subtopics": [
+        2,
+        38
+      ],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 59.83
+    },
+    {
+      "turn": 6,
+      "question": "En el análisis económico-financiero, ¿cuál de las siguientes combinaciones de indicadores sería más adecuada para evaluar la capacidad de una empresa de mantener operaciones a largo plazo mientras optimiza su estructura de capital?",
+      "options": [
+        "Ratio de Endeudamiento Total, Rentabilidad del Patrimonio Neto, y Rotación de Activos Totales",
+        "Ratio de Liquidez, Prueba Ácida, y Capital de Trabajo",
+        "EBITDA, Índice de Rentabilidad, y Rotación de Cuentas a Pagar",
+        "Rentabilidad sobre Ventas, Rotación de Caja y Bancos, y Endeudamiento a Corto Plazo"
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 68.79
+    },
+    {
+      "turn": 7,
+      "question": "En el contexto de la arquitectura empresarial, ¿cuál de los siguientes roles es principalmente responsable de garantizar que los datos sean accesibles y administrados adecuadamente para proporcionar información de valor agregado al negocio?",
+      "options": [
+        "Arquitecto de datos",
+        "Arquitecto de seguridad",
+        "Arquitecto de aplicaciones",
+        "Arquitecto de soluciones"
+      ],
+      "difficulty_score": 2,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 81.17
+    },
+    {
+      "turn": 8,
+      "question": "En el contexto de la arquitectura empresarial, ¿cuál de las siguientes afirmaciones describe mejor el rol de un 'Arquitecto de Soluciones' en comparación con un 'Arquitecto de Negocios'?",
+      "options": [
+        "El Arquitecto de Soluciones se centra en resolver problemas específicos relacionados con la integración de sistemas, mientras que el Arquitecto de Negocios se enfoca en definir estrategias de negocio y modelos operacionales.",
+        "El Arquitecto de Soluciones define estrategias de negocio y modelos operacionales, mientras que el Arquitecto de Negocios se centra en resolver problemas específicos relacionados con la integración de sistemas.",
+        "El Arquitecto de Soluciones administra la infraestructura tecnológica, mientras que el Arquitecto de Negocios asegura la accesibilidad y seguridad de los datos.",
+        "El Arquitecto de Soluciones se encarga de la gestión de datos, mientras que el Arquitecto de Negocios se enfoca en la implementación de nuevas tecnologías."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 64.07
+    },
+    {
+      "turn": 9,
+      "question": "En la gestión de riesgos de un proyecto, ¿cuál de las siguientes combinaciones de estrategias para riesgos negativos y positivos es la más adecuada para maximizar el valor del proyecto?",
+      "options": [
+        "Mitigar riesgos negativos y explotar riesgos positivos.",
+        "Evitar riesgos negativos y compartir riesgos positivos.",
+        "Transferir riesgos negativos y aceptar riesgos positivos.",
+        "Aceptar riesgos negativos y mitigar riesgos positivos."
+      ],
+      "difficulty_score": 3,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 54.86
+    },
+    {
+      "turn": 10,
+      "question": "En una empresa que desea optimizar su estructura organizativa para mejorar la adaptabilidad y la eficiencia operativa, ¿cuál de las siguientes combinaciones de tipos de organización y estrategias sería la más adecuada?",
+      "options": [
+        "Organización en red o virtual con estrategias de innovación y un enfoque en la gestión de relaciones",
+        "Organización jerárquica con estrategias de crecimiento y un enfoque en la eficiencia de procesos",
+        "Organización matricial con estrategias de estabilidad y un enfoque en la reducción de costos",
+        "Organización Flex con estrategias de centralización y un enfoque en el control jerárquico"
+      ],
+      "difficulty_score": 4,
+      "subtopics": [],
+      "is_correct": true,
+      "student_answer": "A",
+      "correct_answer": "A",
+      "generation_time_seconds": 73.54
+    }
+  ]
+}
