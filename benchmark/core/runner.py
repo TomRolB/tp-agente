@@ -146,11 +146,14 @@ class BenchmarkRunner:
 
     def _execute_single_turn(self, turn: int, state: Dict, history: List, mock_service, mock_unified_perf_service) -> tuple[Dict, bool]:
         self._update_mock_service(mock_service, history, mock_unified_perf_service)
-        
+
         try:
+            start_time = time.time()
             result = self.workflow.invoke(state)
-            turn_result = self._process_turn_result(result, turn)
-            
+            generation_time = time.time() - start_time
+
+            turn_result = self._process_turn_result(result, turn, generation_time)
+
             if turn_result:
                 history.append({
                     'is_correct': turn_result['is_correct'],
@@ -191,7 +194,7 @@ class BenchmarkRunner:
             "iteration_count": 0,
         }
 
-    def _process_turn_result(self, result: Dict, turn: int) -> Dict[str, Any]:
+    def _process_turn_result(self, result: Dict, turn: int, generation_time: float) -> Dict[str, Any]:
         question = result.get("current_question")
         options = result.get("question_options")
         correct_idx = result.get("question_correct_index")
@@ -216,7 +219,8 @@ class BenchmarkRunner:
             "subtopics": subtopic_ids,
             "is_correct": is_correct,
             "student_answer": student_answer_letter,
-            "correct_answer": chr(65 + correct_idx)
+            "correct_answer": chr(65 + correct_idx),
+            "generation_time_seconds": round(generation_time, 2)
         }
 
     def _update_mock_service(self, mock_service, history, mock_unified_perf_service):
@@ -264,12 +268,24 @@ class BenchmarkRunner:
 
     def _prepare_raw_results(self) -> Dict:
         """Prepare raw results for serialization."""
+        generation_times = [r['generation_time_seconds'] for r in self.results if 'generation_time_seconds' in r]
+
+        timing_stats = {}
+        if generation_times:
+            timing_stats = {
+                'average_generation_time_seconds': round(sum(generation_times) / len(generation_times), 2),
+                'min_generation_time_seconds': round(min(generation_times), 2),
+                'max_generation_time_seconds': round(max(generation_times), 2),
+                'total_generation_time_seconds': round(sum(generation_times), 2)
+            }
+
         return {
             'metadata': {
                 'timestamp': time.strftime('%Y-%m-%d %H:%M:%S'),
                 'turns_planned': self.turns,
                 'turns_completed': len(self.results),
-                'persona_type': self.student.persona.__class__.__name__
+                'persona_type': self.student.persona.__class__.__name__,
+                **timing_stats
             },
             'persona_config': {
                 'true_level': self.student.persona.true_level,

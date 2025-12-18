@@ -72,10 +72,19 @@ def main():
     
     persona = create_persona_from_name(args.persona)
     raw_data = execute_benchmark(persona, args.turns, args.sleep)
-    
+
     data_path = save_benchmark_data(raw_data, output_dir)
     print(f"\nBenchmark data saved to {data_path}")
-    print(f"To generate report, run: python generate_report.py {data_path}")
+
+    metadata = raw_data.get('metadata', {})
+    if 'average_generation_time_seconds' in metadata:
+        print("\n=== Timing Statistics ===")
+        print(f"Average generation time: {metadata['average_generation_time_seconds']}s")
+        print(f"Min generation time: {metadata['min_generation_time_seconds']}s")
+        print(f"Max generation time: {metadata['max_generation_time_seconds']}s")
+        print(f"Total generation time: {metadata['total_generation_time_seconds']}s")
+
+    print(f"\nTo generate report, run: python generate_report.py {data_path}")
 
 if __name__ == "__main__":
     main()
