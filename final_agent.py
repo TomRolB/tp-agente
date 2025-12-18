@@ -232,8 +232,16 @@ def main():
                 try:
                     result = evaluation_app.invoke(eval_state)
 
+                    # Display evaluation feedback
+                    if result.get("messages") and len(result["messages"]) > 0:
+                        evaluation_msg = result["messages"][-1].content
+                        log_separator()
+                        log_user_output(evaluation_msg)
+                        log_separator()
+                    else:
+                        log_user_output("⚠️  No se recibió feedback de evaluación")
+
                     # Show unified performance
-                    log_separator()
                     perf_msg = get_unified_performance()
                     print(f"\n{perf_msg}\n")
 
@@ -247,7 +255,10 @@ def main():
                         f"Puedes pedir otra pregunta.{Style.RESET_ALL}\n"
                     )
                 except Exception as e:
+                    import traceback
                     log_user_output(f"Error en evaluación: {str(e)}")
+                    print(f"{Fore.RED}Traceback completo:{Style.RESET_ALL}")
+                    traceback.print_exc()
 
                 continue
 

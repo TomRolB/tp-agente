@@ -553,7 +553,7 @@ def present_question_node(state: AgentState):
 
     if question_type == "open_ended":
         log_orchestrator("Pregunta abierta aprobada, registrando...")
-        question_id = register_open_ended_question(
+        formatted_output = register_open_ended_question(
             state["open_question"],
             state["open_evaluation_criteria"],
             state["open_key_concepts"],
@@ -561,19 +561,25 @@ def present_question_node(state: AgentState):
         )
     else:
         log_orchestrator("Pregunta MCQ aprobada, registrando...")
-        question_id = register_multiple_choice_question(
+        formatted_output = register_multiple_choice_question(
             state["current_question"],
             state["question_options"],
             state["question_correct_index"]
         )
 
+    # Extract the actual UUID from the formatted output
+    # Format: "Pregunta registrada con ID: <uuid>\n..."
+    import re
+    id_match = re.search(r'ID:\s*([a-f0-9\-]+)', formatted_output)
+    actual_id = id_match.group(1) if id_match else None
+
     log_separator()
-    log_user_output("\n" + question_id)
+    log_user_output("\n" + formatted_output)
     log_separator()
 
     return {
-        "question_id": question_id,  # Store ID for later evaluation
-        "messages": [AIMessage(content=f"Pregunta presentada: {question_id}")],
+        "question_id": actual_id,  # Store just the UUID for later evaluation
+        "messages": [AIMessage(content=f"Pregunta presentada")],
         "next_action": "end"
     }
 
