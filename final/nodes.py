@@ -330,7 +330,7 @@ INSTRUCCIÓN: Analiza si esta pregunta abierta es apropiadamente desafiante para
 """
     else:  # MCQ
         mcq_service = get_service()
-        score_data = get_service().compute_user_score()
+        score_data = mcq_service.compute_user_score()
         recent_correct = sum(1 for p in score_data['recent_performance'] if p['is_correct'])
         recent_total = len(score_data['recent_performance'])
 
@@ -420,6 +420,7 @@ def feedback_agent_node(state: AgentState):
     """Executes Feedback Agent."""
     log_feedback_agent("Analizando patrones de aprendizaje del usuario...")
 
+    mcq_service = get_service()
     score_data = mcq_service.compute_user_score()
 
     if score_data['total_questions'] < 3:
@@ -458,7 +459,11 @@ def orchestrator_node(state: AgentState):
     last_message = state["messages"][-1]
     user_request = last_message.content.lower()
 
-    score_data = mcq_service.compute_user_score()
+    # Get unified performance
+    unified_perf = get_unified_perf_service()
+    unified_data = unified_perf.compute_unified_performance()
+    use_open_ended = os.environ.get("USE_OPEN_ENDED_QUESTIONS", "false").lower() == "true"
+
     log_orchestrator(
         f"Performance global: {unified_data['overall_percentage']:.1f}% "
         f"(Open-ended: {'HABILITADO' if use_open_ended else 'DESHABILITADO'})"

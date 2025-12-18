@@ -37,6 +37,7 @@ def search_in_text_file(file_path: str, search_term: str,
 def check_multiple_choice_answer(question_id: str, user_answer: str) -> str:
     """Verifica si la respuesta del usuario es correcta y la almacena"""
     try:
+        mcq_service = get_service()
         question_data = mcq_service.get_question(question_id)
         if not question_data:
             return f"Error: No se encontró pregunta con ID {question_id}"

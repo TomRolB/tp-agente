@@ -1,6 +1,5 @@
 import chainlit as cl
-from services.service import MCQService
-from services.service_manager import set_service, get_service
+from services.service_manager import initialize_session_services, get_service
 from final_agent import build_workflow
 from langchain_core.messages import HumanMessage
 from tools.tools import check_last_multiple_choice_answer
@@ -8,11 +7,14 @@ from tools.tools import check_last_multiple_choice_answer
 class ChainlitHandler:
     @staticmethod
     async def init_session():
-        """Initialize user session with isolated service."""
-        service = MCQService()
+        """Initialize user session with isolated services."""
+        # Initialize all services (MCQ, Open-Ended, Unified)
+        initialize_session_services()
+
+        # Store service in user session for reference
+        service = get_service()
         cl.user_session.set("mcq_service", service)
-        set_service(service)
-        
+
         app = build_workflow()
         cl.user_session.set("app", app)
         
