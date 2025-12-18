@@ -1,4 +1,6 @@
 from services.service import FileService
+from services.service_manager import get_service, get_open_service, get_unified_performance as get_unified_perf_service
+from services.service import FileService
 from services.service_manager import get_service
 import os
 import json
@@ -35,7 +37,6 @@ def search_in_text_file(file_path: str, search_term: str,
 def check_multiple_choice_answer(question_id: str, user_answer: str) -> str:
     """Verifica si la respuesta del usuario es correcta y la almacena"""
     try:
-        mcq_service = get_service()
         question_data = mcq_service.get_question(question_id)
         if not question_data:
             return f"Error: No se encontró pregunta con ID {question_id}"
@@ -142,6 +143,7 @@ def get_user_performance() -> str:
         if score_data['total_questions'] == 0:
             return "No hay respuestas registradas todavía. El usuario no ha respondido ninguna pregunta."
         
+        result = f"=== RENDIMIENTO DEL USUARIO ===\n\n"
         result += f"Total de preguntas respondidas: {score_data['total_questions']}\n"
         result += f"Respuestas correctas: {score_data['correct_count']}\n"
         result += f"Respuestas incorrectas: {score_data['incorrect_count']}\n"
@@ -179,6 +181,97 @@ def get_answer_history_detailed() -> str:
         return result
     except Exception as e:
         return f"Error al obtener historial: {str(e)}"
+
+
+def register_open_ended_question(question: str, criteria: str,
+                                key_concepts: list, difficulty: str) -> str:
+    """Registra una pregunta abierta"""
+    try:
+        open_service = get_open_service()
+        question_id = open_service.store_question(question, criteria, key_concepts, difficulty)
+
+        result = f"Pregunta abierta registrada con ID: {question_id}\n\n"
+        result += f"Pregunta: {question}\n\n"
+        result += "Por favor, proporciona una respuesta desarrollada en texto.\n"
+        return result
+    except Exception as e:
+        return f"Error al registrar pregunta abierta: {str(e)}"
+
+
+def evaluate_open_ended_answer(question_id: str, user_answer: str,
+                               score: float, feedback: str, is_passing: bool,
+                               strengths: list, weaknesses: list) -> str:
+    """Almacena evaluación de respuesta abierta y retorna feedback formateado"""
+    try:
+        open_service = get_open_service()
+        success = open_service.store_evaluation(
+            question_id, user_answer, score,
+            feedback, is_passing, strengths, weaknesses
+        )
+
+        if not success:
+            return f"Error: No se encontró la pregunta con ID {question_id}"
+
+        result = f"=== EVALUACIÓN DE RESPUESTA ABIERTA ===\n\n"
+        result += f"Puntaje: {score:.1f}/10.0\n"
+        result += f"Resultado: {'✓ APROBADO' if is_passing else '✗ NO APROBADO'} (7.0+ para aprobar)\n\n"
+        result += f"Feedback:\n{feedback}\n\n"
+
+        if strengths:
+            result += f"Fortalezas:\n"
+            for s in strengths:
+                result += f"  ✓ {s}\n"
+            result += "\n"
+
+        if weaknesses:
+            result += f"Áreas de mejora:\n"
+            for w in weaknesses:
+                result += f"  → {w}\n"
+
+        return result
+    except Exception as e:
+        return f"Error al evaluar respuesta: {str(e)}"
+
+
+def get_unified_performance() -> str:
+    """Obtiene rendimiento unificado de MCQ y Open-Ended"""
+    try:
+        unified_perf = get_unified_perf_service()
+        data = unified_perf.compute_unified_performance()
+
+        result = f"=== RENDIMIENTO GENERAL ===\n\n"
+        result += f"Rendimiento global: {data['overall_percentage']:.1f}%\n"
+        result += f"Total de preguntas: {data['total_questions']}\n\n"
+
+        result += f"--- Preguntas de Opción Múltiple ---\n"
+        result += f"Cantidad: {data['mcq_count']}\n"
+        if data['mcq_count'] > 0:
+            result += f"Correctas: {data['mcq_correct']}/{data['mcq_count']}\n"
+            result += f"Aciertos: {data['mcq_percentage']:.1f}%\n\n"
+        else:
+            result += f"Aciertos: N/A\n\n"
+
+        result += f"--- Preguntas Abiertas ---\n"
+        result += f"Cantidad: {data['open_count']}\n"
+        if data['open_count'] > 0:
+            result += f"Puntaje promedio: {data['open_avg_score']:.1f}/10.0\n"
+            result += f"Equivalente: {data['open_percentage']:.1f}%\n\n"
+        else:
+            result += f"Puntaje promedio: N/A\n\n"
+
+        # Recent performance mezclado
+        if data['recent_overall_performance']:
+            result += "Rendimiento reciente (últimas 5 preguntas de ambos tipos):\n"
+            for i, perf in enumerate(data['recent_overall_performance'], 1):
+                if perf['type'] == 'mcq':
+                    status = "✓ CORRECTO" if perf['is_correct'] else "✗ INCORRECTO"
+                    result += f"  {i}. [MCQ] {status}\n"
+                else:
+                    result += f"  {i}. [Open] {perf['score']:.1f}/10.0\n"
+
+        return result
+    except Exception as e:
+        return f"Error al obtener rendimiento unificado: {str(e)}"
 
 TOOLS_SCHEMA = [
     {

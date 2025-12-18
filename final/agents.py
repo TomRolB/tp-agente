@@ -106,3 +106,30 @@ def create_orchestrator_agent():
     tools = [get_performance_tool]
     llm = create_model()
     return create_agent(llm, tools)
+
+
+def create_open_question_creator_agent():
+    """Creates Open-Ended Question Creator agent"""
+    tools = [
+        read_text_file_tool,
+        search_in_text_file_tool,
+        list_questions_tool
+    ]
+
+    # Add RAG tools only if enabled
+    if USE_RAG:
+        tools.extend([
+            retrieve_content_tool,
+            get_topic_content_tool,
+            search_concept_tool
+        ])
+
+    llm = create_model()
+    return create_agent(llm, tools)
+
+
+def create_open_answer_evaluator_agent():
+    """Creates Open-Ended Answer Evaluator agent"""
+    tools = []  # No necesita tools, solo evalúa
+    llm = create_model()
+    return create_agent(llm, tools)

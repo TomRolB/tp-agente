@@ -4,7 +4,8 @@ from tools.tools import (
     search_in_text_file,
     list_multiple_choice_questions,
     get_user_performance,
-    get_answer_history_detailed
+    get_answer_history_detailed,
+    get_unified_performance
 )
 from services.service_manager import get_service
 
@@ -53,6 +54,12 @@ def get_performance_tool() -> str:
 def get_history_tool() -> str:
     """Get answer history"""
     return get_answer_history_detailed()
+
+
+@tool
+def get_unified_performance_tool() -> str:
+    """Get unified performance across MCQ and Open-Ended questions"""
+    return get_unified_performance()
 
 
 # ===== RAG TOOLS =====

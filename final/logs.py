@@ -29,3 +29,13 @@ def log_user_output(message: str):
 
 def log_separator():
     print(f"{Fore.LIGHTBLACK_EX}{'=' * 80}{Style.RESET_ALL}")
+
+
+def log_open_question_creator(message: str):
+    """Log messages from Open-Ended Question Creator (reuses question_creator style)"""
+    print(f"{Fore.GREEN}✨ [OPEN QUESTION CREATOR]{Style.RESET_ALL} {message}")
+
+
+def log_answer_evaluator(message: str):
+    """Log messages from Open-Ended Answer Evaluator"""
+    print(f"{Fore.BLUE}📝 [ANSWER EVALUATOR]{Style.RESET_ALL} {message}")
