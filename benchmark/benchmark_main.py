@@ -5,10 +5,11 @@ import time
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
 
-# Add project root to path
+load_dotenv()
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from benchmark.core.simulated_student import SimulatedStudent, ExpertPersona, NovicePersona, LearnerPersona
@@ -61,10 +62,9 @@ def execute_benchmark(persona, turns, sleep_duration) -> dict:
 
 def main():
     args = parse_arguments()
-    
+
     output_dir = create_benchmark_output_directory()
-    
-    # Configure content path for the benchmark using absolute path
+
     benchmark_dir = os.path.dirname(os.path.abspath(__file__))
     os.environ["CONTENT_PATH"] = os.path.join(benchmark_dir, "content", "SD-Com.txt")
     

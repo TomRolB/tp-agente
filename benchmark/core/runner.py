@@ -42,7 +42,8 @@ class BenchmarkRunner:
 
         workflow.add_node("orchestrator", orchestrator_node)
         workflow.add_node("get_feedback", feedback_agent_node)
-        workflow.add_node("create_question", question_creator_node)
+        workflow.add_node("create_mcq_question", question_creator_node)
+        workflow.add_node("create_open_question", question_creator_node)
         workflow.add_node("review_difficulty", difficulty_reviewer_node)
         workflow.add_node("present_question", present_question_node)
 
@@ -53,7 +54,8 @@ class BenchmarkRunner:
             route_orchestrator,
             {
                 "get_feedback": "get_feedback",
-                "create_question": "create_question",
+                "create_mcq_question": "create_mcq_question",
+                "create_open_question": "create_open_question",
                 "end": END
             }
         )
@@ -61,15 +63,29 @@ class BenchmarkRunner:
         workflow.add_conditional_edges(
             "get_feedback",
             route_after_feedback,
-            {"create_question": "create_question"}
+            {
+                "create_mcq_question": "create_mcq_question",
+                "create_open_question": "create_open_question"
+            }
         )
 
         workflow.add_conditional_edges(
-            "create_question",
+            "create_mcq_question",
             route_after_question_creation,
             {
                 "review_difficulty": "review_difficulty",
-                "create_question": "create_question"
+                "create_mcq_question": "create_mcq_question",
+                "create_open_question": "create_open_question"
+            }
+        )
+
+        workflow.add_conditional_edges(
+            "create_open_question",
+            route_after_question_creation,
+            {
+                "review_difficulty": "review_difficulty",
+                "create_mcq_question": "create_mcq_question",
+                "create_open_question": "create_open_question"
             }
         )
 
@@ -78,41 +94,58 @@ class BenchmarkRunner:
             route_after_difficulty_review,
             {
                 "present_question": "present_question",
-                "create_question": "create_question"
+                "create_mcq_question": "create_mcq_question",
+                "create_open_question": "create_open_question"
             }
         )
 
         workflow.add_edge("present_question", END)
-        
+
         return workflow.compile()
 
     def run(self) -> Dict:
         """Runs the benchmark and returns raw results data."""
         print(f"Starting benchmark for persona: {self.student.persona.__class__.__name__} with {self.turns} turns.")
-        
-        # We need to patch the service in both locations:
-        # 1. tools.tools.mcq_service: used by the actual Tools (get_performance_tool, etc)
-        # 2. final.nodes.mcq_service: used by the Agent Nodes to build context
-        with patch('tools.tools.mcq_service') as mock_service:
-            with patch('final.nodes.mcq_service', new=mock_service):
-                self._run_benchmark_loop(mock_service)
-                
+
+        with patch('final.nodes.get_service') as mock_get_service, \
+             patch('final.nodes.get_open_service') as mock_get_open_service, \
+             patch('final.nodes.get_unified_perf_service') as mock_get_unified_perf:
+            mock_service = MagicMock()
+            mock_get_service.return_value = mock_service
+            mock_get_open_service.return_value = MagicMock()
+
+            mock_unified_perf_service = MagicMock()
+            mock_unified_perf_service.compute_unified_performance.return_value = {
+                'overall_percentage': 0.0,
+                'total_questions': 0,
+                'mcq_count': 0,
+                'mcq_correct': 0,
+                'mcq_percentage': 0.0,
+                'open_count': 0,
+                'open_avg_score': 0.0,
+                'open_percentage': 0.0,
+                'recent_overall_performance': []
+            }
+            mock_get_unified_perf.return_value = mock_unified_perf_service
+
+            self._run_benchmark_loop(mock_service, mock_unified_perf_service)
+
         return self._prepare_raw_results()
 
-    def _run_benchmark_loop(self, mock_service):
+    def _run_benchmark_loop(self, mock_service, mock_unified_perf_service):
         self._setup_initial_mock_state(mock_service)
         history = []
         state = self._get_initial_state()
 
         for turn in range(1, self.turns + 1):
             print(f"--- Turn {turn}/{self.turns} ---")
-            
-            state, success = self._execute_single_turn(turn, state, history, mock_service)
+
+            state, success = self._execute_single_turn(turn, state, history, mock_service, mock_unified_perf_service)
             if not success:
                 break
 
-    def _execute_single_turn(self, turn: int, state: Dict, history: List, mock_service) -> tuple[Dict, bool]:
-        self._update_mock_service(mock_service, history)
+    def _execute_single_turn(self, turn: int, state: Dict, history: List, mock_service, mock_unified_perf_service) -> tuple[Dict, bool]:
+        self._update_mock_service(mock_service, history, mock_unified_perf_service)
         
         try:
             result = self.workflow.invoke(state)
@@ -186,18 +219,13 @@ class BenchmarkRunner:
             "correct_answer": chr(65 + correct_idx)
         }
 
-    def _update_mock_service(self, mock_service, history):
+    def _update_mock_service(self, mock_service, history, mock_unified_perf_service):
         total = len(history)
-        if total == 0:
-            return
-
-        correct = sum(1 for h in history if h['is_correct'])
+        correct = sum(1 for h in history if h['is_correct']) if total > 0 else 0
         incorrect = total - correct
         percentage = (correct / total) * 100 if total > 0 else 0
-        
-        # Recent (last 5)
         recent = history[-5:]
-        
+
         mock_service.compute_user_score.return_value = {
             'total_questions': total,
             'correct_count': correct,
@@ -205,8 +233,25 @@ class BenchmarkRunner:
             'score_percentage': percentage,
             'recent_performance': recent
         }
-        
+
         mock_service.get_last_question_id.return_value = "mock_id"
+
+        recent_performance_formatted = [
+            {'type': 'mcq', 'is_correct': h['is_correct']}
+            for h in recent
+        ]
+
+        mock_unified_perf_service.compute_unified_performance.return_value = {
+            'overall_percentage': percentage,
+            'total_questions': total,
+            'mcq_count': total,
+            'mcq_correct': correct,
+            'mcq_percentage': percentage,
+            'open_count': 0,
+            'open_avg_score': 0.0,
+            'open_percentage': 0.0,
+            'recent_overall_performance': recent_performance_formatted
+        }
 
     def _sleep_with_progress(self, current_turn: int):
         """Sleep between turns with progress indicator."""
