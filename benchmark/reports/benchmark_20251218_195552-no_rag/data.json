@@ -25,7 +25,9 @@
         "Una empresa multinacional es de propiedad pública, mientras que una transnacional es de propiedad privada."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        1
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -41,7 +43,9 @@
         "Son técnicas para evaluar el rendimiento de los empleados en tiempo real."
       ],
       "difficulty_score": 2,
-      "subtopics": [],
+      "subtopics": [
+        85
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -57,7 +61,10 @@
         "Reduciendo el tiempo asignado a cada tarea para compensar los retrasos y aumentar la eficiencia."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        55,
+        57
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -73,7 +80,9 @@
         "Evitar el riesgo deteniendo todas las actividades que puedan desencadenar su ocurrencia."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        60
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -90,8 +99,7 @@
       ],
       "difficulty_score": 2,
       "subtopics": [
-        2,
-        38
+        36
       ],
       "is_correct": true,
       "student_answer": "A",
@@ -108,7 +116,9 @@
         "Rentabilidad sobre Ventas, Rotación de Caja y Bancos, y Endeudamiento a Corto Plazo"
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        15
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -124,7 +134,9 @@
         "Arquitecto de soluciones"
       ],
       "difficulty_score": 2,
-      "subtopics": [],
+      "subtopics": [
+        36
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -140,7 +152,9 @@
         "El Arquitecto de Soluciones se encarga de la gestión de datos, mientras que el Arquitecto de Negocios se enfoca en la implementación de nuevas tecnologías."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        36
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -156,7 +170,9 @@
         "Aceptar riesgos negativos y mitigar riesgos positivos."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        60
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -172,7 +188,9 @@
         "Organización Flex con estrategias de centralización y un enfoque en el control jerárquico"
       ],
       "difficulty_score": 4,
-      "subtopics": [],
+      "subtopics": [
+        5
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",

@@ -25,7 +25,10 @@
         "Ofrece flexibilidad total en el diseño y la estructura del código de la aplicación."
       ],
       "difficulty_score": 1,
-      "subtopics": [],
+      "subtopics": [
+        3,
+        31
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -57,7 +60,10 @@
         "Planificación y control lineales para capturar valor."
       ],
       "difficulty_score": 2,
-      "subtopics": [],
+      "subtopics": [
+        43,
+        44
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -73,7 +79,9 @@
         "Ambos enfoques requieren conocimientos avanzados de programación para realizar ajustes significativos en las aplicaciones desarrolladas."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        31
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -89,7 +97,10 @@
         "Ninguna de las dos, ni Petri Nets ni WF Nets, tiene capacidad de decisión explícita."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        29,
+        30
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -105,7 +116,10 @@
         "La velocidad de implementación"
       ],
       "difficulty_score": 2,
-      "subtopics": [],
+      "subtopics": [
+        64,
+        91
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -153,7 +167,10 @@
         "El enfoque 'No Code' permite a los programadores escribir código de alto nivel, mientras que 'Low Code' no requiere conocimientos de programación."
       ],
       "difficulty_score": 2,
-      "subtopics": [],
+      "subtopics": [
+        25,
+        31
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
@@ -169,7 +186,10 @@
         "Organizar actividades recreativas para fomentar la amistad y satisfacer las necesidades sociales."
       ],
       "difficulty_score": 3,
-      "subtopics": [],
+      "subtopics": [
+        6,
+        7
+      ],
       "is_correct": true,
       "student_answer": "A",
       "correct_answer": "A",
