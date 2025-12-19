@@ -23,15 +23,16 @@ USE_RAG = os.environ.get("USE_RAG", "true").lower() == "true"
 def validate_api_keys():
     """
     Validate that at least one API key is configured.
-    Exits the program if neither is found.
+    Exits the program if none is found.
     """
     openai_key = os.getenv("OPENAI_API_KEY")
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
     groq_key = os.getenv("GROQ_API_KEY")
 
-    if not openai_key and not groq_key:
+    if not openai_key and not anthropic_key and not groq_key:
         print("=" * 80, file=sys.stderr)
         print("ERROR: No API key found!", file=sys.stderr)
-        print("Please set either OPENAI_API_KEY or GROQ_API_KEY environment variable.", file=sys.stderr)
+        print("Please set one of: OPENAI_API_KEY, ANTHROPIC_API_KEY, or GROQ_API_KEY", file=sys.stderr)
         print("=" * 80, file=sys.stderr)
         sys.exit(1)
 
@@ -40,19 +41,36 @@ def create_model():
     """
     Create LLM model with provider priority:
     1. OpenAI (if OPENAI_API_KEY is set)
-    2. Groq (if GROQ_API_KEY is set)
+    2. Anthropic (if ANTHROPIC_API_KEY is set)
+    3. Groq (if GROQ_API_KEY is set)
     """
     validate_api_keys()
 
     openai_key = os.getenv("OPENAI_API_KEY")
     if openai_key:
         return ChatOpenAI(
-            model="gpt-4o",  # or "gpt-4", "gpt-3.5-turbo", etc.
+            model="gpt-4o",
             temperature=0.7,
             max_tokens=2048,
             timeout=None,
             max_retries=2
         )
+
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    if anthropic_key:
+        try:
+            from langchain_anthropic import ChatAnthropic
+            return ChatAnthropic(
+                model="claude-sonnet-4-5-20250929",
+                temperature=0.7,
+                max_tokens=2048,
+                timeout=None,
+                max_retries=2
+            )
+        except ImportError:
+            print("Warning: ANTHROPIC_API_KEY is set but langchain-anthropic is not installed.", file=sys.stderr)
+            print("Install with: pip install langchain-anthropic", file=sys.stderr)
+            print("Falling back to Groq...", file=sys.stderr)
 
     return ChatGroq(
         model="moonshotai/kimi-k2-instruct-0905",
