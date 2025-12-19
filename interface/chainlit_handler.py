@@ -1,5 +1,6 @@
 import chainlit as cl
-from services.service_manager import initialize_session_services, get_service
+from services.service import MCQService
+from services.service_manager import initialize_session_services, get_service, set_service
 from final_agent import build_workflow
 from langchain_core.messages import HumanMessage
 from tools.tools import check_last_multiple_choice_answer
