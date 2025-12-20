@@ -29,10 +29,6 @@ class ChainlitHandler:
         service, app = ChainlitHandler._restore_context()
         user_input = message.content.strip()
 
-        if message.elements:
-            await ChainlitHandler._handle_file_upload(message)
-            return
-
         if ChainlitHandler._is_answer_attempt(user_input):
             await ChainlitHandler._handle_answer(user_input, service)
             return
@@ -56,11 +52,6 @@ class ChainlitHandler:
         set_service(service)
         app = cl.user_session.get("app")
         return service, app
-
-    @staticmethod
-    async def _handle_file_upload(message: cl.Message):
-        """Handle file upload scenarios."""
-        await cl.Message(content="Recibí un archivo, pero aún no sé cómo procesarlo.").send()
 
     @staticmethod
     def _is_answer_attempt(text: str) -> bool:
